@@ -53,6 +53,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <head>
         {/* 首帧主题：先于渲染写入 data-theme，避免闪白 */}
         <script dangerouslySetInnerHTML={{ __html: themeInitScript }} />
+        <link rel="manifest" href="/manifest.webmanifest" />
         <link rel="icon" href="/icon.svg" type="image/svg+xml" />
         <link rel="alternate icon" href="/favicon.ico" />
       </head>
@@ -81,3 +82,4 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     </html>
   );
 }
+

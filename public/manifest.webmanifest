@@ -1,0 +1,15 @@
+{
+  "name": "AI 工具集 · AI 工具导航站",
+  "short_name": "AI 工具集",
+  "description": "一站式 AI 工具导航平台，覆盖 AI 写作、编程、绘画、视频、办公等分类，支持站内搜索与夜间模式。",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f7f8fa",
+  "theme_color": "#4f46e5",
+  "lang": "zh-CN",
+  "icons": [
+    { "src": "/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" },
+    { "src": "/apple-icon.png", "sizes": "180x180", "type": "image/png" }
+  ]
+}
+

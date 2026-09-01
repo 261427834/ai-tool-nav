@@ -1,30 +1,40 @@
-import type { Metadata } from "next";
+"use client";
+
 import Link from "next/link";
-import { siteConfig } from "@site";
+import { Suspense, useMemo } from "react";
+import { useSearchParams } from "next/navigation";
 import { searchTools } from "@/lib/search";
 import { categories, categoryBySlug, tools } from "@/lib/data";
 import { ToolCard } from "@/components/ToolCard";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { SearchForm } from "@/components/SearchForm";
 
-interface SearchProps {
-  searchParams: Promise<{ q?: string; cat?: string }>;
+/**
+ * 站内搜索结果页（客户端渲染）。
+ * 静态导出（Cloudflare Pages）不支持服务端 searchParams，因此用 useSearchParams 读取 ?q=。
+ */
+export default function SearchPage() {
+  return (
+    <Suspense fallback={<div className="container-x py-5 text-center text-[13px] text-[var(--text-muted)]">加载中…</div>}>
+      <SearchResults />
+    </Suspense>
+  );
 }
 
-export const metadata: Metadata = {
-  title: "站内搜索",
-  description: `在 ${siteConfig.name} 中按名称、简介与标签检索已收录的 AI 工具。`,
-  robots: { index: false, follow: true },
-};
+function SearchResults() {
+  const searchParams = useSearchParams();
+  const queryRaw = searchParams.get("q") ?? "";
+  const cat = searchParams.get("cat") ?? "";
+  const query = queryRaw.trim();
 
-export default async function SearchPage({ searchParams }: SearchProps) {
-  const { q = "", cat } = await searchParams;
-  const query = q.trim();
-  const scoped = cat ? tools.filter((t) => t.category === cat) : tools;
-  const hits = query ? searchTools(scoped, query, 500) : [];
+  const scoped = useMemo(() => (cat ? tools.filter((t) => t.category === cat) : tools), [cat]);
+  const hits = useMemo(() => (query ? searchTools(scoped, query, 500) : []), [scoped, query]);
 
-  const catCounts = new Map<string, number>();
-  for (const h of hits) catCounts.set(h.tool.category, (catCounts.get(h.tool.category) ?? 0) + 1);
+  const catCounts = useMemo(() => {
+    const m = new Map<string, number>();
+    for (const h of hits) m.set(h.tool.category, (m.get(h.tool.category) ?? 0) + 1);
+    return m;
+  }, [hits]);
 
   return (
     <div className="container-x py-5">
@@ -53,9 +63,7 @@ export default async function SearchPage({ searchParams }: SearchProps) {
 
       {query && hits.length === 0 ? (
         <div className="panel mt-5 px-5 py-10 text-center">
-          <p className="text-[15px]">
-            没有匹配「{query}」的工具
-          </p>
+          <p className="text-[15px]">没有匹配「{query}」的工具</p>
           <p className="mt-2 text-[13px] text-[var(--text-muted)]">
             换个关键词，或
             <Link href="/submit" className="mx-1 text-[var(--brand)]">

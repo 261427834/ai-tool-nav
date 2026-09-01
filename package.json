@@ -16,7 +16,7 @@
     "gen:index": "node scripts/gen-search-index.mjs",
     "gen:og": "pwsh -NoProfile -ExecutionPolicy Bypass -File scripts/gen-og.ps1",
     "predev": "node scripts/gen-search-index.mjs",
-    "prebuild": "node scripts/gen-search-index.mjs && node scripts/normalize.mjs --validate",
+    "prebuild": "node scripts/gen-search-index.mjs && node scripts/gen-sitemap.mjs && node scripts/normalize.mjs --validate",
     "pipeline": "npm run crawl && npm run normalize && npm run icons && npm run check:data",
     "test:e2e": "playwright test"
   },
@@ -43,4 +43,5 @@
     "node": ">=20"
   }
 }
+
 

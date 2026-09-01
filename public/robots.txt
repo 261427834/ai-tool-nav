@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /api/
+
+Sitemap: https://ai-tool-nav.pages.dev/sitemap.xml
+
