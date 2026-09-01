@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html {{{helmetHtmlAttributes}}}>
+    <head>
+        <!-- Helmet -->
+        {{{helmetHeadData}}}
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+        <meta name="theme-color" content="#101112" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="author" content="Fynd" />
+        {{{metaRobots}}}
+        <meta name="apple-mobile-web-app-title" content="Watermarkremover.io" />
+        <meta name="application-name" content="Watermarkremover.io" />
+        <meta name="msapplication-TileColor" content="#da532c" />
+        <!-- Yandex Verification Tag -->
+        <meta name="yandex-verification" content="13979f7793f70a83" />
+        <!-- Baidu Site Verification Tag -->
+        <meta name="baidu-site-verification" content="code-TkgRtMvNEh" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link
+            rel="preload"
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=optional"
+            as="style"
+            onload="this.onload=null;this.rel='stylesheet'"
+        />
+        <link
+            rel="preload"
+            type="text/css"
+            charset="UTF-8"
+            href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css"
+            as="style"
+            onload="this.onload=null;this.rel='stylesheet'"
+        />
+        <link
+            rel="preload"
+            type="text/css"
+            href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css"
+            as="style"
+            onload="this.onload=null;this.rel='stylesheet'"
+        />
+
+        <link
+            rel="preconnect"
+            as="image"
+            href="https://cdn.pixelbin.io"
+            crossorigin
+        />
+        <!-- APP_SPLIT_POINT -->
+        <!-- CONFIG JS -->
+        {{{configJS}}}
+        <!-- REDUX INITIAL STATE -->
+        {{{initialState}}}
+        <!-- i18n Language store and Language -->
+        {{{initialI18nStore}}} {{{initialLanguage}}}
+        <!-- STYLES -->
+        {{{styles}}} {{{ssrData}}}
+        <!-- LINK Tags Preload -->
+        {{{linkTags}}}
+    </head>
+    <body>
+        <noscript
+            ><iframe
+                title="gtm-pixelbin"
+                src="https://www.googletagmanager.com/ns.html?id=GTM-PHTRZM4"
+                height="0"
+                width="0"
+                style="display: none; visibility: hidden"
+            ></iframe
+        ></noscript>
+        <noscript>
+            <link
+                rel="stylesheet"
+                href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=optional"
+            />
+            <link
+                rel="stylesheet"
+                type="text/css"
+                charset="UTF-8"
+                href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css"
+            />
+            <link
+                rel="stylesheet"
+                type="text/css"
+                href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css"
+            />
+        </noscript>
+        <div id="root"></div>
+        <!-- STYLES -->
+        {{{styles}}}
+        <!-- SCRIPT TAGS -->
+        {{{scriptTags}}}
+    </body>
+</html>

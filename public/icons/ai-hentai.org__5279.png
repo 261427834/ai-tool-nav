@@ -1,0 +1,1849 @@
+<head>
+    <!-- Basic Setup -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Title & Description -->
+    <title>Free AI Hentai Anime Video generator</title>
+    <meta name="description" content="Create stunning AI anime characters, NSFW art, waifus, and hentai videos instantly. No login, no restrictions, fully online generator." />
+
+    <!-- SEO Keywords -->
+    <meta name="keywords" content="AI hentai generator, anime generator, nsfw ai, hentai ai, waifu generator, anime girl creator" />
+
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.png" type="image/png">
+
+    <!-- OG Social Preview -->
+    <meta property="og:title" content="Free Uncensored AI Hentai Anime Video generator">
+    <meta property="og:description" content="Free AI hentai & anime generator. No sign-up, no limits. Create HD waifus instantly.">
+    <meta property="og:image" content="https://hentaianime.video/preview.jpg">
+    <meta property="og:url" content="https://hentaianime.video">
+    <meta property="og:type" content="website">
+
+    <!-- Twitter Cards -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Free Uncensored AI Hentai Anime Video generator">
+    <meta name="twitter:description" content="Instant AI hentai generator. Create anime girls, waifus & NSFW art online.">
+    <meta name="twitter:image" content="https://hentaianime.video/preview.jpg">
+
+    <!-- Theme Colors -->
+    <meta name="theme-color" content="#000000">
+
+    <!-- Google Fonts (Modern, Premium Look) -->
+    
+    
+    <style type="text/css">@font-face {font-family:'Poppins';font-style:normal;font-weight:300;src:url(/cf-fonts/s/poppins/5.2.7/devanagari/300/normal.woff2);unicode-range:U+0900-097F,U+1CD0-1CF9,U+200C-200D,U+20A8,U+20B9,U+20F0,U+25CC,U+A830-A839,U+A8E0-A8FF,U+11B00-11B09;font-display:swap;}@font-face {font-family:'Poppins';font-style:normal;font-weight:300;src:url(/cf-fonts/s/poppins/5.2.7/latin-ext/300/normal.woff2);unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:'Poppins';font-style:normal;font-weight:300;src:url(/cf-fonts/s/poppins/5.2.7/latin/300/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:'Poppins';font-style:normal;font-weight:400;src:url(/cf-fonts/s/poppins/5.2.7/devanagari/400/normal.woff2);unicode-range:U+0900-097F,U+1CD0-1CF9,U+200C-200D,U+20A8,U+20B9,U+20F0,U+25CC,U+A830-A839,U+A8E0-A8FF,U+11B00-11B09;font-display:swap;}@font-face {font-family:'Poppins';font-style:normal;font-weight:400;src:url(/cf-fonts/s/poppins/5.2.7/latin/400/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:'Poppins';font-style:normal;font-weight:400;src:url(/cf-fonts/s/poppins/5.2.7/latin-ext/400/normal.woff2);unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:'Poppins';font-style:normal;font-weight:600;src:url(/cf-fonts/s/poppins/5.2.7/latin/600/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:'Poppins';font-style:normal;font-weight:600;src:url(/cf-fonts/s/poppins/5.2.7/latin-ext/600/normal.woff2);unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:'Poppins';font-style:normal;font-weight:600;src:url(/cf-fonts/s/poppins/5.2.7/devanagari/600/normal.woff2);unicode-range:U+0900-097F,U+1CD0-1CF9,U+200C-200D,U+20A8,U+20B9,U+20F0,U+25CC,U+A830-A839,U+A8E0-A8FF,U+11B00-11B09;font-display:swap;}@font-face {font-family:'Poppins';font-style:normal;font-weight:700;src:url(/cf-fonts/s/poppins/5.2.7/latin-ext/700/normal.woff2);unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:'Poppins';font-style:normal;font-weight:700;src:url(/cf-fonts/s/poppins/5.2.7/latin/700/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:'Poppins';font-style:normal;font-weight:700;src:url(/cf-fonts/s/poppins/5.2.7/devanagari/700/normal.woff2);unicode-range:U+0900-097F,U+1CD0-1CF9,U+200C-200D,U+20A8,U+20B9,U+20F0,U+25CC,U+A830-A839,U+A8E0-A8FF,U+11B00-11B09;font-display:swap;}@font-face {font-family:'Poppins';font-style:normal;font-weight:900;src:url(/cf-fonts/s/poppins/5.2.7/devanagari/900/normal.woff2);unicode-range:U+0900-097F,U+1CD0-1CF9,U+200C-200D,U+20A8,U+20B9,U+20F0,U+25CC,U+A830-A839,U+A8E0-A8FF,U+11B00-11B09;font-display:swap;}@font-face {font-family:'Poppins';font-style:normal;font-weight:900;src:url(/cf-fonts/s/poppins/5.2.7/latin-ext/900/normal.woff2);unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:'Poppins';font-style:normal;font-weight:900;src:url(/cf-fonts/s/poppins/5.2.7/latin/900/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}</style>
+
+    <!-- Icon Library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <!-- CSS Reset (better look) -->
+    <style>
+        *, *::before, *::after {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background: #0d0d0d;
+            font-family: 'Poppins', sans-serif;
+            color: #fff;
+            overflow-x: hidden;
+        }
+        ::selection {
+            background: #9b2cff;
+            color: #fff;
+        }
+    </style>
+
+    <!-- Smooth Animations -->
+    <style>
+        .fade-in {
+            opacity: 0;
+            transform: translateY(20px);
+            animation: fade 1s forwards;
+        }
+        @keyframes fade {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+
+    <!-- JS Globals -->
+    <script>
+        // Smooth scroll — optional
+        window.addEventListener("load", () => {
+            document.querySelectorAll("a[href^='#']").forEach(anchor => {
+                anchor.addEventListener("click", function(e) {
+                    e.preventDefault();
+                    document.querySelector(this.getAttribute("href"))
+                        .scrollIntoView({ behavior: "smooth" });
+                });
+            });
+        });
+    </script>
+</head>
+<!-- ========================= HERO SECTION ========================= -->
+<section id="hero">
+    <div class="hero-overlay"></div>
+
+    <div class="hero-content fade-in">
+        <h1>AI Hentai Anime generator<br></h1>
+        <h2>No Login, No Restrictions</h2><br>
+        <p>
+            Create high-quality anime girls, waifus and NSFW art instantly. No sign up, no limits,
+            fully online AI hentai generator.
+        </p>
+        <a href="https://uncensoredhentai.ai/" class="hero-btn" target="_blank">Start for Free</a>
+    </div>
+</section>
+
+<!-- ========================= HERO CSS ========================= -->
+<style>
+    #hero {
+        width: 100%;
+        height: 100vh;
+        background-image: url('banner.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* Dark gradient overlay */
+    .hero-overlay {
+        position: absolute;
+        inset: 0;
+        background: linear-gradient(
+            to bottom,
+            rgba(0,0,0,0.45),
+            rgba(0,0,0,0.70)
+        );
+        backdrop-filter: blur(2px);
+        z-index: 1;
+    }
+
+    /* Center text box */
+    .hero-content {
+        position: relative;
+        z-index: 2;
+        max-width: 700px;
+        text-align: center;
+        padding: 0 20px;
+    }
+
+    .hero-content h1 {
+        font-size: 3.3rem;
+        line-height: 1.2;
+        margin-bottom: 15px;
+        font-weight: 700;
+    }
+
+    .hero-content p {
+        font-size: 1.15rem;
+        opacity: 0.88;
+        margin-bottom: 30px;
+    }
+
+    /* Button */
+    .hero-btn {
+        display: inline-block;
+        padding: 14px 35px;
+        background: linear-gradient(135deg, #ff00aa, #9b2cff);
+        color: #fff;
+        border-radius: 50px;
+        font-weight: 600;
+        text-decoration: none;
+        font-size: 1.1rem;
+        box-shadow: 0 0 18px rgba(155,44,255,0.4);
+        transition: 0.3s;
+    }
+    .hero-btn:hover {
+        transform: scale(1.05);
+        box-shadow: 0 0 25px rgba(255,0,180,0.6);
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+        .hero-content h1 {
+            font-size: 2.3rem;
+        }
+        .hero-content p {
+            font-size: 1rem;
+        }
+    }
+</style>
+<!-- ========================= AI GENERATOR PLAYGROUND ========================= -->
+<section id="playground">
+    <h2 class="pg-title fade-in">Free AI Hentai Generator Playground</h2>
+    <p class="pg-sub fade-in">
+        Enter any prompt and instantly generate anime waifu, hentai art, doujin-style images.
+    </p>
+
+    <div class="pg-wrapper">
+
+        <!-- LEFT PANEL -->
+        <div class="pg-left fade-in">
+
+            <!-- Prompt Box -->
+            <textarea class="pg-prompt" placeholder="(masterpiece), best quality, expressive eyes, perfect face"></textarea>
+
+            <!-- Tabs -->
+            <div class="pg-tabs">
+                <button class="pg-tab active">Anime</button>
+                <button class="pg-tab">Realistic</button>
+
+                <div class="pg-right-icons">
+                    <i class="fa-solid fa-dice"></i>
+                    <i class="fa-solid fa-expand"></i>
+                </div>
+            </div>
+
+            <!-- Visual Styles -->
+            <h3 class="pg-cat-title">Visual Styles</h3>
+            <div class="pg-style-row">
+                <div class="pg-style"><img src="banner.png"><span>Concept</span></div>
+                <div class="pg-style"><img src="banner.png"><span>Garter</span></div>
+                <div class="pg-style"><img src="banner.png"><span>Cute</span></div>
+                <div class="pg-style"><img src="banner.png"><span>Crop Top</span></div>
+            </div>
+
+            <!-- Character Styles -->
+            <h3 class="pg-cat-title">Character Styles</h3>
+            <div class="pg-style-row">
+                <div class="pg-style"><img src="banner.png"><span>Silver Wolf</span></div>
+                <div class="pg-style"><img src="banner.png"><span>Magician</span></div>
+                <div class="pg-style"><img src="banner.png"><span>Elf</span></div>
+                <div class="pg-style"><img src="banner.png"><span>School Girl</span></div>
+            </div>
+
+            <!-- Generate Button -->
+            <button class="pg-generate-btn"><a href="https://uncensoredhentai.ai/" target="_blank" text-decoration: none;>Generate</a></button>
+
+        </div>
+
+        <!-- RIGHT PANEL -->
+<div class="pg-right fade-in">
+
+    <div class="pg-preview">
+        <video 
+            src="hentai-anime.mp4" 
+            autoplay 
+            muted 
+            loop 
+            playsinline 
+            style="width:100%; border-radius:12px;">
+        </video>
+    </div>
+
+    <h4 class="pg-inspire-title">No inspiration? Try these:</h4>
+
+    <div class="pg-inspire-row">
+        <div class="pg-inspire"><img src="banner.png"><span>use it</span></div>
+        <div class="pg-inspire"><img src="banner.png"><span>use it</span></div>
+        <div class="pg-inspire"><img src="banner.png"><span>use it</span></div>
+        <div class="pg-inspire"><img src="banner.png"><span>use it</span></div>
+    </div>
+
+</div>
+
+
+    </div>
+
+</section>
+
+<!-- ========================= PLAYGROUND CSS ========================= -->
+<style>
+    #playground {
+        background: #090c16;
+        padding: 110px 0;
+        color: #fff;
+    }
+
+    .pg-title {
+        text-align: center;
+        font-size: 2.7rem;
+        font-weight: 800;
+    }
+
+    .pg-sub {
+        text-align: center;
+        opacity: 0.75;
+        margin-bottom: 60px;
+        font-size: 1.15rem;
+    }
+
+    .pg-wrapper {
+        max-width: 1350px;
+        margin: 0 auto;
+        padding: 0 25px;
+
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 40px;
+    }
+
+    /* LEFT SIDE */
+    .pg-left {
+        background: rgba(255,255,255,0.04);
+        border-radius: 20px;
+        padding: 35px;
+        border: 1px solid rgba(255,255,255,0.08);
+        backdrop-filter: blur(10px);
+    }
+
+    .pg-prompt {
+        width: 100%;
+        height: 160px;
+        background: #10131f;
+        border: 1px solid rgba(255,255,255,0.15);
+        border-radius: 15px;
+        padding: 20px;
+        color: #fff;
+        resize: none;
+        font-size: 1rem;
+        outline: none;
+    }
+
+    .pg-tabs {
+        margin-top: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .pg-tab {
+        padding: 8px 18px;
+        border-radius: 10px;
+        border: none;
+        background: #191d2b;
+        color: #fff;
+        font-size: .95rem;
+        cursor: pointer;
+        transition: .25s ease;
+    }
+
+    .pg-tab.active {
+        background: #9b2cff;
+        box-shadow: 0 0 15px rgba(155,44,255,0.5);
+    }
+
+    .pg-right-icons i {
+        margin-left: 14px;
+        opacity: 0.7;
+        cursor: pointer;
+        transition: .25s;
+    }
+
+    .pg-right-icons i:hover {
+        opacity: 1;
+        color: #9b2cff;
+    }
+
+    .pg-cat-title {
+        margin-top: 32px;
+        font-size: 1.2rem;
+        opacity: 0.85;
+        margin-bottom: 12px;
+    }
+
+    .pg-style-row {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 18px;
+    }
+
+    .pg-style {
+        background: #121622;
+        border-radius: 12px;
+        overflow: hidden;
+        cursor: pointer;
+        transition: 0.25s ease;
+    }
+
+    .pg-style:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 0 18px rgba(155,44,255,0.4);
+    }
+
+    .pg-style img {
+        width: 100%;
+        height: 100px;
+        object-fit: cover;
+    }
+
+    .pg-style span {
+        display: block;
+        padding: 8px;
+        font-size: 0.85rem;
+        opacity: 0.75;
+        text-align: center;
+    }
+
+    /* Generate Button */
+    .pg-generate-btn {
+        width: 100%;
+        padding: 16px;
+        margin-top: 30px;
+        background: linear-gradient(135deg, #ff00dc, #9b2cff);
+        border-radius: 12px;
+        font-size: 1.1rem;
+        font-weight: 700;
+        cursor: pointer;
+        border: none;
+        color: #fff;
+        box-shadow: 0 0 18px rgba(155,44,255,0.4);
+        transition: .25s ease;
+    }
+
+    .pg-generate-btn:hover {
+        transform: scale(1.03);
+        box-shadow: 0 0 26px rgba(255,0,200,0.7);
+    }
+
+    /* RIGHT SIDE */
+    .pg-right {
+        background: rgba(255,255,255,0.04);
+        border-radius: 20px;
+        padding: 35px;
+        border: 1px solid rgba(255,255,255,0.08);
+        backdrop-filter: blur(10px);
+        text-align: center;
+    }
+
+    .pg-preview {
+        height: 280px;
+        background: #10131f;
+        border-radius: 15px;
+        border: 1px solid rgba(255,255,255,0.12);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        opacity: 0.8;
+    }
+
+    .pg-preview-icon i {
+        font-size: 2.6rem;
+        color: #9b2cff;
+        margin-bottom: 12px;
+    }
+
+    .pg-inspire-title {
+        margin-top: 30px;
+        font-size: 1rem;
+        opacity: 0.75;
+    }
+
+    .pg-inspire-row {
+        margin-top: 18px;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 18px;
+    }
+
+    .pg-inspire {
+        background: #121622;
+        border-radius: 12px;
+        overflow: hidden;
+        position: relative;
+        cursor: pointer;
+        transition: 0.25s ease;
+    }
+
+    .pg-inspire:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 0 20px rgba(155,44,255,0.4);
+    }
+
+    .pg-inspire img {
+        width: 100%;
+        height: 140px;
+        object-fit: cover;
+    }
+
+    .pg-inspire span {
+        position: absolute;
+        top: 8px;
+        left: 8px;
+        background: #9b2cff;
+        padding: 3px 8px;
+        border-radius: 8px;
+        font-size: 0.7rem;
+        color: #fff;
+        text-shadow: 0 0 6px rgba(0,0,0,0.6);
+    }
+
+    /* Fade-in */
+    .fade-in {
+        opacity: 0;
+        transform: translateY(20px);
+        transition: opacity .8s ease, transform .8s ease;
+    }
+    .fade-visible {
+        opacity: 1 !important;
+        transform: translateY(0) !important;
+    }
+
+    /* Responsive */
+    @media(max-width: 900px){
+        .pg-wrapper {
+            grid-template-columns: 1fr;
+        }
+    }
+</style>
+
+<!-- ========================= PLAYGROUND JS ========================= -->
+<script>
+    // Fade-in on scroll
+    const fadePG = document.querySelectorAll(".fade-in");
+    const obsPG = new IntersectionObserver(entries => {
+        entries.forEach(entry=>{
+            if(entry.isIntersecting){
+                entry.target.classList.add("fade-visible");
+            }
+        });
+    }, { threshold: 0.25 });
+
+    fadePG.forEach(el => obsPG.observe(el));
+</script>
+
+<!-- ========================= TWO-COLUMN FEATURE SECTION ========================= -->
+<section id="feature-2col">
+    <div class="f2-wrapper">
+
+        <!-- LEFT CONTENT -->
+        <div class="f2-left fade-in">
+            <h2>Customize Any AI Anime Character You Want</h2>
+            <p class="f2-sub">
+                Have a favorite anime character? Want to create your own original waifu or hentai character?  
+                Our generator gives you full control with stunning results.
+            </p>
+
+            <div class="f2-features">
+
+                <div class="f2-box">
+                    <div class="f2-icon"><i class="fa-solid fa-tv"></i></div>
+                    <h4>High Quality</h4>
+                    <p>Experience vivid anime visuals with crystal-clear details.</p>
+                </div>
+
+                <div class="f2-box">
+                    <div class="f2-icon"><i class="fa-solid fa-screwdriver-wrench"></i></div>
+                    <h4>Customizable</h4>
+                    <p>Fine-tune settings to match your exact preferences and style.</p>
+                </div>
+
+                <div class="f2-box">
+                    <div class="f2-icon"><i class="fa-solid fa-check"></i></div>
+                    <h4>Free to All</h4>
+                    <p>Generate anime art at no cost — accessible for everyone.</p>
+                </div>
+
+                <div class="f2-box">
+                    <div class="f2-icon"><i class="fa-solid fa-lock"></i></div>
+                    <h4>100% Privacy</h4>
+                    <p>Your actions and prompts remain fully confidential.</p>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- RIGHT IMAGE -->
+        <div class="f2-right fade-in">
+            <img src="banner.png" alt="Anime Image">
+        </div>
+
+    </div>
+</section>
+
+<!-- ========================= FEATURE 2COL CSS ========================= -->
+<style>
+    #feature-2col {
+        padding: 120px 0;
+        background: #0a0d16;
+        color: #fff;
+    }
+
+    .f2-wrapper {
+        max-width: 1300px;
+        margin: 0 auto;
+        padding: 0 25px;
+
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 60px;
+        align-items: center;
+    }
+
+    /* LEFT SIDE */
+    .f2-left h2 {
+        font-size: 2.6rem;
+        font-weight: 800;
+        margin-bottom: 18px;
+    }
+
+    .f2-sub {
+        font-size: 1.15rem;
+        opacity: 0.8;
+        line-height: 1.6;
+        margin-bottom: 45px;
+        max-width: 90%;
+    }
+
+    .f2-features {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 35px 25px;
+    }
+
+    /* Feature items */
+    .f2-box h4 {
+        font-size: 1.15rem;
+        font-weight: 700;
+        margin-bottom: 5px;
+    }
+
+    .f2-box p {
+        font-size: 0.95rem;
+        opacity: 0.78;
+        line-height: 1.45;
+    }
+
+    /* Icons with glowing theme */
+    .f2-icon {
+        font-size: 2rem;
+        color: #b86bff;
+        margin-bottom: 12px;
+        text-shadow: 0 0 15px rgba(155,44,255,0.6);
+    }
+
+    /* RIGHT IMAGE */
+    .f2-right img {
+        width: 100%;
+        border-radius: 20px;
+        box-shadow: 0 0 25px rgba(0,0,0,0.45);
+        transition: transform .35s ease, box-shadow .35s ease;
+    }
+
+    .f2-right img:hover {
+        transform: scale(1.03);
+        box-shadow: 0 0 35px rgba(155,44,255,0.35);
+    }
+
+    /* Fade-in animation */
+    .fade-in {
+        opacity: 0;
+        transform: translateY(20px);
+        transition: opacity .8s ease, transform .8s ease;
+    }
+    .fade-visible {
+        opacity: 1 !important;
+        transform: translateY(0) !important;
+    }
+
+    /* Responsive */
+    @media (max-width: 950px) {
+        .f2-wrapper {
+            grid-template-columns: 1fr;
+            text-align: center;
+        }
+        .f2-sub {
+            margin: 0 auto 40px;
+        }
+        .f2-features {
+            grid-template-columns: 1fr 1fr;
+            justify-items: center;
+        }
+    }
+
+    @media (max-width: 600px) {
+        .f2-features {
+            grid-template-columns: 1fr;
+            gap: 25px;
+        }
+        .f2-left h2 {
+            font-size: 2.2rem;
+        }
+    }
+</style>
+
+<!-- ========================= FEATURE 2COL JS ========================= -->
+<script>
+    // Fade-in on scroll
+    const fade2 = document.querySelectorAll(".fade-in");
+    const observer2 = new IntersectionObserver((entries)=>{
+        entries.forEach(entry=>{
+            if(entry.isIntersecting){
+                entry.target.classList.add("fade-visible");
+            }
+        });
+    }, {threshold:0.2});
+
+    fade2.forEach(el => observer2.observe(el));
+</script>
+
+<!-- ========================= ADVANCED IMAGE GALLERY ========================= -->
+<section id="gallery">
+    <h2 class="gallery-title fade-in">Recent AI Generated Results</h2>
+
+    <div class="gallery-wrapper">
+        <div class="gallery-grid">
+
+            <!-- Replace these with your images -->
+            <div class="item"><img src="banner.png" alt=""></div>
+            <div class="item tall"><img src="banner.png" alt=""></div>
+            <div class="item"><img src="banner.png" alt=""></div>
+            <div class="item wide"><img src="banner.png" alt=""></div>
+            <div class="item"><img src="banner.png" alt=""></div>
+            <div class="item tall"><img src="banner.png" alt=""></div>
+            <div class="item"><img src="banner.png" alt=""></div>
+            <div class="item wide"><img src="banner.png" alt=""></div>
+
+        </div>
+    </div>
+</section>
+
+<!-- ========================= ADVANCED GALLERY CSS ========================= -->
+<style>
+    #gallery {
+        padding: 100px 0;
+        background: #0a0d16;
+    }
+
+    .gallery-title {
+        text-align: center;
+        font-size: 2.8rem;
+        font-weight: 700;
+        margin-bottom: 70px;
+        color: #fff;
+    }
+
+    /* Center container */
+    .gallery-wrapper {
+        max-width: 1300px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+
+    /* Grid (advanced responsive layout) */
+    .gallery-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        grid-auto-rows: 240px;
+        gap: 22px;
+        place-items: center;
+    }
+
+    /* Image Items */
+    .item {
+        position: relative;
+        overflow: hidden;
+        border-radius: 18px;
+        width: 100%;
+        height: 100%;
+        background: #000;
+        box-shadow: 0 5px 25px rgba(0,0,0,0.4);
+        transition: transform .35s ease, box-shadow .35s ease;
+    }
+
+    /* Variation sizes */
+    .tall { grid-row: span 2; }
+    .wide { grid-column: span 2; }
+
+    /* Image styling */
+    .item img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: inherit;
+        transition: transform .4s ease, opacity .4s ease;
+    }
+
+    /* Hover animations */
+    .item:hover {
+        transform: translateY(-6px) scale(1.02);
+        box-shadow: 0 10px 40px rgba(155,44,255,0.25);
+    }
+
+    .item:hover img {
+        transform: scale(1.08);
+        opacity: 0.9;
+    }
+
+    /* Stagger fade-in animation */
+    .item {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    /* Responsive tweaks */
+    @media (max-width: 900px) {
+        .wide { grid-column: span 1; }
+    }
+
+    @media (max-width: 600px) {
+        .gallery-title { font-size: 2.2rem; }
+        .gallery-grid { grid-auto-rows: 200px; }
+    }
+</style>
+
+<!-- ========================= ADVANCED GALLERY JS ========================= -->
+<script>
+    // Stagger reveal animation
+    const galleryItems = document.querySelectorAll(".item");
+
+    galleryItems.forEach((item, i) => {
+        setTimeout(() => {
+            item.style.opacity = "1";
+            item.style.transform = "translateY(0)";
+        }, 150 * i);
+    });
+</script>
+<!-- ========================= IMAGE + TEXT SECTION ========================= -->
+<section id="taste-section">
+    <div class="taste-wrapper">
+
+        <!-- LEFT IMAGE -->
+        <div class="taste-left fade-in">
+            <img src="banner.png" alt="Anime Character">
+        </div>
+
+        <!-- RIGHT CONTENT -->
+        <div class="taste-right fade-in">
+            <h2>Choose Your Own Anime Hentai Taste.</h2>
+
+            <p class="taste-sub">
+                Our AI hentai generator supports generating more than 50 styles of anime art.
+                Whatever type you love, our engine can instantly match your personal hentai taste.
+            </p>
+
+            <ul class="taste-list">
+                <li><i class="fa-solid fa-check"></i> All-in-one AI anime art generators</li>
+                <li><i class="fa-solid fa-check"></i> Advanced AI models & LoRAs</li>
+                <li><i class="fa-solid fa-check"></i> 50+ unique anime styles</li>
+                <li><i class="fa-solid fa-check"></i> 100% free to all — no paywall, no filter</li>
+            </ul>
+
+            <a href="https://uncensoredhentai.ai/" class="taste-btn" target="_blank">Try It For Free Now</a>
+        </div>
+
+    </div>
+</section>
+
+<!-- ========================= IMAGE + TEXT CSS ========================= -->
+<style>
+    #taste-section {
+        padding: 120px 0;
+        background: #0a0d16;
+        color: #fff;
+    }
+
+    .taste-wrapper {
+        max-width: 1300px;
+        margin: 0 auto;
+        padding: 0 25px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 60px;
+        align-items: center;
+    }
+
+    /* LEFT IMAGE */
+    .taste-left img {
+        width: 100%;
+        border-radius: 20px;
+        box-shadow: 0 0 25px rgba(0,0,0,0.45);
+        transition: transform .35s ease, box-shadow .35s ease;
+    }
+
+    .taste-left img:hover {
+        transform: scale(1.03);
+        box-shadow: 0 0 35px rgba(155,44,255,0.35);
+    }
+
+    /* RIGHT CONTENT */
+    .taste-right h2 {
+        font-size: 2.6rem;
+        font-weight: 800;
+        margin-bottom: 20px;
+    }
+
+    .taste-sub {
+        font-size: 1.15rem;
+        opacity: 0.78;
+        line-height: 1.6;
+        margin-bottom: 35px;
+        max-width: 92%;
+    }
+
+    /* List */
+    .taste-list {
+        list-style: none;
+        padding: 0;
+        margin-bottom: 40px;
+    }
+
+    .taste-list li {
+        font-size: 1.05rem;
+        margin-bottom: 14px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .taste-list li i {
+        color: #6d3aff;
+        font-size: 1.2rem;
+        text-shadow: 0 0 12px rgba(155,44,255,0.7);
+    }
+
+    /* CTA Button */
+    .taste-btn {
+        display: inline-block;
+        padding: 14px 32px;
+        background: linear-gradient(135deg, #ff00dc, #9b2cff);
+        color: #fff;
+        border-radius: 12px;
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 1.1rem;
+        transition: .3s ease;
+        box-shadow: 0 0 18px rgba(155,44,255,0.4);
+    }
+
+    .taste-btn:hover {
+        transform: scale(1.07);
+        box-shadow: 0 0 25px rgba(255,0,180,0.7);
+    }
+
+    /* Fade-in animation */
+    .fade-in {
+        opacity: 0;
+        transform: translateY(20px);
+        transition: opacity .8s ease, transform .8s ease;
+    }
+
+    .fade-visible {
+        opacity: 1 !important;
+        transform: translateY(0) !important;
+    }
+
+    /* Responsive */
+    @media (max-width: 950px) {
+        .taste-wrapper {
+            grid-template-columns: 1fr;
+            text-align: center;
+        }
+        .taste-sub {
+            max-width: 100%;
+            margin: 0 auto 35px;
+        }
+        .taste-list {
+            text-align: left;
+            margin: 0 auto 35px;
+            max-width: 350px;
+        }
+    }
+
+    @media (max-width: 600px) {
+        .taste-right h2 {
+            font-size: 2.1rem;
+        }
+    }
+</style>
+
+<!-- ========================= IMAGE + TEXT JS ========================= -->
+<script>
+    // Fade-in animation
+    const fadeTaste = document.querySelectorAll(".fade-in");
+    const observerTaste = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add("fade-visible");
+            }
+        });
+    }, { threshold: 0.3 });
+
+    fadeTaste.forEach(el => observerTaste.observe(el));
+</script>
+
+
+
+<!-- ========================= EXAMPLES SECTION ========================= -->
+<section id="examples">
+    <div class="examples-bg"></div>
+
+    <h2 class="examples-title fade-in">
+        Explore Beautiful AI-Generated Hentai Examples
+    </h2>
+
+    <div class="examples-row fade-in">
+        <!-- CARD 1 -->
+        <div class="example-card">
+            <span class="badge">Image</span>
+            <img src="banner.png" alt="">
+            <button class="prompt-btn"><i class="fa-regular fa-copy"></i> Use this prompt</button>
+        </div>
+
+        <!-- CARD 2 -->
+        <div class="example-card">
+            <span class="badge">Image</span>
+            <img src="banner.png" alt="">
+            <button class="prompt-btn"><i class="fa-regular fa-copy"></i> Use this prompt</button>
+        </div>
+
+        <!-- CARD 3 -->
+        <div class="example-card">
+            <span class="badge">Image</span>
+            <img src="banner.png" alt="">
+            <button class="prompt-btn"><i class="fa-regular fa-copy"></i> Use this prompt</button>
+        </div>
+
+        <!-- CARD 4 -->
+        <div class="example-card">
+            <span class="badge">Image</span>
+            <img src="banner.png" alt="">
+            <button class="prompt-btn"><i class="fa-regular fa-copy"></i> Use this prompt</button>
+        </div>
+
+        <!-- CARD 5 -->
+        <div class="example-card">
+            <span class="badge">Image</span>
+            <img src="banner.png" alt="">
+            <button class="prompt-btn"><i class="fa-regular fa-copy"></i> Use this prompt</button>
+        </div>
+    </div>
+</section>
+
+<!-- ========================= EXAMPLES CSS ========================= -->
+<style>
+    #examples {
+        position: relative;
+        width: 100%;
+        padding: 90px 0;
+        background: #0c0c12;
+        overflow: hidden;
+    }
+
+    /* GRID BACKGROUND */
+    .examples-bg {
+        position: absolute;
+        inset: 0;
+        background-image: 
+            linear-gradient(rgba(255,255,255,0.05) 1px, transparent 1px),
+            linear-gradient(90deg, rgba(255,255,255,0.05) 1px, transparent 1px);
+        background-size: 60px 60px;
+        opacity: 0.25;
+        z-index: 1;
+    }
+
+    /* Purple A Shape */
+    #examples::before {
+        content: "A";
+        position: absolute;
+        left: 0;
+        top: 10%;
+        font-size: 40vw;
+        font-weight: 700;
+        color: transparent;
+        -webkit-text-stroke: 2px rgba(140,0,255,0.18);
+        z-index: 0;
+        pointer-events: none;
+    }
+
+    .examples-title {
+        position: relative;
+        z-index: 2;
+        text-align: center;
+        font-size: 2.3rem;
+        font-weight: 600;
+        margin-bottom: 60px;
+        color: #d6d6d6;
+        line-height: 1.3;
+    }
+
+    /* Row container */
+    .examples-row {
+        position: relative;
+        z-index: 3;
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        padding: 0 20px;
+        flex-wrap: wrap;
+    }
+
+    /* CARD */
+    .example-card {
+        width: 230px;
+        height: 350px;
+        background: #13131a;
+        border-radius: 18px;
+        position: relative;
+        overflow: hidden;
+        box-shadow: 0 0 20px rgba(0,0,0,0.4);
+        transition: 0.3s ease;
+    }
+
+    .example-card:hover {
+        transform: translateY(-8px);
+        box-shadow: 0 0 25px rgba(150,50,255,0.4);
+    }
+
+    /* Image inside card */
+    .example-card img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    /* Badge */
+    .badge {
+        position: absolute;
+        top: 12px;
+        left: 12px;
+        padding: 5px 10px;
+        font-size: 0.75rem;
+        background: rgba(0,0,0,0.6);
+        border-radius: 6px;
+        color: #fff;
+        z-index: 5;
+        backdrop-filter: blur(3px);
+    }
+
+    /* Button bottom */
+    .prompt-btn {
+        position: absolute;
+        bottom: 12px;
+        left: 50%;
+        transform: translateX(-50%);
+        padding: 6px 15px;
+        font-size: 0.8rem;
+        border-radius: 12px;
+        border: 1px solid rgba(255,255,255,0.4);
+        background: rgba(0,0,0,0.45);
+        color: #fff;
+        backdrop-filter: blur(4px);
+        cursor: pointer;
+        transition: 0.3s;
+        display: flex;
+        align-items: center;
+        gap: 5px;
+    }
+
+    .prompt-btn:hover {
+        background: rgba(255,255,255,0.2);
+        transform: translateX(-50%) scale(1.05);
+    }
+
+    /* Mobile */
+    @media (max-width: 768px) {
+        .examples-row {
+            gap: 20px;
+        }
+        .example-card {
+            width: 44%;
+        }
+    }
+</style>
+
+
+<!-- ========================= PRICING SECTION ========================= -->
+<section id="pricing">
+    <h2 class="pricing-title fade-in">Choose Your Plan</h2>
+    <p class="pricing-sub fade-in">Simple pricing, powerful AI generation.</p>
+
+    <div class="pricing-container fade-in">
+
+        <!-- Free Plan -->
+        <div class="pricing-card">
+            <h3>Free</h3>
+            <p class="price">$0 <span>/ month</span></p>
+
+            <ul>
+                <li><i class="fa-solid fa-check"></i> 10 Images / Day</li>
+                <li><i class="fa-solid fa-check"></i> Standard Models</li>
+                <li><i class="fa-solid fa-check"></i> Basic Quality</li>
+                <li><i class="fa-solid fa-xmark disabled"></i> No Upscaling</li>
+                <li><i class="fa-solid fa-xmark disabled"></i> No Priority Queue</li>
+            </ul>
+
+            <a href="https://uncensoredhentai.ai/" class="pricing-btn" target="_blank">Start Free</a>
+        </div>
+
+        <!-- Pro Plan (Highlighted) -->
+        <div class="pricing-card popular">
+            <div class="badge">Most Popular</div>
+
+            <h3>Pro</h3>
+            <p class="price">$14.99 <span>/ month</span></p>
+
+            <ul>
+                <li><i class="fa-solid fa-check"></i> Unlimited Images</li>
+                <li><i class="fa-solid fa-check"></i> HD Quality</li>
+                <li><i class="fa-solid fa-check"></i> All AI Models</li>
+                <li><i class="fa-solid fa-check"></i> Priority Queue</li>
+                <li><i class="fa-solid fa-check"></i> 4K Upscaler</li>
+            </ul>
+
+            <a href="https://uncensoredhentai.ai/" class="pricing-btn highlight" target="_blank">Upgrade Now</a>
+        </div>
+
+        <!-- Ultimate Plan -->
+        <div class="pricing-card">
+            <h3>Ultimate</h3>
+            <p class="price">$29.99 <span>/ month</span></p>
+
+            <ul>
+                <li><i class="fa-solid fa-check"></i> Infinite Images</li>
+                <li><i class="fa-solid fa-check"></i> Ultra HD 8K Quality</li>
+                <li><i class="fa-solid fa-check"></i> Dedicated GPU</li>
+                <li><i class="fa-solid fa-check"></i> Fastest Rendering</li>
+                <li><i class="fa-solid fa-check"></i> Everything in Pro</li>
+            </ul>
+
+            <a href="https://uncensoredhentai.ai/" class="pricing-btn" target="_blank">Go Ultimate</a>
+        </div>
+
+    </div>
+</section>
+
+<!-- ========================= PRICING SECTION CSS ========================= -->
+<style>
+    #pricing {
+        padding: 110px 0;
+        background: #090c16;
+        color: #fff;
+        text-align: center;
+    }
+
+    .pricing-title {
+        font-size: 2.8rem;
+        font-weight: 700;
+        margin-bottom: 12px;
+    }
+
+    .pricing-sub {
+        font-size: 1.2rem;
+        opacity: 0.75;
+        margin-bottom: 60px;
+    }
+
+    .pricing-container {
+        max-width: 1200px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 35px;
+        padding: 0 25px;
+    }
+
+    .pricing-card {
+        background: linear-gradient(to bottom right, #121826, #0d101b);
+        padding: 40px 30px;
+        border-radius: 22px;
+        border: 1px solid rgba(255,255,255,0.08);
+        position: relative;
+        transition: .3s ease;
+        box-shadow: 0 8px 25px rgba(0,0,0,0.35);
+    }
+
+    .pricing-card:hover {
+        transform: translateY(-6px);
+        box-shadow: 0 15px 40px rgba(155,44,255,0.25);
+    }
+
+    .pricing-card.popular {
+        border: 1px solid #9b2cff;
+        box-shadow: 0 0 20px rgba(155,44,255,0.35);
+    }
+
+    .badge {
+        background: #9b2cff;
+        font-size: 0.9rem;
+        padding: 6px 14px;
+        border-radius: 20px;
+        color: #fff;
+        position: absolute;
+        top: -12px;
+        left: 50%;
+        transform: translateX(-50%);
+        box-shadow: 0 0 12px rgba(155,44,255,0.5);
+    }
+
+    .pricing-card h3 {
+        font-size: 1.6rem;
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+
+    .price {
+        font-size: 2.4rem;
+        margin: 10px 0 30px;
+    }
+
+    .price span {
+        font-size: 1rem;
+        opacity: 0.6;
+    }
+
+    ul {
+        list-style: none;
+        text-align: left;
+        padding: 0;
+        margin-bottom: 35px;
+    }
+
+    ul li {
+        font-size: 0.95rem;
+        padding: 8px 0;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        opacity: 0.9;
+    }
+
+    ul li i {
+        font-size: 1.1rem;
+    }
+
+    .disabled {
+        opacity: 0.35;
+    }
+
+    .pricing-btn {
+        display: block;
+        padding: 12px 0;
+        width: 100%;
+        text-align: center;
+        border-radius: 12px;
+        background: #ffffff10;
+        color: #fff;
+        text-decoration: none;
+        font-size: 1.05rem;
+        font-weight: 600;
+        transition: .3s ease;
+    }
+
+    .pricing-btn:hover {
+        background: #ffffff20;
+    }
+
+    .pricing-btn.highlight {
+        background: linear-gradient(135deg, #ff00dc, #9b2cff);
+        box-shadow: 0 0 15px rgba(155,44,255,0.5);
+    }
+
+    .pricing-btn.highlight:hover {
+        transform: scale(1.05);
+        box-shadow: 0 0 25px rgba(255,0,180,0.7);
+    }
+</style>
+
+<!-- ========================= PRICING JS (FADE STAGGER) ========================= -->
+<script>
+    const pricingCards = document.querySelectorAll(".pricing-card");
+    pricingCards.forEach((card, i) => {
+        setTimeout(() => {
+            card.style.opacity = "1";
+            card.style.transform = "translateY(0)";
+        }, 200 * i);
+    });
+</script>
+
+
+
+
+<!-- ========================= FAQ SECTION ========================= -->
+<section id="faq-section">
+    <h2 class="faq-title fade-in">Frequently Asked Questions</h2>
+    <p class="faq-sub fade-in">Everything you need to know about our AI generator.</p>
+
+    <div class="faq-wrapper">
+
+        <!-- FAQ Item 1 -->
+        <div class="faq-item fade-in">
+            <div class="faq-question">
+                <span>Is the AI generator free to use?</span>
+                <i class="fa-solid fa-chevron-down"></i>
+            </div>
+            <div class="faq-answer">
+                Yes! You can generate images daily at no cost. For unlimited access, upgrade to PRO.
+            </div>
+        </div>
+
+        <!-- FAQ Item 2 -->
+        <div class="faq-item fade-in">
+            <div class="faq-question">
+                <span>Do I need an account to generate images?</span>
+                <i class="fa-solid fa-chevron-down"></i>
+            </div>
+            <div class="faq-answer">
+                No account required. You can use the generator completely anonymously without signing up.
+            </div>
+        </div>
+
+        <!-- FAQ Item 3 -->
+        <div class="faq-item fade-in">
+            <div class="faq-question">
+                <span>Is NSFW and hentai content allowed?</span>
+                <i class="fa-solid fa-chevron-down"></i>
+            </div>
+            <div class="faq-answer">
+                Yes, our platform supports NSFW anime, waifu, doujin-style and adult AI art generation.
+            </div>
+        </div>
+
+        <!-- FAQ Item 4 -->
+        <div class="faq-item fade-in">
+            <div class="faq-question">
+                <span>What image quality can I generate?</span>
+                <i class="fa-solid fa-chevron-down"></i>
+            </div>
+            <div class="faq-answer">
+                Free users get standard resolution. PRO users unlock HD, 4K upscaling and faster rendering.
+            </div>
+        </div>
+
+        <!-- FAQ Item 5 -->
+        <div class="faq-item fade-in">
+            <div class="faq-question">
+                <span>Is my privacy protected?</span>
+                <i class="fa-solid fa-chevron-down"></i>
+            </div>
+            <div class="faq-answer">
+                Absolutely. No tracking, no login, no stored prompts. Your data is fully private.
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- ========================= FAQ CSS ========================= -->
+<style>
+    #faq-section {
+        padding: 120px 0;
+        background: #0a0d16;
+        color: #fff;
+    }
+
+    .faq-title {
+        text-align: center;
+        font-size: 2.8rem;
+        font-weight: 800;
+        margin-bottom: 10px;
+    }
+
+    .faq-sub {
+        text-align: center;
+        font-size: 1.2rem;
+        opacity: 0.75;
+        margin-bottom: 60px;
+    }
+
+    .faq-wrapper {
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 0 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 18px;
+    }
+
+    .faq-item {
+        background: rgba(255,255,255,0.05);
+        border-radius: 18px;
+        padding: 20px 25px;
+        border: 1px solid rgba(255,255,255,0.08);
+        backdrop-filter: blur(12px);
+        transition: 0.3s ease;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .faq-item.open {
+        border: 1px solid #b151ff;
+        box-shadow: 0 0 25px rgba(155,44,255,0.25);
+    }
+
+    .faq-question {
+        font-size: 1.15rem;
+        font-weight: 600;
+        cursor: pointer;
+        user-select: none;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .faq-question i {
+        font-size: 1.1rem;
+        transition: 0.3s ease;
+        opacity: 0.8;
+    }
+
+    .faq-item.open .faq-question i {
+        transform: rotate(180deg);
+        opacity: 1;
+    }
+
+    .faq-answer {
+        max-height: 0;
+        overflow: hidden;
+        opacity: 0;
+        line-height: 1.5;
+        margin-top: 0;
+        transition: max-height 0.35s ease, opacity 0.35s ease, margin-top 0.35s ease;
+    }
+
+    .faq-item.open .faq-answer {
+        max-height: 200px;
+        opacity: 0.85;
+        margin-top: 14px;
+    }
+
+    /* Fade-in animation */
+    .fade-in {
+        opacity: 0;
+        transform: translateY(20px);
+        transition: opacity .8s ease, transform .8s ease;
+    }
+
+    .fade-visible {
+        opacity: 1 !important;
+        transform: translateY(0) !important;
+    }
+</style>
+
+<!-- ========================= FAQ JS ========================= -->
+<script>
+    // Scroll animation
+    const fadeFAQ = document.querySelectorAll(".fade-in");
+    const obsFAQ = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add("fade-visible");
+            }
+        });
+    }, { threshold: 0.2 });
+    fadeFAQ.forEach(el => obsFAQ.observe(el));
+
+    // Accordion interaction
+    const faqItems = document.querySelectorAll(".faq-item");
+    faqItems.forEach(item => {
+        item.querySelector(".faq-question").addEventListener("click", () => {
+            // Close others
+            faqItems.forEach(i => {
+                if (i !== item) i.classList.remove("open");
+            });
+            // Toggle current
+            item.classList.toggle("open");
+        });
+    });
+</script>
+
+<!-- ========================= DEMO PREVIEW SECTION ========================= -->
+<section id="demo-preview">
+    <div class="demo-wrapper fade-in">
+
+        <!-- LEFT CONTENT -->
+        <div class="demo-left">
+            <h2>Need to see it<br>to believe it?</h2>
+            <p>Claim your daily free credits and start generating immediately.</p>
+
+            <a href="https://uncensoredhentai.ai/" class="demo-btn" target="_blank">Get Started</a>
+        </div>
+
+        <!-- RIGHT DEMO IMAGE -->
+        <div class="demo-right">
+            <img src="banner.png" alt="Generator Demo">
+        </div>
+
+    </div>
+</section>
+
+<!-- ========================= DEMO PREVIEW CSS ========================= -->
+<style>
+    #demo-preview {
+        padding: 90px 0;
+        background: #080c18;
+        display: flex;
+        justify-content: center;
+    }
+
+    .demo-wrapper {
+        width: 92%;
+        max-width: 1400px;
+        background: linear-gradient(to bottom right, #0e1525, #0b0f1c);
+        border-radius: 26px;
+        padding: 60px;
+        display: flex;
+        gap: 50px;
+        align-items: center;
+        justify-content: space-between;
+        position: relative;
+        overflow: hidden;
+    }
+
+    /* Soft gradient glow at bottom */
+    .demo-wrapper::after {
+        content: "";
+        position: absolute;
+        bottom: -80px;
+        left: 0;
+        right: 0;
+        height: 200px;
+       
+        pointer-events: none;
+    }
+
+    /* LEFT SIDE */
+    .demo-left {
+        flex: 1;
+        color: #fff;
+    }
+
+    .demo-left h2 {
+        font-size: 2.8rem;
+        font-weight: 700;
+        margin-bottom: 18px;
+        line-height: 1.2;
+    }
+
+    .demo-left p {
+        font-size: 1.1rem;
+        opacity: 0.8;
+        margin-bottom: 32px;
+    }
+
+    .demo-btn {
+        display: inline-block;
+        padding: 14px 32px;
+        background: #fff;
+        color: #000;
+        border-radius: 12px;
+        font-size: 1.05rem;
+        font-weight: 600;
+        text-decoration: none;
+        transition: 0.25s ease;
+    }
+
+    .demo-btn:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 6px 20px rgba(255,255,255,0.3);
+    }
+
+    /* RIGHT SIDE */
+    .demo-right {
+        flex: 1;
+        display: flex;
+        justify-content: center;
+    }
+
+    .demo-right img {
+        width: 100%;
+        max-width: 500px;
+        border-radius: 20px;
+        box-shadow: 0 0 25px rgba(0,0,0,0.5);
+    }
+
+    /* Responsive */
+    @media (max-width: 1000px) {
+        .demo-wrapper {
+            flex-direction: column;
+            text-align: center;
+            padding: 50px 30px;
+        }
+
+        .demo-left h2 {
+            font-size: 2.3rem;
+        }
+
+        .demo-right img {
+            max-width: 430px;
+        }
+    }
+
+    @media (max-width: 600px) {
+        .demo-left h2 {
+            font-size: 1.9rem;
+        }
+    }
+</style>
+
+
+<!-- ========================= PREMIUM FOOTER ========================= -->
+<footer id="footer">
+    <div class="footer-container">
+
+        <!-- Column 1: Brand -->
+        <div class="footer-col">
+            <h4 class="footer-logo">HentaiAnime<span>.Video</span></h4>
+            <p class="footer-desc">
+                The fastest AI hentai & anime generator. Create HD waifus, 
+                NSFW art and anime characters instantly – no login needed.
+            </p>
+
+            <div class="footer-social">
+                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-discord"></i></a>
+                <a href="#"><i class="fa-brands fa-telegram"></i></a>
+            </div>
+        </div>
+
+        <!-- Column 2: Links -->
+        <div class="footer-col">
+            <h4>Tools</h4>
+            <ul>
+                <li><a href="#">AI Hentai Generator</a></li>
+                <li><a href="#">Waifu Creator</a></li>
+                <li><a href="#">AI Upscaler</a></li>
+                <li><a href="#">Face Swap</a></li>
+            </ul>
+        </div>
+
+        <!-- Column 3: Company -->
+        <div class="footer-col">
+            <h4>Company</h4>
+            <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Support</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="/blog" rel="nofollow" target="_blank">Roadmap</a></li>
+            </ul>
+        </div>
+
+        <!-- Column 4: Policies -->
+        <div class="footer-col">
+            <h4>Legal</h4>
+            <ul>
+                <li><a href="#">Terms of Service</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">DMCA</a></li>
+            </ul>
+        </div>
+
+    </div>
+
+    <!-- Bottom Bar -->
+    <div class="footer-bottom">
+        <p>© 2025 HentaiAnime.Video — All rights reserved.</p>
+    </div>
+</footer>
+
+<!-- ========================= FOOTER CSS ========================= -->
+<style>
+    #footer {
+        padding: 100px 0 40px;
+        background: #090c16;
+        color: #fff;
+        border-top: 1px solid rgba(255,255,255,0.08);
+    }
+
+    .footer-container {
+        max-width: 1300px;
+        margin: 0 auto;
+        padding: 0 25px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+        gap: 40px;
+    }
+
+    /* Logo */
+    .footer-logo {
+        font-size: 1.9rem;
+        font-weight: 800;
+    }
+    .footer-logo span {
+        color: #b86bff;
+        text-shadow: 0 0 12px rgba(155,44,255,0.5);
+    }
+
+    /* Description */
+    .footer-desc {
+        margin-top: 15px;
+        opacity: 0.75;
+        line-height: 1.5;
+        font-size: 0.95rem;
+        max-width: 300px;
+    }
+
+    /* Social Icons */
+    .footer-social {
+        margin-top: 22px;
+        display: flex;
+        gap: 14px;
+    }
+
+    .footer-social a {
+        color: #fff;
+        font-size: 1.3rem;
+        opacity: 0.8;
+        transition: 0.3s ease;
+    }
+
+    .footer-social a:hover {
+        opacity: 1;
+        transform: translateY(-3px);
+        color: #b86bff;
+        text-shadow: 0 0 12px rgba(155,44,255,0.6);
+    }
+
+    /* Columns */
+    .footer-col h4 {
+        font-size: 1.2rem;
+        font-weight: 700;
+        margin-bottom: 15px;
+    }
+
+    .footer-col ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    .footer-col ul li {
+        margin-bottom: 10px;
+    }
+
+    .footer-col ul li a {
+        color: #d5d5d5;
+        font-size: 0.95rem;
+        opacity: 0.8;
+        transition: 0.3s ease;
+        text-decoration: none;
+    }
+
+    .footer-col ul li a:hover {
+        opacity: 1;
+        color: #b86bff;
+        text-shadow: 0 0 12px rgba(155,44,255,0.5);
+    }
+
+    /* Bottom Bar */
+    .footer-bottom {
+        text-align: center;
+        margin-top: 60px;
+        padding-top: 25px;
+        border-top: 1px solid rgba(255,255,255,0.06);
+    }
+
+    .footer-bottom p {
+        opacity: 0.5;
+        font-size: 0.95rem;
+    }
+
+    /* Responsive */
+    @media (max-width: 600px) {
+        .footer-logo {
+            font-size: 1.7rem;
+        }
+    }
+</style>
+<script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/v3d52b47920f24c319d37e2661827c42b1787588026925" integrity="sha512-d9sL6GJLXn6fInD1+TVXhTcQOsmxeHfmHAvwGDIxp5TO+uo1fiWW7mHomMj4MLRlCsJDTqXzWLHJFFlPCEIj/A==" data-cf-beacon='{"version":"2024.11.0","token":"fce3228a14ba43ddaed76add22559e33","r":1}' crossorigin="anonymous"></script>

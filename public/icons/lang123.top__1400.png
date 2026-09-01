@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" href="/icon.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="keywords" content="TTS、在线文字转语音、有声小说配音、短视频配音、语音合成、广告配音、在线配音、配音软件、宣传片配音、课文朗读" />
+  <meta name="description" content="琅琅配音是一款卓越的智能文本转语音工具，提供语音合成服务。拥有全网最受欢迎的1100+AI主播，支持中文、英语、德语、法语等80多种语言，以及高兴、悲伤、兴奋等10多种情感风格" />
+  <meta name="referrer" content="never">
+  <title>琅琅配音--全网最高性价比的AI配音平台-配音神器/有声书配音/短视频配音/专业配音</title>
+  <script type="module" crossorigin src="/assets/js/index-1f15faa3.js"></script>
+  <link rel="modulepreload" crossorigin href="/assets/js/@vue-d5a30251.js">
+  <link rel="modulepreload" crossorigin href="/assets/js/lodash-es-21c98b27.js">
+  <link rel="modulepreload" crossorigin href="/assets/js/@element-plus-d5839dce.js">
+  <link rel="modulepreload" crossorigin href="/assets/js/@popperjs-c30c713b.js">
+  <link rel="modulepreload" crossorigin href="/assets/js/@ctrl-f8748455.js">
+  <link rel="modulepreload" crossorigin href="/assets/js/type-704b06cf.js">
+  <link rel="modulepreload" crossorigin href="/assets/js/es5-ext-9951aa5c.js">
+  <link rel="modulepreload" crossorigin href="/assets/js/d-488b2fb9.js">
+  <link rel="modulepreload" crossorigin href="/assets/js/dayjs-213c8b2a.js">
+  <link rel="modulepreload" crossorigin href="/assets/js/async-validator-dee29e8b.js">
+  <link rel="modulepreload" crossorigin href="/assets/js/memoize-one-297ddbcb.js">
+  <link rel="modulepreload" crossorigin href="/assets/js/escape-html-2a7ef7e6.js">
+  <link rel="modulepreload" crossorigin href="/assets/js/normalize-wheel-es-ed76fb12.js">
+  <link rel="modulepreload" crossorigin href="/assets/js/@floating-ui-d10d3e5d.js">
+  <link rel="modulepreload" crossorigin href="/assets/js/element-plus-1e908f98.js">
+  <link rel="modulepreload" crossorigin href="/assets/js/vue-router-ea2c444c.js">
+  <link rel="modulepreload" crossorigin href="/assets/js/@wangeditor-346d4d01.js">
+  <link rel="modulepreload" crossorigin href="/assets/js/pinia-12ecdfd5.js">
+  <link rel="modulepreload" crossorigin href="/assets/js/event-emitter-b914f999.js">
+  <link rel="modulepreload" crossorigin href="/assets/js/lodash.mergewith-161268c0.js">
+  <link rel="modulepreload" crossorigin href="/assets/js/lodash.throttle-918c4bec.js">
+  <link rel="modulepreload" crossorigin href="/assets/js/pinyin-pro-c6c11fe0.js">
+  <link rel="modulepreload" crossorigin href="/assets/js/pinyinize-044fbbca.js">
+  <link rel="modulepreload" crossorigin href="/assets/js/snabbdom-8ce4c3cb.js">
+  <link rel="modulepreload" crossorigin href="/assets/js/jszip-9f825aba.js">
+  <link rel="modulepreload" crossorigin href="/assets/js/@vueuse-f8d9d48d.js">
+  <link rel="modulepreload" crossorigin href="/assets/js/axios-82afda87.js">
+  <link rel="modulepreload" crossorigin href="/assets/js/highlight.js-d22fa2ca.js">
+  <link rel="modulepreload" crossorigin href="/assets/js/@highlightjs-58717512.js">
+  <link rel="modulepreload" crossorigin href="/assets/js/encode-utf8-f813de00.js">
+  <link rel="modulepreload" crossorigin href="/assets/js/dijkstrajs-f906a09e.js">
+  <link rel="modulepreload" crossorigin href="/assets/js/qrcode-9719fc56.js">
+  <link rel="modulepreload" crossorigin href="/assets/js/js-base64-9e35fe45.js">
+  <link rel="modulepreload" crossorigin href="/assets/js/is-plain-object-24dec1b5.js">
+  <link rel="modulepreload" crossorigin href="/assets/js/immer-0581798c.js">
+  <link rel="modulepreload" crossorigin href="/assets/js/slate-12396f8c.js">
+  <link rel="modulepreload" crossorigin href="/assets/js/xml-parser-xo-c9adcaa7.js">
+  <link rel="modulepreload" crossorigin href="/assets/js/xml-formatter-d82fef40.js">
+  <link rel="modulepreload" crossorigin href="/assets/js/xlsx-04f2268f.js">
+  <link rel="modulepreload" crossorigin href="/assets/js/@ffmpeg-f1e95d9a.js">
+  <link rel="modulepreload" crossorigin href="/assets/js/lazy-load-vue3-447fced3.js">
+  <link rel="stylesheet" href="/assets/css/element-plus-eca29ec9.css">
+  <link rel="stylesheet" href="/assets/css/@wangeditor-501cf061.css">
+  <link rel="stylesheet" href="/assets/css/highlight-b334430f.css">
+  <link rel="stylesheet" href="/assets/css/index-548cb6eb.css">
+</head>
+
+<body style="margin: 0;">
+  <div id="app"></div>
+  
+  <script async src="https://hm.baidu.com/hm.js?44cf498d40130fee71294647e6b285fe"
+    referrerpolicy="origin-when-cross-origin"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-YCKH99DYZ3');
+
+    const AudioContext = window.AudioContext || window.webkitAudioContext;
+    const audioCtx = new AudioContext();
+  </script>
+</body>
+
+</html>

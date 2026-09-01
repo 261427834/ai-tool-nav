@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="/oss-shutdown/r.fabrie.cn/files/64b25bcd140e4c5cc5b85994/6523fe02b6583cd63d80c192/logo-375.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fabrie Lite 本地版</title>
+    <script type="module" crossorigin src="/assets/index-gKDefPPu.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-DRVruE7X.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>

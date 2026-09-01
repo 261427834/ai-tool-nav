@@ -1,0 +1,232 @@
+[
+  {
+    "slug": "write",
+    "name": "AI写作工具",
+    "anchor": "term-17",
+    "icon": "feather",
+    "order": 1,
+    "count": 83,
+    "children": []
+  },
+  {
+    "slug": "paper",
+    "name": "AI论文工具",
+    "anchor": "term-42",
+    "icon": "file-text",
+    "order": 2,
+    "count": 15,
+    "children": []
+  },
+  {
+    "slug": "image",
+    "name": "AI图像工具",
+    "anchor": "term-16",
+    "icon": "images",
+    "order": 3,
+    "count": 140,
+    "children": [
+      {
+        "slug": "hot",
+        "name": "热门AI图像工具",
+        "anchor": "term-18",
+        "order": 1,
+        "count": 38
+      },
+      {
+        "slug": "generate",
+        "name": "AI图片生成工具",
+        "anchor": "term-19",
+        "order": 2,
+        "count": 41
+      },
+      {
+        "slug": "upscale",
+        "name": "AI图片无损放大",
+        "anchor": "term-20",
+        "order": 3,
+        "count": 15
+      },
+      {
+        "slug": "restore",
+        "name": "AI图片优化修复",
+        "anchor": "term-21",
+        "order": 4,
+        "count": 12
+      },
+      {
+        "slug": "bg-remove",
+        "name": "AI图片背景移除",
+        "anchor": "term-22",
+        "order": 5,
+        "count": 27
+      },
+      {
+        "slug": "erase",
+        "name": "AI图片物体抹除",
+        "anchor": "term-23",
+        "order": 6,
+        "count": 7
+      }
+    ]
+  },
+  {
+    "slug": "office",
+    "name": "AI办公工具",
+    "anchor": "term-10",
+    "icon": "briefcase",
+    "order": 4,
+    "count": 91,
+    "children": [
+      {
+        "slug": "ppt",
+        "name": "AI PPT生成",
+        "anchor": "term-24",
+        "order": 1,
+        "count": 25
+      },
+      {
+        "slug": "sheet",
+        "name": "AI表格处理",
+        "anchor": "term-25",
+        "order": 2,
+        "count": 12
+      },
+      {
+        "slug": "doc",
+        "name": "AI文档工具",
+        "anchor": "term-26",
+        "order": 3,
+        "count": 12
+      },
+      {
+        "slug": "mindmap",
+        "name": "AI思维导图",
+        "anchor": "term-27",
+        "order": 4,
+        "count": 11
+      },
+      {
+        "slug": "meeting",
+        "name": "AI会议工具",
+        "anchor": "term-28",
+        "order": 5,
+        "count": 8
+      },
+      {
+        "slug": "productivity",
+        "name": "AI效率提升",
+        "anchor": "term-29",
+        "order": 6,
+        "count": 23
+      }
+    ]
+  },
+  {
+    "slug": "code",
+    "name": "AI编程工具",
+    "anchor": "term-12",
+    "icon": "code",
+    "order": 5,
+    "count": 48,
+    "children": []
+  },
+  {
+    "slug": "design",
+    "name": "AI设计工具",
+    "anchor": "term-13",
+    "icon": "palette",
+    "order": 6,
+    "count": 55,
+    "children": []
+  },
+  {
+    "slug": "chat",
+    "name": "AI对话聊天",
+    "anchor": "term-11",
+    "icon": "message-circle",
+    "order": 7,
+    "count": 52,
+    "children": []
+  },
+  {
+    "slug": "video",
+    "name": "AI视频工具",
+    "anchor": "term-14",
+    "icon": "video",
+    "order": 8,
+    "count": 61,
+    "children": []
+  },
+  {
+    "slug": "audio",
+    "name": "AI音频工具",
+    "anchor": "term-15",
+    "icon": "music",
+    "order": 9,
+    "count": 53,
+    "children": []
+  },
+  {
+    "slug": "translate",
+    "name": "AI语言翻译",
+    "anchor": "term-9",
+    "icon": "languages",
+    "order": 10,
+    "count": 19,
+    "children": []
+  },
+  {
+    "slug": "learn",
+    "name": "AI学习网站",
+    "anchor": "term-5",
+    "icon": "graduation-cap",
+    "order": 11,
+    "count": 22,
+    "children": []
+  },
+  {
+    "slug": "agent",
+    "name": "AI智能体",
+    "anchor": "term-194",
+    "icon": "brain",
+    "order": 12,
+    "count": 1,
+    "children": []
+  },
+  {
+    "slug": "detect",
+    "name": "AI内容检测",
+    "anchor": "term-8",
+    "icon": "shield-check",
+    "order": 13,
+    "count": 20,
+    "children": []
+  },
+  {
+    "slug": "prompt",
+    "name": "AI提示指令",
+    "anchor": "term-7",
+    "icon": "lightbulb",
+    "order": 14,
+    "count": 28,
+    "children": []
+  },
+  {
+    "slug": "model",
+    "name": "AI训练模型",
+    "anchor": "term-6",
+    "icon": "cpu",
+    "order": 15,
+    "count": 41,
+    "children": []
+  },
+  {
+    "slug": "framework",
+    "name": "AI开发框架",
+    "anchor": "term-4",
+    "icon": "blocks",
+    "order": 16,
+    "count": 22,
+    "children": []
+  }
+]

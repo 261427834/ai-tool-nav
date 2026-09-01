@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" id="Favicon" href="">
+    <meta name="title" content="风车翻译-在线视频字幕制作与翻译软件-图片翻译">
+    <meta name="keywords" content="视频加字幕, 字幕制作, 字幕翻译, 在线翻译, 文本翻译, 图片翻译, 语音识别, 双语字幕">
+    <meta name="description"
+        content="风车翻译为您提供高效的视频加字幕、字幕制作和图片翻译、抠图服务。采用先进的语音识别技术，自动识别并转化视频中的人声为字幕。轻松制作中英、中日双语字幕，适用于自媒体搬运和外贸电商平台等多种场景，助力视频创作者提升内容质量。">
+    <title>风车翻译-在线视频字幕制作与翻译软件-图片翻译</title>
+    <link rel="stylesheet" href="/css/vipPanel.css">
+    <link rel="stylesheet" href="/css/common.css?file_edition=3.6">
+    <style>
+        .box1 {
+            height: 29.3333rem;
+            background-image: url('https://fanyi-1323968691.cos.ap-guangzhou.myqcloud.com/images/index_bg1.png');
+            background-repeat: no-repeat;
+            background-size: cover;
+            /* background-position: center center; */
+        }
+
+        .box1 .main_width {
+            padding-top: 5.5714rem;
+        }
+
+        .box1 .main_title {
+            font-size: 2.5238rem;
+            color: #fff;
+            font-weight: 600;
+            line-height: 3.5714rem;
+        }
+
+        .box1 .light_blur {
+            color: #B9FAFF;
+        }
+
+        .box1 .menu_text {
+            font-size: .9048rem;
+            color: rgba(255, 255, 255, 0.66);
+            margin: .7619rem 0 2.2381rem;
+        }
+
+        .box1 .use_btn {
+            width: 8.9048rem;
+            height: 2.8095rem;
+            background: linear-gradient(90deg, #1EFFED 0%, #4281FF 100%);
+            color: #fff;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+        }
+
+        .box2 {
+            height: 44rem;
+            background-image: url('https://fanyi-1323968691.cos.ap-guangzhou.myqcloud.com/images/index_bg2.png');
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .box2 .main_width {
+            position: relative;
+            padding-top: .0476rem;
+        }
+
+        .box2 .big_title {
+            font-size: 2.4286rem;
+            font-weight: 600;
+            text-align: center;
+            margin-top: 15.5714rem;
+            margin-bottom: 4.0476rem;
+        }
+
+        .box2 .card_list {
+            display: flex;
+            justify-content: space-between;
+            position: absolute;
+            width: 100%;
+            left: 0;
+            top: 0;
+            z-index: 10;
+        }
+
+        .box2 .card_item {
+            width: 17.1429rem;
+            height: 13.1905rem;
+            background: #FFFFFF;
+            border-radius: .619rem;
+            border: .1429rem solid #FFFFFF;
+            position: relative;
+            top: -1.0952rem;
+            transition: all .1s;
+        }
+
+        .box2 .card_item_active {
+            height: 15.381rem;
+            top: -3.2381rem;
+        }
+
+        .box2 .card_item .card_item_content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            position: relative;
+            top: -3.0952rem;
+        }
+
+        .box2 .jump_item {
+            display: none;
+            color: #0152D9;
+            font-size: .9048rem;
+            position: absolute;
+            width: 100%;
+            bottom: 0;
+            /* bottom: 1.5238rem; */
+            transition: all .1s;
+            cursor: pointer;
+        }
+
+        .box2 .jump_item>div {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .box2 .jump_item img {
+            width: 1.2857rem;
+            height: 1.2857rem;
+            margin-left: .5238rem;
+        }
+
+        .box2 .card_item .card_item_content>img {
+            width: 7.6667rem;
+            height: 7.6667rem;
+        }
+
+        .box2 .card_item .card_item_title {
+            font-size: 1.2857rem;
+            color: #181818;
+            margin-bottom: 1rem;
+        }
+
+        .box2 .card_item .card_item_text {
+            color: #4B5B76;
+            line-height: 1.5238rem;
+            text-align: center;
+            font-size: 1rem;
+        }
+
+
+
+        .box2 .tab_list {
+            display: flex;
+            justify-content: center;
+        }
+
+        .box2 .tab_item {
+            width: 7.8571rem;
+            height: 2.5238rem;
+            background: #FFFFFF;
+            margin-right: 5.0952rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+        }
+
+        .box2 .tab_item:hover {
+            color: #0152D9;
+        }
+
+        .box2 .tab_item:last-child {
+            margin-right: 0;
+        }
+
+        .box2 .tab_item_active {
+            background: #0152D9;
+            color: #fff;
+        }
+
+        .box2 .tab_item_active:hover {
+            color: #fff;
+        }
+
+        .tab_content {
+            width: 100%;
+            height: 21.6667rem;
+            position: relative;
+            bottom: 9.4286rem;
+        }
+
+        .tab_content .content_box {
+            margin-left: 7.619rem;
+            height: 100%;
+            /* background: #0152D9; */
+            background-image: url('https://fanyi-1323968691.cos.ap-guangzhou.myqcloud.com/images/index_bg4.png');
+            background-repeat: no-repeat;
+            background-size: cover;
+            padding: 5.0952rem 9.5238rem 3.7143rem 34.6667rem;
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .tab_content .pic {
+            position: absolute;
+            left: -7.619rem;
+            top: -2.1429rem;
+            width: 36.4286rem;
+            height: 20.0476rem;
+            z-index: 1;
+            border-radius: .381rem;
+        }
+
+        .tab_content .title {
+            font-size: 2.0476rem;
+            font-weight: 600;
+        }
+
+        .tab_content .text_item {
+            display: flex;
+            line-height: 1.5238rem;
+            margin-top: 1.5238rem;
+            flex: 1;
+        }
+
+        .tab_content .text_item::before {
+            display: block;
+            content: '';
+            width: .5238rem;
+            height: .5238rem;
+            background: #00FFFC;
+            margin-right: .5238rem;
+            border-radius: 50%;
+            flex-shrink: 0;
+            margin-top: .4762rem;
+        }
+
+        .tab_content .icon_btn {
+            width: 9.9524rem;
+            height: 3rem;
+            background: #FFFFFF;
+            color: #205FFF;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 1rem;
+            cursor: pointer;
+        }
+
+        .tab_content .icon_btn img {
+            width: 1rem;
+            height: 1rem;
+        }
+
+        .box3 {
+            height: 43.0952rem;
+            background-image: url('https://fanyi-1323968691.cos.ap-guangzhou.myqcloud.com/images/index_bg3.png');
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin-top: calc(4.1905rem - 9.4286rem);
+        }
+
+        .box3 .big_title {
+            font-size: 2.4286rem;
+            font-weight: 600;
+            text-align: center;
+            margin-bottom: 4.0476rem;
+        }
+
+        .box3 .card_list {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+        }
+
+        .box3 .content_box {
+            height: 27.0476rem;
+            /* background: #F1F5FB; */
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            padding: 3.1905rem 1.5238rem;
+        }
+
+        .box3 .card_item:nth-of-type(1) .content_box {
+            background-image: url("https://fanyi-1323968691.cos.ap-guangzhou.myqcloud.com/images/card_icon1.png");
+        }
+
+        .box3 .card_item:nth-of-type(2) .content_box {
+            background-image: url("https://fanyi-1323968691.cos.ap-guangzhou.myqcloud.com/images/card_icon2.png");
+        }
+
+        .box3 .card_item:nth-of-type(3) .content_box {
+            background-image: url("https://fanyi-1323968691.cos.ap-guangzhou.myqcloud.com/images/card_icon3.png");
+        }
+
+        .box3 .card_item:nth-of-type(4) .content_box {
+            background-image: url("https://fanyi-1323968691.cos.ap-guangzhou.myqcloud.com/images/card_icon4.png");
+        }
+
+        .box3 .card_item {
+            margin-right: .5714rem;
+        }
+
+        .box3 .title {
+            font-size: 1.2857rem;
+            margin-bottom: .9048rem;
+            font-weight: 600;
+        }
+
+        .box3 .desc {
+            color: #474C66;
+            line-height: 2.3333rem;
+        }
+
+        .box3 .jump_box {
+            height: 3.2857rem;
+            background: #fff;
+            padding: 0 1.5238rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            transition: all .1s;
+            cursor: pointer;
+        }
+
+        .box3 .jump_box:hover {
+            background: #205FFF;
+            color: #fff;
+        }
+
+        .box3 .jump_box img {
+            width: 1.2857rem;
+            height: 1.2857rem;
+        }
+
+        .box4 {
+            padding-bottom: 4.1429rem;
+        }
+
+        .box4 .big_title {
+            margin: 5.4762rem 0 3.0476rem;
+            font-size: 2.4286rem;
+            font-weight: 600;
+            text-align: center;
+        }
+
+        .box4 .card_list {
+            display: flex;
+        }
+
+        .box4 .card_item {
+            margin-right: 2.5238rem;
+            height: 16.3333rem;
+            background: linear-gradient(90deg, #E8F0FE 0%, #F7F8FF 100%);
+            padding: 2.5238rem 1.1905rem 0 2.0476rem;
+        }
+
+        .box4 .card_item:last-child {
+            margin-right: 0;
+        }
+
+        .box4 img {
+            width: 4.5714rem;
+            height: 4.5714rem;
+        }
+
+        .box4 .title {
+            margin: 1.5238rem 0 .7619rem;
+            font-size: 1.2857rem;
+            font-weight: 600;
+            line-height: 1.7619rem;
+        }
+
+        .box4 .desc {
+            color: #5C5D62;
+            font-size: .9048rem;
+            line-height: 1.2857rem;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- <include src="./public/header.html?file_edition=3.6"></include> -->
+    <header></header>
+
+    <section class="box1">
+        <div class="main_width">
+            <div class="main_title">风车翻译</div>
+            <div class="main_title light_blur">解决外贸出海翻译</div>
+            <div class="menu_text">
+                图片翻译｜视频翻译｜智能抠图｜去图片文字｜去视频字幕｜人工翻译
+            </div>
+            <div class="use_btn" onclick="toOtherPage('/imgTranslate.html')">
+                开始使用
+            </div>
+        </div>
+    </section>
+    <section class="box2">
+        <div class="main_width">
+            <div class="card_list">
+                <div class="card_item box2_item">
+                    <div class="card_item_content">
+                        <img src="https://fanyi-1323968691.cos.ap-guangzhou.myqcloud.com/images/index_icon1.png" alt="">
+                        <div class="card_item_title">视频翻译</div>
+                        <div class="card_item_text">
+                            去除视频硬字幕，替换为翻译<br />语种字幕。支持多种热门背景<br />音乐以及人声旁白合成
+                        </div>
+                    </div>
+                    <div class="jump_item">
+                        <div onclick="toOtherPage('/videoTranslate.html')">
+                            <p>立即体验</p>
+                            <img src="https://fanyi-1323968691.cos.ap-guangzhou.myqcloud.com/images/arrow_primary.svg"
+                                alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="card_item box2_item">
+                    <div class="card_item_content">
+                        <img src="https://fanyi-1323968691.cos.ap-guangzhou.myqcloud.com/images/index_icon2.png" alt="">
+                        <div class="card_item_title">图片翻译</div>
+                        <div class="card_item_text">
+                            支持网页版图片批量翻译和API<br />调用图片、文字水印轻松配置
+                        </div>
+                    </div>
+                    <div class="jump_item">
+                        <div onclick="toOtherPage('/imgTranslate.html')">
+                            <p>立即体验</p>
+                            <img src="https://fanyi-1323968691.cos.ap-guangzhou.myqcloud.com/images/arrow_primary.svg"
+                                alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="card_item box2_item">
+                    <div class="card_item_content">
+                        <img src="https://fanyi-1323968691.cos.ap-guangzhou.myqcloud.com/images/index_icon3.png" alt="">
+                        <div class="card_item_title">交互精修</div>
+                        <div class="card_item_text">
+                            简单易用的交互精修工具<br />拖拖拽拽即可做出精美素材<br>（图片+视频）
+                        </div>
+                    </div>
+                    <div class="jump_item">
+                        <div onclick="toOtherPage('/videoTranslate.html')">
+                            <p>立即体验</p>
+                            <img src="https://fanyi-1323968691.cos.ap-guangzhou.myqcloud.com/images/arrow_primary.svg"
+                                alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="card_item box2_item">
+                    <div class="card_item_content">
+                        <img src="https://fanyi-1323968691.cos.ap-guangzhou.myqcloud.com/images/index_icon4.png" alt="">
+                        <div class="card_item_title">文件翻译</div>
+                        <div class="card_item_text">
+                            一键翻译文档内容<br />方便快捷易操作
+                        </div>
+                    </div>
+                    <div class="jump_item">
+                        <div onclick="toOtherPage('/fileTranslate.html')">
+                            <p>立即体验</p>
+                            <img src="https://fanyi-1323968691.cos.ap-guangzhou.myqcloud.com/images/arrow_primary.svg"
+                                alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="big_title">
+                翻译—涉及到的行业
+            </div>
+            <div class="tab_list">
+                <div onclick="changeTab(0)" class="tab_item">跨境电商</div>
+                <div onclick="changeTab(1)" class="tab_item">医疗文献</div>
+                <div onclick="changeTab(2)" class="tab_item">行业研报</div>
+                <div onclick="changeTab(3)" class="tab_item">出境游学</div>
+            </div>
+        </div>
+    </section>
+    <div class="tab_content">
+        <img class="pic" id="tabPic" src="https://fanyi-1323968691.cos.ap-guangzhou.myqcloud.com/images/pic1.png"
+            alt="">
+        <div class="content_box">
+            <div class="title" id="tabTitle">行业研报·翻译</div>
+            <div class="text_item" id="tabContent">
+                为跨境电商平台提供产品图片上的文字翻译，确保信息准确传达给目标市场，提供视频内容的字幕翻译及配音，帮助品牌有效地与国际客户沟通。
+            </div>
+            <div class="icon_btn">
+                <p><a href="/imgTranslate.html">了解更多</a></p>
+                <img src="https://fanyi-1323968691.cos.ap-guangzhou.myqcloud.com/images/arrow_primary.svg" alt="">
+            </div>
+        </div>
+    </div>
+    <section class="box3">
+        <div class="main_width">
+            <div class="big_title">
+                翻译—涉及到的产品
+            </div>
+            <div class="card_list">
+                <div class="card_item">
+                    <div class="content_box">
+                        <div class="title">文本翻译</div>
+                        <div class="desc">
+                            致力于解决全场景语言障碍，多领 域适用，并对电商、医疗、社交领 域有专属优化，可快速实现一种语 言到另一种语言的自动翻译，覆盖 全球214种语言
+                        </div>
+                    </div>
+                    <div class="jump_box" onclick="toOtherPage('/imgTranslate.html')">
+                        <p>立即体验</p>
+                        <img src="https://fanyi-1323968691.cos.ap-guangzhou.myqcloud.com/images/arrow.svg" alt="">
+                    </div>
+                </div>
+                <div class="card_item">
+                    <div class="content_box">
+                        <div class="title">文档翻译</div>
+                        <div class="desc">提供几十种文档的自动解析、翻译 和排版布局，输入一篇文档，指定 语言方向，即可获得另一篇与源文 档排版布局保持一致的文档结果</div>
+                    </div>
+                    <div class="jump_box" onclick="toOtherPage('/imgTranslate.html')">
+                        <p>立即体验</p>
+                        <img src="https://fanyi-1323968691.cos.ap-guangzhou.myqcloud.com/images/arrow.svg" alt="">
+                    </div>
+                </div>
+                <div class="card_item">
+                    <div class="content_box">
+                        <div class="title">音视频翻译</div>
+                        <div class="desc">音视频翻译提供一站式的多语言字 幕转写、编辑和视频导出下载功能 支持导出多语言字幕和视频，满足 更多用户对于音视频翻译的需求</div>
+                    </div>
+                    <div class="jump_box" onclick="toOtherPage('/videoTranslate.html')">
+                        <p>立即体验</p>
+                        <img src="https://fanyi-1323968691.cos.ap-guangzhou.myqcloud.com/images/arrow.svg" alt="">
+                    </div>
+                </div>
+                <div class="card_item">
+                    <div class="content_box">
+                        <div class="title">人机协同翻译平台</div>
+                        <div class="desc">全云端的CAT，自动化项目管理，
+                            审议同步，支持文档、图片、音视
+                            频在线翻译，基于平台翻译数据可
+                            定制训练专属翻译模型，有效提升
+                            翻译质量</div>
+                    </div>
+                    <div class="jump_box" onclick="toOtherPage('/videoTranslate.html')">
+                        <p>立即体验</p>
+                        <img src="https://fanyi-1323968691.cos.ap-guangzhou.myqcloud.com/images/arrow.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="box4">
+        <div class="main_width">
+            <div class="big_title">
+                产品优势
+            </div>
+            <div class="card_list">
+                <div class="card_item">
+                    <img src="https://fanyi-1323968691.cos.ap-guangzhou.myqcloud.com/images/index_icon5.png" alt="">
+                    <div class="title">多语言互译</div>
+                    <div class="desc">
+                        覆盖全球214种语言，包含中、英、日、韩、西、俄、法、葡、德、泰、越等，支持任意两种语言互译</div>
+                </div>
+                <div class="card_item">
+                    <img src="https://fanyi-1323968691.cos.ap-guangzhou.myqcloud.com/images/index_icon6.png" alt="">
+                    <div class="title">稳定可靠服务</div>
+                    <div class="desc">
+                        服务可靠性达到99.9%，日均响应超过10亿次翻译请求；全球多机房部署；单机单句百毫秒级解码速度</div>
+                </div>
+                <div class="card_item">
+                    <img src="https://fanyi-1323968691.cos.ap-guangzhou.myqcloud.com/images/index_icon7.png" alt="">
+                    <div class="title">多领域翻译能力</div>
+                    <div class="desc">
+                        机器翻译在电商领域沉淀多年算法与产品，定制优化医疗、科技、金融、口语沟通等领域</div>
+                </div>
+                <div class="card_item">
+                    <img src="https://fanyi-1323968691.cos.ap-guangzhou.myqcloud.com/images/index_icon8.png" alt="">
+                    <div class="title">多模态产品</div>
+                    <div class="desc">
+                        覆盖文本、文档、图片、音频和视频模态，与文档解析、语音识别、图像识别相结合，满足多样化应用需求</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer></footer>
+    <!-- <include src="./public/footer.html?file_edition=3.6"></include> -->
+    
+    <include src="./public/notVIP.html?file_edition=3.6"></include>
+
+    <script src="/js/jQuery.js"></script>
+    <script src="/js/include.js"></script>
+    <script src="/js/common.js?file_edition=3.6"></script>
+    <script>
+        $(function () {
+            changeTab(0)
+        })
+        $('.jump_box').on('mouseenter', function () {
+            $(this).children('img').attr('src', 'https://fanyi-1323968691.cos.ap-guangzhou.myqcloud.com/images/arrow_white.svg')
+        })
+        $('.jump_box').on('mouseleave', function () {
+            $(this).children('img').attr('src', 'https://fanyi-1323968691.cos.ap-guangzhou.myqcloud.com/images/arrow.svg')
+        })
+        $('.box2_item').on('mouseenter', function () {
+            $(this).addClass('card_item_active')
+            $(this).children('.jump_item').css('display', 'block').animate({ bottom: "1.5238rem" }, 0, 'linear')
+        })
+        $('.box2_item').on('mouseleave', function () {
+            $(this).removeClass('card_item_active')
+            $(this).children('.jump_item').css('display', 'none').animate({ bottom: "0" }, 0, 'linear')
+        })
+        function changeTab(i) {
+            $('.tab_item').eq(i).addClass('tab_item_active').siblings().removeClass('tab_item_active')
+            let title = ""
+            let content = ""
+            if (i === 0) {
+                title = "跨境电商·翻译"
+                content = "为跨境电商平台提供产品图片上的文字翻译，确保信息准确传达给目标市场，提供视频内容的字幕翻译及配音，帮助品牌有效地与国际客户沟通。"
+            }
+            if (i === 1) {
+                title = "医疗文献·翻译"
+                content = "处理医学图表、研究结果等图片中的信息翻译，确保专业术语的准确性，翻译医疗讲座、培训视频等内容，以便向全球医疗从业者传播最新研究成果"
+            }
+            if (i === 2) {
+                title = "行业研报·翻译"
+                content = "针对行业研报中的数据图表、插图等进行专业翻译，保证信息的清晰理解，翻译行业会议、论坛等视频内容，帮助客户获取行业最新动态。"
+            }
+            if (i === 3) {
+                title = "出境游学·翻译"
+                content = "为出镜游学项目提供宣传材料和课程内容的图片翻译，吸引国际学生，翻译课程介绍、学生体验分享等视频，让更多人了解游学项目的优势和特色。"
+            }
+            $('#tabContent').text(content)
+            $('#tabTitle').text(title)
+            $('#tabPic').attr('src', 'https://fanyi-1323968691.cos.ap-guangzhou.myqcloud.com/images/pic' + (i + 1) + '.png')
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,155 @@
+<!doctype html><html lang="zh-cn"><head><script async src="https://www.googletagmanager.com/gtag/js?id=G-M5ZTSRB5VB"></script><script>window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-M5ZTSRB5VB', {
+        send_page_view: false  // SPA 自行控制 PV
+      })</script><meta charset="utf-8"/><meta http-equiv="pragma" content="no-cache"/><meta http-equiv="Cache-Control" content="no-cache, must-revalidate"/><meta http-equiv="expires" content="0"/><meta name="keywords" content="在线文字转语音、短视频配音、语音合成、配音网站、广告配音、在线配音、配音软件、童声配音、宣传片配音、课文朗读、课件配音、自定义语音通知、有声小说"/><meta name="description" content="魔音工坊是一款可以在线将文字转成语音的智能配音产品。提供不同性别、不同口音的真人声音，在你输入文字后直接配音。你可快速对短视频等需要配音的内容进行配音。是一款功能强大AI语音合成神器。"/><link rel="dns-prefetch" href="https://mobvoi-backend-meishe-public.mobvoi.com/"/><link rel="dns-prefetch" href="https://mobvoi-speech-public.mobvoi.com/"/><link rel="dns-prefetch" href="https://moyin-gateway.moyin.com"/><!--[if IE]><link rel="icon" href="/favicon.ico"/><![endif]--><title>魔音工坊--达人热推的短视频/有声书AI配音平台</title><link rel="stylesheet" href="https://tc-nj-backend-ms-pub-cdn.mobvoi.com/moyingongfang-prd/assets/iconfont/iconfont.css?v=mh44znr99q"/><script>var _hmt = _hmt || []
+      ;(function() {
+        /*  var hm = document.createElement('script')
+         hm.src = 'https://hm.baidu.com/hm.js?394be231bbbc7ce7256c84b1239e1e14'
+         var s = document.getElementsByTagName('script')[0]
+         s.parentNode.insertBefore(hm, s) */
+        let flag = navigator.userAgent.match(
+          /(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i
+        )
+
+        let isMinip = false
+        let ua = navigator.userAgent.toLowerCase()
+        if (
+          ua.indexOf('micromessenger') != -1 ||
+          ua.indexOf('miniProgram') != -1
+        ) {
+          isMinip = true
+        }
+        if (
+          flag &&
+          !isMinip &&
+          (location.href.indexOf('/sdkList') != -1 ||
+            location.href.indexOf('/commonList') != -1 ||
+            location.href.indexOf('/protocol') != -1 ||
+            location.href.indexOf('/privacy') != -1)
+        ) {
+          let meta = document.createElement('meta')
+          meta.id = 'viewport1'
+          meta.name = 'viewport'
+          meta.content =
+            'width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0'
+          document.getElementsByTagName('head')[0].appendChild(meta)
+        } else {
+          let meta = document.getElementById('viewport1')
+          if (meta) {
+            document.getElementsByTagName('head')[0].removeChild(meta)
+          }
+        }
+      })()</script><script>;(function(w, d, t, r, u) {
+        var f, n, i
+        ;(w[u] = w[u] || []),
+          (f = function() {
+            var o = {
+              ti: '187122487',
+              enableAutoSpaTracking: true
+            }
+            ;(o.q = w[u]), (w[u] = new UET(o)), w[u].push('pageLoad')
+          }),
+          (n = d.createElement(t)),
+          (n.src = r),
+          (n.async = 1),
+          (n.onload = n.onreadystatechange = function() {
+            var s = this.readyState
+            ;(s && s !== 'loaded' && s !== 'complete') ||
+              (f(), (n.onload = n.onreadystatechange = null))
+          }),
+          (i = d.getElementsByTagName(t)[0]),
+          i.parentNode.insertBefore(n, i)
+      })(window, document, 'script', '//bat.bing.com/bat.js', 'uetq')</script><script>;(function(b, a, e, h, f, c, g, s) {
+        b[h] =
+          b[h] ||
+          function() {
+            ;(b[h].c = b[h].c || []).push(arguments)
+          }
+        b[h].s = !!c
+        g = a.getElementsByTagName(e)[0]
+        s = a.createElement(e)
+        s.src = '//s.union.360.cn/' + f + '.js'
+        s.defer = !0
+        s.async = !0
+        g.parentNode.insertBefore(s, g)
+      })(window, document, 'script', '_qha', 559563, false)</script><script defer="defer" src="//tc-nj-backend-ms-pub-cdn.mobvoi.com/moyingongfang-prd/js/2026-08-07-06-57-11/chunk-vendors.46d7dfd18d92a2fb.js" crossorigin="anonymous"></script><script defer="defer" src="//tc-nj-backend-ms-pub-cdn.mobvoi.com/moyingongfang-prd/js/2026-08-07-06-57-11/chunk-common.46d7dfd18d92a2fb.js" crossorigin="anonymous"></script><script defer="defer" src="//tc-nj-backend-ms-pub-cdn.mobvoi.com/moyingongfang-prd/js/2026-08-07-06-57-11/index.46d7dfd18d92a2fb.js" crossorigin="anonymous"></script><link href="//tc-nj-backend-ms-pub-cdn.mobvoi.com/moyingongfang-prd/css/2026-08-07-06-57-11/chunk-vendors.46d7dfd18d92a2fb.css" rel="stylesheet" crossorigin="anonymous"><link href="//tc-nj-backend-ms-pub-cdn.mobvoi.com/moyingongfang-prd/css/2026-08-07-06-57-11/index.46d7dfd18d92a2fb.css" rel="stylesheet" crossorigin="anonymous"><link rel="icon" type="image/svg+xml" href="//tc-nj-backend-ms-pub-cdn.mobvoi.com/moyingongfang-prd/img/icons/favicon.svg"><link rel="icon" type="image/png" sizes="32x32" href="//tc-nj-backend-ms-pub-cdn.mobvoi.com/moyingongfang-prd/assets/manifest/img/icons/favicon.ico"><link rel="icon" type="image/png" sizes="16x16" href="//tc-nj-backend-ms-pub-cdn.mobvoi.com/moyingongfang-prd/assets/manifest/img/icons/favicon.ico"><link rel="manifest" href="https://www.moyin.com/assets/manifest/manifest.json?v=10"><meta name="theme-color" content="#4c89fe"><meta name="apple-mobile-web-app-capable" content="no"><meta name="apple-mobile-web-app-status-bar-style" content="default"><meta name="apple-mobile-web-app-title" content="魔音工坊"><link rel="apple-touch-icon" href="//tc-nj-backend-ms-pub-cdn.mobvoi.com/moyingongfang-prd/assets/manifest/img/icons/favicon.ico"><link rel="mask-icon" href="//tc-nj-backend-ms-pub-cdn.mobvoi.com/moyingongfang-prd/assets/manifest/img/icons/favicon.ico" color="#4c89fe"><meta name="msapplication-TileImage" content="//tc-nj-backend-ms-pub-cdn.mobvoi.com/moyingongfang-prd/assets/manifest/img/icons/favicon.ico"><meta name="msapplication-TileColor" content="#4c89fe"></head><body style="font-family: HarmonyOS_Sans_SC"><div id="app"></div></body><script>;(function(win, export_obj) {
+      win['LogAnalyticsObject'] = export_obj
+      if (!win[export_obj]) {
+        function _collect() {
+          _collect.q.push(arguments)
+        }
+        _collect.q = _collect.q || []
+        win[export_obj] = _collect
+      }
+      win[export_obj].l = +new Date()
+    })(window, 'collectEvent')</script><script crossorigin="anonymous" async src="https://lf3-data.volccdn.com/obj/data-static/log-sdk/collect/5.0/collect-rangers-v5.0.0.js"></script><script>var href = window.location.href
+    var HS_appId
+    if (href.includes('www.moyin.com')) {
+      HS_appId = 327126
+    } else {
+      HS_appId = 328975
+    }
+
+    function __getUrlKeyWord(keyWord) {
+      let keyAfter = location.href.split(`${keyWord}=`)[1]
+      let value = ''
+      if (keyAfter) {
+        value = keyAfter.split('&')[0]
+      }
+      return value
+    }
+    setTimeout(() => {
+      // 1.2 初始化SDK
+      // 定义一个全局函数 window.collectEvent，用来配置和发送事件。
+      window.collectEvent('init', {
+        app_id: HS_appId,
+        channel: 'cn', ////数据发送地址
+        log: false, // 开启调试日志
+        // enable_ab_test: false, // boolean类型，是否开启A/B实验功能
+        autotrack: false, //开启全埋点采集,默认关闭，需要热力图及圈选功能可开启
+        disable_sdk_monitor: true, // 禁止默认sdk的load事件&error事件
+        disable_session: true, // 禁止心跳检测
+        disable_tracer: true, // 禁止统计事件
+        spa: true,
+        enable_ab_test: true, // boolean类型，是否开启A/B实验功能
+        enable_ab_visual: true, // boolean类型，按需开启，默认关闭，是否开启A/B实验的可视化编辑模式功能
+        enable_multilink: false, //boolean类型，按需开启，默认关闭，是否开启A/B实验的多链接实验功能，默认为false
+        multilink_timeout_ms: 1000 //number类型，A/B实验的多链接实验中关闭遮罩层的时间，默认500毫秒
+      })
+      // 这里可以添加设置用户 id，自定义事件，设置公共属性的代码
+
+      let bd_vid, promotsource, promottype
+      let href = location.href
+      promottype = __getUrlKeyWord('promottype')
+      let bd_Obj = localStorage.getItem('bd_Obj')
+      if (promottype) {
+        promotsource = __getUrlKeyWord('promotsource')
+        bd_vid = __getUrlKeyWord('bd_vid')
+      } else if (
+        __getUrlKeyWord('channelCode') &&
+        href.indexOf('promottype') == -1 &&
+        href.indexOf('bd_vid') == -1 &&
+        href.indexOf('promotsource') == -1
+      ) {
+        promotsource = 'PC'
+        promottype = 'FENXIAO'
+      } else if (bd_Obj) {
+        ;({ bd_vid, promotsource, promottype } = JSON.parse(bd_Obj))
+      }
+      if (promottype) {
+        window.collectEvent('config', {
+          bd_vid,
+          promotsource,
+          promottype
+        })
+      }
+      window.collectEvent('config', {
+        ww_device_platform: 'web',
+        ww_device_platform_detail: 'pc'
+      })
+  
+      window.collectEvent('start') //通知 SDK 所有设置已经完备，可以真正开始发送事件了。
+    }, 10)</script></html>

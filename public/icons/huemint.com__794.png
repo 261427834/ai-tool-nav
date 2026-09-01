@@ -1,0 +1,2201 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<meta http-equiv="Content-Language" content="en">
+<meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" name="viewport">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-touch-fullscreen" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<title>Huemint - Color palette generator for brands, websites and graphics</title>
+<link rel="icon" href="/assets/img/logo-32.png" type="image/png" sizes="32x32">
+<link rel="icon" href="/assets/img/logo-16.png" type="image/png" sizes="16x16">
+<link rel="stylesheet" href="/assets/vendor/pace/pace.css">
+<script src="/assets/vendor/pace/pace.min.js"></script>
+<!--vendors-->
+<link rel="stylesheet" type="text/css" href="/assets/vendor/bootstrap-datepicker/css/bootstrap-datepicker3.min.css">
+<link rel="stylesheet" type="text/css" href="/assets/vendor/jquery-scrollbar/jquery.scrollbar.css">
+<link rel="stylesheet" href="/assets/vendor/select2/css/select2.min.css">
+<link rel="stylesheet" href="/assets/vendor/jquery-ui/jquery-ui.min.css">
+<link rel="stylesheet" href="/assets/vendor/daterangepicker/daterangepicker.css">
+<link rel="stylesheet" href="/assets/vendor/timepicker/bootstrap-timepicker.min.css">
+<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,600" rel="stylesheet">
+<!--Material Icons-->
+<link rel="stylesheet" type="text/css" href="/assets/fonts/materialdesignicons/materialdesignicons.min.css">
+<!--Material Icons-->
+<link rel="stylesheet" type="text/css" href="/assets/fonts/feather/feather-icons.css">
+<!--Bootstrap + atmos Admin CSS-->
+<link rel="stylesheet" type="text/css" href="/assets/css/atmos.min.css">
+<style>
+@media only screen and (max-width: 430px) {
+#tools-nav .mobile-menu{
+    position:fixed;
+    top: 62px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    border: 0;
+    margin: 0;
+    border-radius: 0;
+}
+}
+
+.admin-header .color-dropdown a.nav-link button:hover{
+    box-shadow: 0 3px 5px 0 rgb(0 0 0 / 35%);
+}
+</style>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-WNE8M0G9NB"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-WNE8M0G9NB');
+</script>
+
+</head>
+<body class="sidebar-pinned ">
+<aside class="admin-sidebar">
+    <div class="admin-sidebar-brand">
+        <!-- begin sidebar branding-->
+        <img class="admin-brand-logo" src="/assets/img/logo-icon.svg" width="36" height="36" alt="Huemint Icon">
+        <!-- end sidebar branding-->
+        <div class="ml-auto">
+            <!-- sidebar pin-->
+            <a href="#" class="admin-pin-sidebar btn-ghost btn btn-rounded-circle"></a>
+            <!-- sidebar close for mobile device-->
+            <a href="#" class="admin-close-sidebar"></a>
+        </div>
+    </div>
+    <div class="admin-sidebar-wrapper js-scrollbar">
+        <ul class="menu">
+            <li class="menu-item ">
+                <a href="#" class="open-dropdown menu-link">
+					<span class="menu-label">
+						<span class="menu-name">Brand
+							<span class="menu-arrow"></span>
+						</span>
+					</span>
+                    <span class="menu-icon">
+						 <i class="icon-placeholder fe fe-zap"></i>
+					</span>
+                </a>
+                <ul class="sub-menu" >
+                    <li class="menu-item ">
+                        <a href="/brand-1/" class="menu-link">
+                            <span class="menu-label">
+                                <span class="menu-name">1 Color</span>
+                            </span>
+                            <span class="menu-icon">
+                                <i class="icon-placeholder fe fe-zap"></i>
+                            </span>
+                        </a>
+                    </li>
+                    <li class="menu-item ">
+                        <a href="/brand-2/" class=" menu-link">
+                            <span class="menu-label">
+                                <span class="menu-name">2 Colors</span>
+                            </span>
+                            <span class="menu-icon">
+                                <i class="icon-placeholder fe fe-zap"></i>
+                            </span>
+                        </a>
+                    </li>
+                    <li class="menu-item ">
+                        <a href="/brand-3/" class=" menu-link">
+                            <span class="menu-label">
+                                <span class="menu-name">3 Colors</span>
+                            </span>
+                            <span class="menu-icon">
+                                <i class="icon-placeholder fe fe-zap"></i>
+                            </span>
+                        </a>
+                    </li>
+                    <li class="menu-item ">
+                        <a href="/brand-intersection/" class=" menu-link">
+                            <span class="menu-label">
+                                <span class="menu-name">Intersection</span>
+                            </span>
+                            <span class="menu-icon">
+                                <i class="icon-placeholder fe fe-zap"></i>
+                            </span>
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <li class="menu-item ">
+                <a href="#" class="open-dropdown menu-link">
+					<span class="menu-label">
+						<span class="menu-name">Website
+							<span class="menu-arrow"></span>
+						</span>
+					</span>
+                    <span class="menu-icon">
+						 <i class="icon-placeholder fe fe-compass"></i>
+					</span>
+                </a>
+                <ul class="sub-menu" >
+                    <li class="menu-item ">
+                        <a href="/website-magazine/" class="menu-link">
+                            <span class="menu-label">
+                                <span class="menu-name">Magazine</span>
+                            </span>
+                            <span class="menu-icon">
+                                <i class="icon-placeholder fe fe-compass"></i>
+                            </span>
+                        </a>
+                    </li>
+                    <li class="menu-item ">
+                        <a href="/website-monochrome/" class="menu-link">
+                            <span class="menu-label">
+                                <span class="menu-name">Monochrome</span>
+                            </span>
+                            <span class="menu-icon">
+                                <i class="icon-placeholder fe fe-compass"></i>
+                            </span>
+                        </a>
+                    </li>
+                    <li class="menu-item ">
+                        <a href="/website-1/" class="menu-link">
+                            <span class="menu-label">
+                                <span class="menu-name">1 Accent</span>
+                            </span>
+                            <span class="menu-icon">
+                                <i class="icon-placeholder fe fe-compass"></i>
+                            </span>
+                        </a>
+                    </li>
+                    <li class="menu-item ">
+                        <a href="/website-2/" class=" menu-link">
+                            <span class="menu-label">
+                                <span class="menu-name">2 Accents</span>
+                            </span>
+                            <span class="menu-icon">
+                                <i class="icon-placeholder fe fe-compass"></i>
+                            </span>
+                        </a>
+                    </li>
+                    <li class="menu-item ">
+                        <a href="/website-3/" class=" menu-link">
+                            <span class="menu-label">
+                                <span class="menu-name">3 Accents</span>
+                            </span>
+                            <span class="menu-icon">
+                                <i class="icon-placeholder fe fe-compass"></i>
+                            </span>
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <li class="menu-item ">
+                <a href="#" class="open-dropdown menu-link">
+					<span class="menu-label">
+						<span class="menu-name">Gradient
+							<span class="menu-arrow"></span>
+						</span>
+					</span>
+                    <span class="menu-icon">
+						 <i class="icon-placeholder mdi mdi-gradient"></i>
+					</span>
+                </a>
+                <ul class="sub-menu" >
+                    <li class="menu-item ">
+                        <a href="/gradient-2/" class=" menu-link">
+                            <span class="menu-label">
+                                <span class="menu-name">2 Colors</span>
+                            </span>
+                            <span class="menu-icon">
+                                <i class="icon-placeholder mdi mdi-gradient"></i>
+                            </span>
+                        </a>
+                    </li>
+                    <li class="menu-item ">
+                        <a href="/gradient-3/" class=" menu-link">
+                            <span class="menu-label">
+                                <span class="menu-name">3 Colors</span>
+                            </span>
+                            <span class="menu-icon">
+                                <i class="icon-placeholder mdi mdi-gradient"></i>
+                            </span>
+                        </a>
+                    </li>
+                    <li class="menu-item ">
+                        <a href="/gradient-4/" class=" menu-link">
+                            <span class="menu-label">
+                                <span class="menu-name">4 Colors</span>
+                            </span>
+                            <span class="menu-icon">
+                                <i class="icon-placeholder mdi mdi-gradient"></i>
+                            </span>
+                        </a>
+                    </li>
+                    <li class="menu-item ">
+                        <a href="/gradient-5/" class=" menu-link">
+                            <span class="menu-label">
+                                <span class="menu-name">5 Colors</span>
+                            </span>
+                            <span class="menu-icon">
+                                <i class="icon-placeholder mdi mdi-gradient"></i>
+                            </span>
+                        </a>
+                    </li>
+                    <li class="menu-item ">
+                        <a href="/gradient-6/" class=" menu-link">
+                            <span class="menu-label">
+                                <span class="menu-name">6 Colors</span>
+                            </span>
+                            <span class="menu-icon">
+                                <i class="icon-placeholder mdi mdi-gradient"></i>
+                            </span>
+                        </a>
+                    </li>
+                    <li class="menu-item ">
+                        <a href="/gradient-7/" class=" menu-link">
+                            <span class="menu-label">
+                                <span class="menu-name">7 Colors</span>
+                            </span>
+                            <span class="menu-icon">
+                                <i class="icon-placeholder mdi mdi-gradient"></i>
+                            </span>
+                        </a>
+                    </li>
+                    <li class="menu-item ">
+                        <a href="/gradient-8/" class=" menu-link">
+                            <span class="menu-label">
+                                <span class="menu-name">8 Colors</span>
+                            </span>
+                            <span class="menu-icon">
+                                <i class="icon-placeholder mdi mdi-gradient"></i>
+                            </span>
+                        </a>
+                    </li>
+                    <li class="menu-item ">
+                        <a href="/gradient-9/" class=" menu-link">
+                            <span class="menu-label">
+                                <span class="menu-name">9 Colors</span>
+                            </span>
+                            <span class="menu-icon">
+                                <i class="icon-placeholder mdi mdi-gradient"></i>
+                            </span>
+                        </a>
+                    </li>
+                    <li class="menu-item ">
+                        <a href="/gradient-10/" class=" menu-link">
+                            <span class="menu-label">
+                                <span class="menu-name">10 Colors</span>
+                            </span>
+                            <span class="menu-icon">
+                                <i class="icon-placeholder mdi mdi-gradient"></i>
+                            </span>
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <li class="menu-item ">
+                <a href="#" class="open-dropdown menu-link">
+					<span class="menu-label">
+						<span class="menu-name">Gradient + Background
+							<span class="menu-arrow"></span>
+						</span>
+					</span>
+                    <span class="menu-icon">
+						 <i class="icon-placeholder mdi mdi-gradient"></i>
+					</span>
+                </a>
+                <ul class="sub-menu" >
+                    <li class="menu-item ">
+                        <a href="/back-gradient-2/" class=" menu-link">
+                            <span class="menu-label">
+                                <span class="menu-name">2 Colors</span>
+                            </span>
+                            <span class="menu-icon">
+                                <i class="icon-placeholder mdi mdi-gradient"></i>
+                            </span>
+                        </a>
+                    </li>
+                    <li class="menu-item ">
+                        <a href="/back-gradient-3/" class=" menu-link">
+                            <span class="menu-label">
+                                <span class="menu-name">3 Colors</span>
+                            </span>
+                            <span class="menu-icon">
+                                <i class="icon-placeholder mdi mdi-gradient"></i>
+                            </span>
+                        </a>
+                    </li>
+                    <li class="menu-item ">
+                        <a href="/back-gradient-4/" class=" menu-link">
+                            <span class="menu-label">
+                                <span class="menu-name">4 Colors</span>
+                            </span>
+                            <span class="menu-icon">
+                                <i class="icon-placeholder mdi mdi-gradient"></i>
+                            </span>
+                        </a>
+                    </li>
+                    <li class="menu-item ">
+                        <a href="/back-gradient-5/" class=" menu-link">
+                            <span class="menu-label">
+                                <span class="menu-name">5 Colors</span>
+                            </span>
+                            <span class="menu-icon">
+                                <i class="icon-placeholder mdi mdi-gradient"></i>
+                            </span>
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <li class="menu-item ">
+                <a href="#" class="open-dropdown menu-link">
+					<span class="menu-label">
+						<span class="menu-name">Illustration
+							<span class="menu-arrow"></span>
+						</span>
+					</span>
+                    <span class="menu-icon">
+						 <i class="icon-placeholder mdi mdi-flower-tulip-outline"></i>
+					</span>
+                </a>
+                <ul class="sub-menu" >
+                    <li class="menu-item ">
+                        <a href="/illustration-1/" class=" menu-link">
+                            <span class="menu-label">
+                                <span class="menu-name">Illustration 1</span>
+                            </span>
+                            <span class="menu-icon">
+                                <i class="icon-placeholder mdi mdi-flower-tulip-outline"></i>
+                            </span>
+                        </a>
+                    </li>
+                    <li class="menu-item ">
+                        <a href="/illustration-2/" class=" menu-link">
+                            <span class="menu-label">
+                                <span class="menu-name">Illustration 2</span>
+                            </span>
+                            <span class="menu-icon">
+                                <i class="icon-placeholder mdi mdi-flower-tulip-outline"></i>
+                            </span>
+                        </a>
+                    </li>
+                    <li class="menu-item ">
+                        <a href="/illustration-3/" class=" menu-link">
+                            <span class="menu-label">
+                                <span class="menu-name">Illustration 3</span>
+                            </span>
+                            <span class="menu-icon">
+                                <i class="icon-placeholder mdi mdi-flower-tulip-outline"></i>
+                            </span>
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <li class="menu-item ">
+                <a href="#" class="open-dropdown menu-link">
+					<span class="menu-label">
+						<span class="menu-name">Bootstrap
+							<span class="menu-arrow"></span>
+						</span>
+					</span>
+                    <span class="menu-icon">
+						 <i class="icon-placeholder fe fe-code"></i>
+					</span>
+                </a>
+                <ul class="sub-menu" >
+                    <li class="menu-item ">
+                        <a href="/bootstrap-basic/" class=" menu-link">
+                            <span class="menu-label">
+                                <span class="menu-name">Basic</span>
+                            </span>
+                            <span class="menu-icon">
+                                <i class="icon-placeholder fe fe-code"></i>
+                            </span>
+                        </a>
+                    </li>
+                    <li class="menu-item ">
+                        <a href="/bootstrap-plus/" class=" menu-link">
+                            <span class="menu-label">
+                                <span class="menu-name">Plus</span>
+                            </span>
+                            <span class="menu-icon">
+                                <i class="icon-placeholder fe fe-code"></i>
+                            </span>
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <li class="menu-item ">
+                <a href="/upload/" class="menu-link">
+					<span class="menu-label">
+						<span class="menu-name">Upload image</span>
+					</span>
+                    <span class="menu-icon">
+						 <i class="icon-placeholder fe fe-upload"></i>
+					</span>
+                </a>
+            </li>
+            <li class="menu-item ">
+                <a href="/about/" class="menu-link">
+					<span class="menu-label">
+						<span class="menu-name">About</span>
+					</span>
+                    <span class="menu-icon">
+						 <i class="icon-placeholder mdi mdi-information-outline"></i>
+					</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+</aside>
+
+<main class="admin-main">
+<header class="admin-header" style="height: auto; padding: 6px 0">
+    <a href="#" class="sidebar-toggle" data-toggleclass="sidebar-open" data-target="body" style="position: fixed; top: 14px; left: 0;"> </a>
+    
+    
+    <nav class="ml-auto">       
+        
+        <ul class="nav align-items-center float-right" id="tools-nav">
+            <li class="nav-item divider d-none d-lg-block"></li>
+            
+                        <li class="nav-item">
+                <div class="dropdown">
+                    <a href="#" class="nav-link nav-config pl-2 pr-2 pl-sm-3 pr-sm-3" id="btn-link"> <i class="mdi mdi-24px mdi-link-variant"></i></a>
+                    <div class="dropdown-menu mobile-menu notification-container dropdown-menu-right shadow-lg" id="link-menu">
+                        <div class="d-flex p-all-15 bg-white justify-content-between border-bottom ">
+                            <span class="h6 m-0 p-t-5">Link to this page</span>
+                        </div>
+                        <div class="notification-events">
+                                                        <input type="text" class="form-control w-100" id="share-input" value="https://huemint.com/favicon.ico/#palette=ffffff-ffffff-ffffff" /> <a href="#" class="btn btn-primary m-t-10" id="share-copy">Copy Link</a>
+                        </div>
+
+                    </div>
+                </div>
+            </li>
+            
+            <li class="nav-item">
+                <div class="dropdown">
+                    <a href="#" class="nav-link nav-config pl-2 pr-2 pl-sm-3 pr-sm-3" id="btn-model"> <i class="mdi mdi-24px mdi-atom"></i></a>
+                    <div class="dropdown-menu mobile-menu notification-container dropdown-menu-right shadow-lg" id="model-menu">
+                        <div class="d-flex p-all-15 bg-white justify-content-between border-bottom ">
+                            <span class="h6 m-0 p-t-5">Generation options</span>
+                        </div>
+                        <div class="p-t-15 p-l-15 p-r-15 p-b-5">
+                            <div class="option-box w-100">
+                                <input id="radio-preset-transformer" name="radio-preset-transformer" type="radio" checked="checked">
+                                <label for="radio-preset-transformer" class="w-100">
+                                    <span class="radio-content float-left">
+                                        <span class="h6 d-block ml-1">Transformer <span class="ml-2 badge-soft-primary badge">AI</span></span>
+                                    </span>
+                                </label>
+                            </div>
+                            <div class="option-box w-100">
+                                <input id="radio-preset-diffusion" name="radio-preset-transformer" type="radio">
+                                <label for="radio-preset-diffusion" class="w-100">
+                                    <span class="radio-content float-left">
+                                        <span class="h6 d-block ml-1">Diffusion Model <span class="ml-2 badge-soft-primary badge">AI</span></span>
+                                    </span>
+                                </label>
+                            </div>
+                            <div class="option-box w-100">
+                                <input id="radio-preset-random" name="radio-preset-transformer" type="radio">
+                                <label for="radio-preset-random" class="w-100">
+                                    <span class="radio-content float-left">
+                                        <span class="h6 d-block ml-1">Random <span class="ml-2 badge-soft-primary badge">Creative</span></span>
+                                    </span>
+                                </label>
+                            </div>
+
+                            <div class="m-t-15">
+                                <span class="h6 d-block">Creativity <span class="badge-soft-primary badge" id="temperature-label">1.3</span>
+                                <input type="range" class="custom-range" min="0.0" value="1.3" max="2.4" step="0.02" id="temperature-range">
+                            </div>
+                            <small class="text-muted text-small d-block m-b-10">
+                                Higher creativity will result in more random and potentially creative results. Low temperature will result in more "average" or typical colors.
+                            </small>
+                        </div>
+
+                        </div>
+                    </div>
+                </div>
+            </li>
+
+            <li class="nav-item">
+                <div class="dropdown">
+                    <a href="#" class="nav-link nav-config pl-2 pr-2 pl-sm-3 pr-sm-3" id="btn-config"> <i class="mdi mdi-24px mdi-settings-outline"></i></a>                    <div class="dropdown-menu mobile-menu notification-container dropdown-menu-right shadow-lg" id="config-menu">
+                        <div class="p-t-15 p-l-15 p-r-15 p-b-5">
+                            <ul class="nav nav-pills nav-justified" id="config-tabs" role="tablist">
+                                                                <li class="nav-item">
+                                    <a class="nav-link nav-config active" id="preset-tab" data-toggle="tab" href="#pillpresets" role="tab" aria-controls="presets" aria-selected="true">Presets</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link nav-config" id="preset-2-tab" data-toggle="tab" href="#pillpresets-2" role="tab" aria-controls="presets-2" aria-selected="true">Simple</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link nav-config" id="advanced-tab" data-toggle="tab" href="#pilladvanced" role="tab" aria-controls="advanced" aria-selected="false">Advanced</a>
+                                </li>
+                                                            </ul>
+                            <div class="tab-content" id="config-tabs-content">
+                                                                <div class="tab-pane fade active show p-t-15" id="pillpresets" role="tabpanel" aria-labelledby="presets-tab">
+                                    <div class="option-box w-100">
+                                        <input id="radio-preset-default" name="radio-preset" type="radio" checked="checked">
+                                        <label for="radio-preset-default" class="w-100">
+                                            <span class="radio-content float-left">
+                                                <span class="h6 d-block ml-1">Default</span>
+                                            </span>
+                                        </label>
+                                    </div>
+                                    <div class="option-box w-100">
+                                        <input id="radio-preset-high-contrast" name="radio-preset" type="radio">
+                                        <label for="radio-preset-high-contrast" class="w-100">
+                                            <span class="radio-content float-left">
+                                                <span class="h6 d-block ml-1">High Contrast</span>
+                                            </span>
+                                            <span class="btn btn-rounded-circle float-right" style="background-color: #ffffff"><i class="mdi mdi-solid" style="color: #222222"></i></span>
+                                            <span class="btn btn-rounded-circle float-right m-r-10" style="background-color: #ffffff"><i class="mdi mdi-solid" style="color: #203AD3"></i></span>
+                                        </label>
+                                    </div>
+                                    <div class="option-box w-100">
+                                        <input id="radio-preset-bright-light" name="radio-preset" type="radio">
+                                        <label for="radio-preset-bright-light" class="w-100">
+                                            <span class="radio-content float-left">
+                                                <span class="h6 d-block ml-1">Bright &amp; Light</span>
+                                            </span>
+                                            <span class="btn btn-rounded-circle float-right" style="background-color: #FEFFFE"><i class="mdi mdi-solid" style="color: #6CC4FF"></i></span>
+                                            <span class="btn btn-rounded-circle float-right m-r-10" style="background-color: #FFFCFF"><i class="mdi mdi-solid" style="color: #FF92D8"></i></span>
+                                        </label>
+                                    </div>
+                                    <div class="option-box w-100">
+                                        <input id="radio-preset-pastel" name="radio-preset" type="radio">
+                                        <label for="radio-preset-pastel" class="w-100">
+                                            <span class="radio-content float-left">
+                                                <span class="h6 d-block ml-1">Pastel</span>
+                                            </span>
+                                            <span class="btn btn-rounded-circle float-right" style="background-color: #FFFFBA"><i class="mdi mdi-solid" style="color: #A9D6FF"></i></span>
+                                            <span class="btn btn-rounded-circle float-right m-r-10" style="background-color: #9FF7C3"><i class="mdi mdi-solid" style="color: #ffffff"></i></span>
+                                        </label>
+                                    </div>
+                                    <div class="option-box w-100">
+                                        <input id="radio-preset-vibrant" name="radio-preset" type="radio">
+                                        <label for="radio-preset-vibrant" class="w-100">
+                                            <span class="radio-content float-left">
+                                                <span class="h6 d-block ml-1">Vibrant</span>
+                                            </span>
+                                            <span class="btn btn-rounded-circle float-right" style="background-color: #ffffff"><i class="mdi mdi-solid" style="color: #24E271"></i></span>
+                                            <span class="btn btn-rounded-circle float-right m-r-10" style="background-color: #ffffff"><i class="mdi mdi-solid" style="color: #37A0EF"></i></span>
+                                        </label>
+                                    </div>
+                                    <div class="option-box w-100">
+                                        <input id="radio-preset-dark" name="radio-preset" type="radio">
+                                        <label for="radio-preset-dark" class="w-100">
+                                            <span class="radio-content float-left">
+                                                <span class="h6 d-block ml-1">Dark</span>
+                                            </span>
+                                            <span class="btn btn-rounded-circle float-right" style="background-color: #333333"><i class="mdi mdi-solid" style="color: #00ffd4"></i></span>
+                                            <span class="btn btn-rounded-circle float-right m-r-10" style="background-color: #333333"><i class="mdi mdi-solid" style="color: #FF3D1D"></i></span>
+                                        </label>
+                                    </div>
+                                    <div class="option-box w-100">
+                                        <input id="radio-preset-hyper-color" name="radio-preset" type="radio">
+                                        <label for="radio-preset-hyper-color" class="w-100">
+                                            <span class="radio-content float-left">
+                                                <span class="h6 d-block ml-1">Hyper Color</span>
+                                            </span>
+                                            <span class="btn btn-rounded-circle float-right" style="background-color: #242FFF"><i class="mdi mdi-solid" style="color: #FFFF00"></i></span>
+                                            <span class="btn btn-rounded-circle float-right m-r-10" style="background-color: #FFC200"><i class="mdi mdi-solid" style="color: #000000"></i></span>
+                                        </label>
+                                    </div>
+                                </div>
+                                
+                                <div class="tab-pane fade p-t-15" id="pillpresets-2" role="tabpanel" aria-labelledby="presets-2-tab">
+                                    <div class="row">
+                                        <div class="col-6" style="padding-right: 7px">
+                                            <div class="option-box w-100">
+                                                <input id="radio-preset-red" name="radio-preset" type="radio" data-hue="red">
+                                                <label for="radio-preset-red" class="w-100">
+                                                    <span class="radio-content float-left">
+                                                        <span class="h6 d-block ml-1">Red</span>
+                                                    </span>
+                                                    <span class="btn btn-rounded-circle float-right" style="background-color: #ffffff"><i class="mdi mdi-solid" style="color: #F42525"></i></span>
+                                                </label>
+                                            </div>
+                                            
+                                            <div class="option-box w-100">
+                                                <input id="radio-preset-yellow" name="radio-preset" type="radio" data-hue="yellow">
+                                                <label for="radio-preset-yellow" class="w-100">
+                                                    <span class="radio-content float-left">
+                                                        <span class="h6 d-block ml-1">Yellow</span>
+                                                    </span>
+                                                    <span class="btn btn-rounded-circle float-right" style="background-color: #ffffff"><i class="mdi mdi-solid" style="color: #EDED00"></i></span>
+                                                </label>
+                                            </div>
+                                            
+                                            <div class="option-box w-100">
+                                                <input id="radio-preset-cyan" name="radio-preset" type="radio" data-hue="cyan">
+                                                <label for="radio-preset-cyan" class="w-100">
+                                                    <span class="radio-content float-left">
+                                                        <span class="h6 d-block ml-1">Cyan</span>
+                                                    </span>
+                                                    <span class="btn btn-rounded-circle float-right" style="background-color: #ffffff"><i class="mdi mdi-solid" style="color: #14F2F2"></i></span>
+                                                </label>
+                                            </div>
+                                            
+                                            <div class="option-box w-100">
+                                                <input id="radio-preset-violet" name="radio-preset" type="radio" data-hue="violet">
+                                                <label for="radio-preset-violet" class="w-100">
+                                                    <span class="radio-content float-left">
+                                                        <span class="h6 d-block ml-1">Violet</span>
+                                                    </span>
+                                                    <span class="btn btn-rounded-circle float-right" style="background-color: #ffffff"><i class="mdi mdi-solid" style="color: #802DEA"></i></span>
+                                                </label>
+                                            </div>
+                                            
+                                        </div>
+                                        <div class="col-6" style="padding-left: 7px">
+                                            <div class="option-box w-100">
+                                                <input id="radio-preset-orange" name="radio-preset" type="radio" data-hue="orange">
+                                                <label for="radio-preset-orange" class="w-100">
+                                                    <span class="radio-content float-left">
+                                                        <span class="h6 d-block ml-1">Orange</span>
+                                                    </span>
+                                                    <span class="btn btn-rounded-circle float-right" style="background-color: #ffffff"><i class="mdi mdi-solid" style="color: #FF9906"></i></span>
+                                                </label>
+                                            </div>
+                                            
+                                            <div class="option-box w-100">
+                                                <input id="radio-preset-green" name="radio-preset" type="radio" data-hue="green">
+                                                <label for="radio-preset-green" class="w-100">
+                                                    <span class="radio-content float-left">
+                                                        <span class="h6 d-block ml-1">Green</span>
+                                                    </span>
+                                                    <span class="btn btn-rounded-circle float-right" style="background-color: #ffffff"><i class="mdi mdi-solid" style="color: #2FE21B"></i></span>
+                                                </label>
+                                            </div>
+                                            
+                                            <div class="option-box w-100">
+                                                <input id="radio-preset-blue" name="radio-preset" type="radio" data-hue="blue">
+                                                <label for="radio-preset-blue" class="w-100">
+                                                    <span class="radio-content float-left">
+                                                        <span class="h6 d-block ml-1">Blue</span>
+                                                    </span>
+                                                    <span class="btn btn-rounded-circle float-right" style="background-color: #ffffff"><i class="mdi mdi-solid" style="color: #347BF7"></i></span>
+                                                </label>
+                                            </div>
+                                            
+                                            <div class="option-box w-100">
+                                                <input id="radio-preset-pink" name="radio-preset" type="radio" data-hue="pink">
+                                                <label for="radio-preset-pink" class="w-100">
+                                                    <span class="radio-content float-left">
+                                                        <span class="h6 d-block ml-1">Pink</span>
+                                                    </span>
+                                                    <span class="btn btn-rounded-circle float-right" style="background-color: #ffffff"><i class="mdi mdi-solid" style="color: #F22FE4"></i></span>
+                                                </label>
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                                
+                                <div class="tab-pane fade p-all-15" id="pilladvanced" role="tabpanel" aria-labelledby="advanced-tab">
+                                    <div class="m-t-10">
+                                                                        <span class="h6 d-block">Target contrast <span class="badge-soft-primary badge">color graph</span></span>
+                                    <table class="table" id="contrast-matrix">
+                                    <tr><td></td><td>0</td><td>1</td><td>2</td></tr><tr><td>0</td><td></td><td><input type="number" id="matrix-0-1" name="matrix-0-1" value="0" min="0" max="100" style="width: 3em" /></td><td><input type="number" id="matrix-0-2" name="matrix-0-2" value="0" min="0" max="100" style="width: 3em" /></td></tr><tr><td>1</td><td></td><td></td><td><input type="number" id="matrix-1-2" name="matrix-1-2" value="0" min="0" max="100" style="width: 3em" /></td></tr><tr><td>2</td><td></td><td></td><td></td></tr>                                    </table>
+                                    <small class="text-muted text-small d-block m-b-10">
+                                        This matrix defines the desired contrast between each color in the palette. Enter a number between 0-100, where 0 = "any contrast", 1 = no contrast, 100 = maximum contrast (black/white).
+                                    </small>
+                                    <small class="text-muted text-small d-block m-b-10">
+                                    For example, to indicate that the first foreground color should have high contrast against the background, enter 80 in the row labelled 0 and the column labelled 1
+                                    </small>
+                                                                        </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="nav-item mr-1 mr-sm-2 ml-1 ml-sm-2">
+                <a href="#" class="btn btn-white disabled" id="btn-generate-back"><i class="mdi mdi-arrow-left"></i></a>
+            </li>
+            <li class="nav-item mr-2 mr-sm-3">
+                <a href="#" class="btn btn-dark" id="btn-generate"><span>Generate </span><i class="mdi mdi-arrow-right"></i></a>
+            </li>
+        </ul>
+        
+        <ul id="top-nav" class="nav align-items-center ml-4 ml-lg-5 pl-lg-5 float-right">
+                        <li class="nav-item dropdown color-dropdown">
+                <a class="nav-link p-l-10 p-r-10" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <button type="button" class="btn btn-rounded-circle btn-light border-0 bg-color-0"><i class="mdi mdi-lock text-color-1 invisible"></i></button>
+                </a>
+                <div class="dropdown-menu dropdown-menu-right">
+                    <a class="dropdown-item btn-color-lock" href="#"><i class="mdi mdi-lock mr-2"></i> <span>Lock</span></a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item btn-color-copy" href="#"><i class="mdi mdi-content-copy mr-2"></i> Copy code</a>
+                    <div class="dropdown-divider"></div>
+                    <!--<a class="dropdown-item btn-color-edit d-none d-xl-block" href="#"><label for="input-color-0"><i class="mdi mdi-pencil mr-2"></i> Edit</label></a>
+                    <div class="dropdown-divider d-none d-xl-block"></div>-->
+                    <input type="color" id="input-color-0" name="input-color-0" value="#ffffff" class="color m-l-10 m-t-30" style="position: relative; top: -2em" />
+                    <input type="text" id="input-color-hex-0" name="input-color-hex-0" value="#ffffff" class="form-control hex" style="margin:-1.5em auto 0 auto; width: 88%;" />
+                </div>
+            </li>
+                        <li class="nav-item dropdown color-dropdown">
+                <a class="nav-link p-l-10 p-r-10" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <button type="button" class="btn btn-rounded-circle btn-light border-0 bg-color-1"><i class="mdi mdi-lock text-color-0 invisible"></i></button>
+                </a>
+                <div class="dropdown-menu dropdown-menu-right">
+                    <a class="dropdown-item btn-color-lock" href="#"><i class="mdi mdi-lock mr-2"></i> <span>Lock</span></a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item btn-color-copy" href="#"><i class="mdi mdi-content-copy mr-2"></i> Copy code</a>
+                    <div class="dropdown-divider"></div>
+                    <!--<a class="dropdown-item btn-color-edit d-none d-xl-block" href="#"><label for="input-color-1"><i class="mdi mdi-pencil mr-2"></i> Edit</label></a>
+                    <div class="dropdown-divider d-none d-xl-block"></div>-->
+                    <input type="color" id="input-color-1" name="input-color-1" value="#ffffff" class="color m-l-10 m-t-30" style="position: relative; top: -2em" />
+                    <input type="text" id="input-color-hex-1" name="input-color-hex-1" value="#ffffff" class="form-control hex" style="margin:-1.5em auto 0 auto; width: 88%;" />
+                </div>
+            </li>
+                        <li class="nav-item dropdown color-dropdown">
+                <a class="nav-link p-l-10 p-r-10" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <button type="button" class="btn btn-rounded-circle btn-light border-0 bg-color-2"><i class="mdi mdi-lock text-color-0 invisible"></i></button>
+                </a>
+                <div class="dropdown-menu dropdown-menu-right">
+                    <a class="dropdown-item btn-color-lock" href="#"><i class="mdi mdi-lock mr-2"></i> <span>Lock</span></a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item btn-color-copy" href="#"><i class="mdi mdi-content-copy mr-2"></i> Copy code</a>
+                    <div class="dropdown-divider"></div>
+                    <!--<a class="dropdown-item btn-color-edit d-none d-xl-block" href="#"><label for="input-color-2"><i class="mdi mdi-pencil mr-2"></i> Edit</label></a>
+                    <div class="dropdown-divider d-none d-xl-block"></div>-->
+                    <input type="color" id="input-color-2" name="input-color-2" value="#ffffff" class="color m-l-10 m-t-30" style="position: relative; top: -2em" />
+                    <input type="text" id="input-color-hex-2" name="input-color-hex-2" value="#ffffff" class="form-control hex" style="margin:-1.5em auto 0 auto; width: 88%;" />
+                </div>
+            </li>
+                    </ul>
+    </nav>
+</header>
+
+
+
+</main>
+
+
+<script src="/assets/vendor/jquery/jquery.min.js"   ></script>
+<script src="/assets/vendor/jquery-ui/jquery-ui.min.js"   ></script>
+<script src="/assets/vendor/popper/popper.js"   ></script>
+<script src="/assets/vendor/bootstrap/js/bootstrap.min.js"   ></script>
+<script src="/assets/vendor/select2/js/select2.full.min.js"   ></script>
+<script src="/assets/vendor/jquery-scrollbar/jquery.scrollbar.min.js"   ></script>
+<script src="/assets/vendor/listjs/listjs.min.js"></script>
+<script src="/assets/vendor/moment/moment.min.js"></script>
+<script src="/assets/vendor/daterangepicker/daterangepicker.js"></script>
+<script src="/assets/vendor/bootstrap-datepicker/js/bootstrap-datepicker.min.js"></script>
+<script src="/assets/vendor/bootstrap-notify/bootstrap-notify.min.js"   ></script>
+<script src="/assets/js/atmos.min.js"></script>
+<script src="/assets/js/hsluv-0.1.0.min.js"></script>
+<!--page specific scripts for demo-->
+
+<!--Additional Page includes-->
+<script src="/assets/vendor/apexchart/apexcharts.min.js"></script>
+<!--chart data for current dashboard-->
+<script src="/assets/js/dashboard-01.js" ></script>
+
+<script type="text/javascript">
+
+var palette_num = 3;
+
+// utils
+_now = Date.now || function() {
+    return new Date().getTime();
+};
+
+_throttle = function(func, wait, options) {
+    var context, args, result;
+    var timeout = null;
+    var previous = 0;
+    if (!options) options = {};
+    var later = function() {
+      previous = options.leading === false ? 0 : _now();
+      timeout = null;
+      result = func.apply(context, args);
+      if (!timeout) context = args = null;
+    };
+    return function() {
+      var now = _now();
+      if (!previous && options.leading === false) previous = now;
+      var remaining = wait - (now - previous);
+      context = this;
+      args = arguments;
+      if (remaining <= 0 || remaining > wait) {
+        if (timeout) {
+          clearTimeout(timeout);
+          timeout = null;
+        }
+        previous = now;
+        result = func.apply(context, args);
+        if (!timeout) context = args = null;
+      } else if (!timeout && options.trailing !== false) {
+        timeout = setTimeout(later, remaining);
+      }
+      return result;
+    };
+};
+
+function shuffle_array(array) {
+    for (var i = array.length - 1; i > 0; i--) {
+        var j = Math.floor(Math.random() * (i + 1));
+        var temp = array[i];
+        array[i] = array[j];
+        array[j] = temp;
+    }
+}
+
+var palettes = [["#ffffff","#ffffff","#ffffff"]];
+var current_index = 0;
+
+var query_hash = window.location.hash.substr(1);
+
+if(query_hash.substr(0,8) == 'palette='){
+    var hex_codes = query_hash.substr(8).split('-');
+    var pal = [];
+    for(var i=0; i<hex_codes.length; i++){
+        var code = hex_codes[i].toLowerCase();
+        code = code.replace(/[^a-z0-9]/gi,'');
+        if(code){
+            pal.push('#'+code);
+        }
+    }
+    
+    palettes.unshift(pal);
+}
+
+function reset_palette(){
+    if(palettes.length > 0 && current_index >= 0){
+        palettes = palettes.slice(0, current_index+1)
+    }
+}
+
+function device_ratio(){
+    return window.devicePixelRatio || 1;
+}
+
+function hex_to_rgb(hex) {
+  var result = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(hex);
+  return result ? {
+    r: parseInt(result[1], 16),
+    g: parseInt(result[2], 16),
+    b: parseInt(result[3], 16)
+  } : null;
+}
+
+function check_webp_feature(feature, callback) {
+    var kTestImages = {
+        lossy: "UklGRiIAAABXRUJQVlA4IBYAAAAwAQCdASoBAAEADsD+JaQAA3AAAAAA",
+        lossless: "UklGRhoAAABXRUJQVlA4TA0AAAAvAAAAEAcQERGIiP4HAA==",
+        alpha: "UklGRkoAAABXRUJQVlA4WAoAAAAQAAAAAAAAAAAAQUxQSAwAAAARBxAR/Q9ERP8DAABWUDggGAAAABQBAJ0BKgEAAQAAAP4AAA3AAP7mtQAAAA==",
+        animation: "UklGRlIAAABXRUJQVlA4WAoAAAASAAAAAAAAAAAAQU5JTQYAAAD/////AABBTk1GJgAAAAAAAAAAAAAAAAAAAGQAAABWUDhMDQAAAC8AAAAQBxAREYiI/gcA"
+    };
+    var img = new Image();
+    img.onload = function () {
+        var result = (img.width > 0) && (img.height > 0);
+        callback(feature, result);
+    };
+    img.onerror = function () {
+        callback(feature, false);
+    };
+    img.src = "data:image/webp;base64," + kTestImages[feature];
+}
+
+function copy_to_clipboard(text) {
+   const elem = document.createElement('textarea');
+   elem.value = text;
+   document.body.appendChild(elem);
+   elem.select();
+   document.execCommand('copy');
+   document.body.removeChild(elem);
+}
+
+function is_hex_color(hex) {
+  return typeof hex === 'string'
+      && hex.length === 6
+      && !isNaN(Number('0x' + hex))
+}
+
+function apply_palette(pal){
+    for(var i=0; i<pal.length; i++){
+        $('.bg-color-'+i).css('background-color',pal[i]);
+        $('.text-color-'+i).css('color',pal[i]);
+        $('.fill-'+i).attr('fill',pal[i]);        
+        $('.hex-code-'+i).text(pal[i]);
+        $('.stop-'+i).attr('style','stop-color:'+pal[i]);
+        
+        var rgb = hex_to_rgb(pal[i]);
+        if(rgb){
+            var m = '0 0 0 0 '+(rgb.r/255)+'  0 0 0 0 '+(rgb.g/255)+'  0 0 0 0 '+(rgb.b/255)+'  0 0 0 1 0';
+            $('.filter-'+i).attr('values', m);
+        }
+    }
+    
+    // we don't have a way to generate green/yellow/red colors specifically, so generate them here heuristically
+    if(typeof generate_bootstrap != 'undefined'){
+        var green_hex = get_green_color(pal[3], pal.slice(3)); // mix with primary
+        var yellow_hex = get_yellow_color(pal[3], pal.slice(3));
+        var red_hex = get_red_color(pal[3], pal.slice(3));
+        
+        $('.bg-color-success').css('background-color',green_hex);
+        $('.bg-color-warning').css('background-color',yellow_hex);
+        $('.bg-color-danger').css('background-color',red_hex);
+        $('.text-color-success').css('color',green_hex);
+        $('.text-color-warning').css('color',yellow_hex);
+        $('.text-color-danger').css('color',red_hex);
+        $('.hex-code-success').text(green_hex);
+        $('.hex-code-warning').text(yellow_hex);
+        $('.hex-code-danger').text(red_hex);
+    }
+    
+    if(upload_image){
+        colorize_canvas(upload_image, $('#uploaded_image').get(0), upload_quant, pal);
+    }
+    
+    var pal_string = [];
+    for(var i=0; i<pal.length; i++){
+        pal_string.push(pal[i].substr(1));
+    }
+    $('#share-input').val('https://huemint.com/favicon.ico/#palette='+pal_string.join('-'));
+}
+
+var apply_palette_throttle = _throttle(apply_palette, 1000);
+
+function apply_palette_swatches(pal){
+    for(var i=0; i<pal.length; i++){
+        var input = $('.color-dropdown input.color').eq(i);
+        if(!$('.color-dropdown .nav-link i').eq(i).hasClass('visible')){
+            input.val(pal[i]);
+            $('.color-dropdown input.hex').eq(i).val(pal[i]);
+        }
+        else{
+            $('.color-dropdown .bg-color-'+i).css('background-color',input.val());
+            $('.color-dropdown .text-color-'+i).css('color',input.val());
+        }
+    }
+}
+
+function release_lock(){
+    $('.color-dropdown .btn-color-lock i').addClass('mdi-lock').removeClass('mdi-lock-open');
+    $('.color-dropdown .btn-color-lock span').text('Lock');
+    $('.color-dropdown .nav-link i').removeClass('visible').addClass('invisible');
+}
+
+function matrix_to_input(m){
+    for(var i=0; i<palette_num; i++){ // row
+        for(var j=0; j<palette_num; j++){ // col
+            if(j > i){
+                var index = i*palette_num + j;
+                $('input#matrix-'+i+'-'+j).val(m[index]);
+            }
+        }
+    }
+}
+
+function input_to_matrix(){
+    var m = [];
+    for(var i=0; i<palette_num; i++){ // row
+        for(var j=0; j<palette_num; j++){ // col
+            if(j > i){
+                m.push($('input#matrix-'+i+'-'+j).val());
+            }
+            else if(i > j){
+                m.push($('input#matrix-'+j+'-'+i).val());
+            }
+            else{
+                m.push(0);
+            }
+        }
+    }
+    
+    return m;
+}
+
+function random_vibrant_color(){
+    var h = 360*Math.random();
+    var l = 50;
+    if(h < 20){
+        l = 50;
+    }
+    else if(h < 30){
+        l = 65;
+    }
+    else if(h < 80){
+        l = 85;
+    }
+    else if(h < 210){
+        l = 80;
+    }
+    else if(h < 230){
+        l = 65;
+    }
+    else if(h < 260){
+        l = 55;
+    }
+    else if(h < 290){
+        l = 40;
+    }
+    else{
+        l = 50;
+    }
+    
+    return window.hsluv.hsluvToHex([h, 95+5*Math.random(), l]);
+}
+
+function random_pastel_color(){
+    var h = 360*Math.random();
+    var l = 50;
+    if(h < 30){
+        l = 80 + 10*Math.random();
+        s = 50 + 50*Math.random();
+    }
+    else if(h < 80){
+        l = 85 + 5*Math.random();
+        s = 70 + 30*Math.random();
+    }
+    else if(h < 230){
+        l = 85 + 10*Math.random();
+        s = 50 + 25*Math.random();
+    }
+    else if(h < 290){
+        l = 80 + 10*Math.random();
+        s = 80 + 20*Math.random();
+    }
+    else{
+        l = 80 + 10*Math.random();
+        s = 50 + 50*Math.random();
+    }
+    return window.hsluv.hsluvToHex([h, s, l]);
+}
+
+function random_dark_color(){
+    return window.hsluv.hsluvToHex([360*Math.random(), 100*Math.random(), 20*Math.random()]);
+}
+
+function get_green_color(overlay_hex, sample_palette){
+    var overlay_hsl = window.hsluv.hexToHsluv(overlay_hex);
+    
+    var max_saturation = 0;
+    var mean_lightness = 0;
+    for(var i=0; i<sample_palette.length; i++){
+        var sample = window.hsluv.hexToHsluv(sample_palette[i]);
+        if(sample[1] > max_saturation){
+            max_saturation = sample[1];
+        }
+        
+        mean_lightness += sample[2];
+    }
+    mean_lightness /= sample_palette.length;
+    mean_lightness -= 40;
+    mean_lightness *= 1.66;
+    if(mean_lightness < 0){
+        mean_lightness = 0;
+    }
+    
+    var l = 55 + 0.35*mean_lightness;
+    
+    max_saturation -= 50;
+    max_saturation *= 2;
+    if(max_saturation < 0){
+        max_saturation = 0;
+    }
+    
+    var s = 80 + 0.2*max_saturation;
+    
+    var h = 0.9*128+0.1*overlay_hsl[0];
+    
+    return window.hsluv.hsluvToHex([h, s, l]);
+}
+
+function get_yellow_color(overlay_hex, sample_palette){
+    var overlay_hsl = window.hsluv.hexToHsluv(overlay_hex);
+    
+    var max_saturation = 0;
+    var mean_lightness = 0;
+    for(var i=0; i<sample_palette.length; i++){
+        var sample = window.hsluv.hexToHsluv(sample_palette[i]);
+        if(sample[1] > max_saturation){
+            max_saturation = sample[1];
+        }
+        
+        mean_lightness += sample[2];
+    }
+    mean_lightness /= sample_palette.length;
+    mean_lightness -= 40;
+    mean_lightness *= 1.66;
+    if(mean_lightness < 0){
+        mean_lightness = 0;
+    }
+    
+    var l = 80 + 0.1*mean_lightness;
+    
+    max_saturation -= 50;
+    max_saturation *= 2;
+    if(max_saturation < 0){
+        max_saturation = 0;
+    }
+    
+    var s = 90 + 0.1*max_saturation;
+    
+    var h = 0.9*55+0.1*overlay_hsl[0];
+    
+    return window.hsluv.hsluvToHex([h, s, l]);
+}
+
+function get_red_color(overlay_hex, sample_palette){    
+    var max_saturation = 0;
+    var mean_lightness = 0;
+    for(var i=0; i<sample_palette.length; i++){
+        var sample = window.hsluv.hexToHsluv(sample_palette[i]);
+        if(sample[1] > max_saturation){
+            max_saturation = sample[1];
+        }
+        
+        mean_lightness += sample[2];
+    }
+    mean_lightness /= sample_palette.length;
+    mean_lightness -= 40;
+    mean_lightness *= 1.66;
+    if(mean_lightness < 0){
+        mean_lightness = 0;
+    }
+    
+    var l = 50 + 0.1*mean_lightness;
+    
+    max_saturation -= 50;
+    max_saturation *= 2;
+    if(max_saturation < 0){
+        max_saturation = 0;
+    }
+    
+    var s = 90 + 0.1*max_saturation;
+        
+    var overlay_hsl = window.hsluv.hexToHsluv(overlay_hex);
+    var h = 0;
+    if(overlay_hsl > 180){
+        h = 0.95*360 + 0.05*overlay_hsl[0];
+    }
+    else{
+        h = 0 + 0.05*overlay_hsl[0];
+    }
+    return window.hsluv.hsluvToHex([h, s, l]);
+}
+
+function random_hue(hue){
+    if(hue == 'red'){
+        var h = 25*Math.random() - 5;
+        if(h < 0){
+            h += 360;
+        }
+        return window.hsluv.hsluvToHex([h, 80+20*Math.random(), 45+10*Math.random()]);
+    }
+    else if(hue == 'orange'){
+        return window.hsluv.hsluvToHex([20+15*Math.random(), 95+5*Math.random(), 50+25*Math.random()]);
+    }
+    else if(hue == 'yellow'){
+        return window.hsluv.hsluvToHex([50+15*Math.random(), 95+5*Math.random(), 70+15*Math.random()]);
+    }
+    else if(hue == 'green'){
+        return window.hsluv.hsluvToHex([90+40*Math.random(), 80+20*Math.random(), 50+30*Math.random()]);
+    }
+    else if(hue == 'cyan'){
+        return window.hsluv.hsluvToHex([140+40*Math.random(), 95+5*Math.random(), 70+20*Math.random()]);
+    }
+    else if(hue == 'blue'){
+        return window.hsluv.hsluvToHex([185+85*Math.random(), 80+20*Math.random(), 30+25*Math.random()]);
+    }
+    else if(hue == 'violet'){
+        return window.hsluv.hsluvToHex([270+20*Math.random(), 90+10*Math.random(), 40+15*Math.random()]);
+    }
+    else if(hue == 'pink'){
+        return window.hsluv.hsluvToHex([295+65*Math.random(), 80+10*Math.random(), 50+20*Math.random()]);
+    }
+}
+
+if(typeof seed_pastel_indices == 'undefined'){
+    var seed_pastel_indices = [0];
+}
+
+if(typeof seed_vibrant_indices == 'undefined'){
+    var seed_vibrant_indices = [1];
+}
+
+if(typeof seed_hyper_color_indices == 'undefined'){
+    var seed_hyper_color_indices = [0];
+}
+
+if(typeof seed_dark_indices == 'undefined'){
+    var seed_dark_indices = [0];
+}
+
+function seed_pastel(num){
+    var colors = [];
+    for(var i=0; i<num; i++){
+        var pal = [];
+        for(var j=0; j<palette_num; j++){
+            pal.push('-');
+        }
+        for(j=0; j<seed_pastel_indices.length; j++){
+            pal[seed_pastel_indices[j]] = random_pastel_color();
+        }
+        
+        if(typeof window.generate_bootstrap != 'undefined'){
+            pal[1] = '#ffffff';
+        }
+        colors.push(pal);
+    }
+    
+    return colors;
+}
+
+function seed_vibrant(num){
+    var colors = [];
+    for(var i=0; i<num; i++){
+        var pal = [];
+        for(var j=0; j<palette_num; j++){
+            pal.push('-');
+        }
+        
+        for(j=0; j<seed_vibrant_indices.length; j++){
+            pal[seed_vibrant_indices[j]] = random_vibrant_color();
+        }
+        
+        if(typeof window.generate_bootstrap != 'undefined'){
+            pal[1] = '#ffffff';
+        }
+        
+        colors.push(pal);
+    }
+    return colors;
+}
+
+function seed_hyper_color(num){
+    var colors = [];
+    for(var i=0; i<num; i++){
+        var pal = [];
+        for(var j=0; j<palette_num; j++){
+            pal.push('-');
+        }
+        for(j=0; j<seed_hyper_color_indices.length; j++){
+            pal[seed_hyper_color_indices[j]] = random_vibrant_color();
+        }
+        
+        colors.push(pal);
+    }
+    return colors;
+}
+
+function seed_dark(num){
+    var colors = [];
+    for(var i=0; i<num; i++){
+        var pal = [];
+        for(var j=0; j<palette_num; j++){
+            pal.push('-');
+        }
+        for(j=0; j<seed_dark_indices.length; j++){
+            pal[seed_dark_indices[j]] = random_dark_color();
+        }
+        
+        if(typeof window.generate_bootstrap != 'undefined'){
+            pal[1] = '#ffffff';
+        }
+        
+        colors.push(pal);
+    }
+    return colors;
+}
+
+function seed_hue(hue, num){
+    var colors = [];
+    for(var i=0; i<num; i++){
+        var pal = [];
+        for(var j=0; j<palette_num-1; j++){
+            pal.push('-');
+        }
+        if(typeof window.seed_hue_indices == 'undefined'){
+            pal[0] = random_hue(hue);
+            shuffle_array(pal);
+            pal.unshift('-');
+        }
+        else{
+            pal.unshift('-');
+            for(var j=0; j<seed_hue_indices.length; j++){
+                pal[seed_hue_indices[j]] = random_hue(hue);
+            }
+        }
+        
+        if(typeof window.generate_bootstrap != 'undefined'){
+            pal[1] = '#ffffff';
+        }
+        
+        colors.push(pal);
+    }
+    return colors;
+}
+
+var image_widths = [5500, 5000, 4500, 4000, 3500, 3000, 2500, 2000, 1600, 1200, 1000, 900, 800, 700, 600, 500, 400];
+var webp_support = false;
+
+function init_images(){
+    $('#content svg image').each(function(){
+        
+        var svg_width = $(this).parent().get(0).clientWidth * device_ratio(); // real pixel width of svg
+        var transform_scale = 1;
+        if($(this).attr('transform')){
+            transform_scale = $(this).attr('transform').split(' ')[3]; // y axis scaling
+        }
+        var scale_factor = (transform_scale * $(this).attr('width'))/$(this).parent().attr('viewBox').split(' ')[2];
+        var width = svg_width*scale_factor; // real pixel width of image
+        var selected_width = 1600;
+        for(var i=0; i<image_widths.length-1; i++){
+            if(image_widths[i+1] < width){
+                selected_width = image_widths[i];
+                break;
+            }
+        }
+        
+        if(webp_support){
+            var url = '/assets/img/graphics/'+$(this).data('prefix')+'/webp/'+selected_width+'/'+$(this).data('filename')+'.webp';
+        }
+        else{
+            var url = '/assets/img/graphics/'+$(this).data('prefix')+'/png/'+selected_width+'/'+$(this).data('filename')+'.png';
+        }
+        
+        $(this).attr('xlink:href', url);
+    });
+}
+
+// for upload page
+var upload_image = false;
+var upload_num = 0;
+var upload_palette = false;
+var upload_matrix = false;
+var upload_quant = false;
+
+function handle_upload(){
+    if(upload_num < 2){
+        // first upload, heuristically determine number of colors
+        var quant = quantize(upload_image, 12);
+        
+        var ctx = quant.canvas.getContext('2d');
+        var imageData = ctx.getImageData(0, 0, quant.canvas.width, quant.canvas.height);
+        var pixels = imageData.data;
+        var pixelCount = pixels.length;
+
+        var pixels_out = ctx.getImageData(0,0,quant.canvas.width, quant.canvas.height).data;
+        
+        var sizes = []; // percent of image
+        for(var i=0; i<12; i++){
+            sizes.push(0);
+        }
+        
+        var pal = quant.palette;
+        
+        for (var i = 0, offset, r, g, b, a; i < pixelCount; i = i + 4) {
+            offset = i;
+            a = pixels[offset + 3];
+        
+            if (a >= 125) {
+                r = pixels[offset + 0];
+                g = pixels[offset + 1];
+                b = pixels[offset + 2];
+    
+                r_out = pixels_out[offset + 0];
+                g_out = pixels_out[offset + 1];
+                b_out = pixels_out[offset + 2];
+    
+                for(var j=0; j<pal.length; j++){
+                    if(r_out == pal[j][0] && g_out == pal[j][1] && b_out == pal[j][2]){
+                        sizes[j] += 1;
+                    }
+                }
+            }
+        }
+
+        for(var i=0; i<sizes.length; i++){
+            sizes[i] /= pixelCount;
+        }
+        
+        for(i=0; i<pal.length; i++){
+            if(sizes[i] > 0.0002){
+                upload_num = i+1;
+            }
+            else{
+                break;
+            }
+        }
+
+        quant = quantize(upload_image, upload_num);
+        upload_quant = quant;
+        
+        $('#upload_range_label').text(upload_num);
+        $('#upload_range').val(upload_num);
+        
+    }
+    else{
+        var quant = quantize(upload_image, upload_num);
+        upload_quant = quant;
+    }
+    
+    var can = $('#uploaded_image').get(0);
+    can.width = quant.canvas.width;
+    can.height = quant.canvas.height;
+    var ctx = can.getContext('2d');
+    var data = ctx.getImageData(0,0,can.width,can.height);
+    data.data.set(quant.data);
+    ctx.putImageData(data,0,0);
+    
+    palette_num = quant.palette.length;
+    
+    var conn = get_connectivity_matrix(quant.palette, quant.canvas, true);
+    for(var i=0; i<conn.length; i++){
+        for(var j=0; j<conn[i].length; j++){
+            if(i == j){
+                conn[i][j] = 0;
+            }
+            else if(conn[i][j] > 0.1){
+                conn[i][j] = Math.round(DeltaE.getDeltaE00(rgb2lab(quant.palette[i]),rgb2lab(quant.palette[j])));
+            }
+            else{
+                conn[i][j] = 0; // no connection
+            }
+        }
+    }
+    
+    upload_matrix = [];
+    for(i=0; i<conn.length; i++){
+        upload_matrix = upload_matrix.concat(conn[i]);
+    }
+    
+    var html = '';
+    for(var i=0; i<quant.palette.length; i++){
+        html += '<span class="btn btn-rounded-circle btn-light shadow mr-2" style="background-color: rgb('+quant.palette[i].join(',')+')">&nbsp;</span>';
+    }
+    
+    $('#upload_palette').html(html);
+    
+    html = '';
+    for(i=0; i<quant.palette.length; i++){
+        var foreground = 0;
+        if(i == 0){
+            foreground = 1;
+        }
+        html += '<li class="nav-item dropdown color-dropdown"><a class="nav-link p-l-10 p-r-10" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><button type="button" class="btn btn-rounded-circle btn-light border-0 bg-color-'+i+'" style="background-color: rgb('+quant.palette[i].join(',')+')"><i class="mdi mdi-lock text-color-'+foreground+' invisible"></i></button></a><div class="dropdown-menu dropdown-menu-right"><a class="dropdown-item btn-color-lock" href="#"><i class="mdi mdi-lock mr-2"></i> <span>Lock</span></a><div class="dropdown-divider"></div><a class="dropdown-item btn-color-copy" href="#"><i class="mdi mdi-content-copy mr-2"></i> Copy code</a><div class="dropdown-divider"></div><!--<a class="dropdown-item btn-color-edit" href="#"><label for="input-color-'+i+'"><i class="mdi mdi-pencil mr-2"></i> Edit</label></a><div class="dropdown-divider"></div>--><input type="color" id="input-color-'+i+'" name="input-color-'+i+'" value="'+rgb2hex(quant.palette[i])+'" class="color m-l-10 m-t-30" style="position: relative; top: -2em" /><input type="text" id="input-color-hex-'+i+'" name="input-color-hex-'+i+'" value="'+rgb2hex(quant.palette[i])+'" class="form-control hex" style="margin:-1.5em auto 0 auto; width: 88%;" /></div></li>'
+    }
+    
+    $('#top-nav .color-dropdown').remove();
+    $('#top-nav').prepend(html);
+    
+    reset_palette();
+}
+
+function rgb2hex(rgb) {
+  return "#" + ((1 << 24) + (rgb[0] << 16) + (rgb[1] << 8) + rgb[2]).toString(16).slice(1);
+}
+
+function hex2rgb(hex){
+  var result = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(hex);
+  return result ? [
+    parseInt(result[1], 16),
+    parseInt(result[2], 16),
+    parseInt(result[3], 16)
+  ] : null;
+}
+
+function rgb2lab(rgb){
+  var r = rgb[0] / 255,
+      g = rgb[1] / 255,
+      b = rgb[2] / 255,
+      x, y, z;
+
+  r = (r > 0.04045) ? Math.pow((r + 0.055) / 1.055, 2.4) : r / 12.92;
+  g = (g > 0.04045) ? Math.pow((g + 0.055) / 1.055, 2.4) : g / 12.92;
+  b = (b > 0.04045) ? Math.pow((b + 0.055) / 1.055, 2.4) : b / 12.92;
+
+  x = (r * 0.4124 + g * 0.3576 + b * 0.1805) / 0.95047;
+  y = (r * 0.2126 + g * 0.7152 + b * 0.0722) / 1.00000;
+  z = (r * 0.0193 + g * 0.1192 + b * 0.9505) / 1.08883;
+
+  x = (x > 0.008856) ? Math.pow(x, 1/3) : (7.787 * x) + 16/116;
+  y = (y > 0.008856) ? Math.pow(y, 1/3) : (7.787 * y) + 16/116;
+  z = (z > 0.008856) ? Math.pow(z, 1/3) : (7.787 * z) + 16/116;
+  return {L: (116 * y) - 16, A: 500 * (x - y), B: 200 * (y - z)}
+}
+
+function pixel_at(pixels, width, x, y){
+    var index = 4*(y*width+x);
+    return [pixels[index],pixels[index+1],pixels[index+2]];
+}
+
+function pequal(p1, p2){
+    if(p1[0] == p2[0] && p1[1] == p2[1] && p1[2] == p2[2]){
+        return true;
+    }
+
+    return false;
+}
+
+function pindex(palette, p){
+    for(var i=0; i<palette.length; i++){
+        if(palette[i][0] == p[0] && palette[i][1] == p[1] && palette[i][2] == p[2]){
+            return i;
+            break;
+        }
+    }
+    return 0;
+}
+
+function get_connectivity_matrix(palette, canvas, normalize){
+    var max_width = 800;
+    var max_height = 600;
+    
+    var ctx = canvas.getContext('2d');
+    var imageData = ctx.getImageData(0, 0, canvas.width, canvas.height);
+    var pixels = imageData.data;
+    var pixelCount = pixels.length;
+
+    var conn = [];
+    for(var i=0; i<palette.length; i++){
+        var p = [];
+        for(var j=0; j<palette.length; j++){
+            p.push(0);
+        }
+        conn.push(p);
+    }
+
+    for (var x=0; x<canvas.width-1; x++){
+        for (var y=0; y<canvas.height-1; y++){
+            var p1 = pixel_at(pixels, canvas.width, x, y);
+            var p2 = pixel_at(pixels, canvas.width, x+1, y);
+            var p3 = pixel_at(pixels, canvas.width, x+1, y+1);
+            var p4 = pixel_at(pixels, canvas.width, x, y+1);
+
+            if(!pequal(p1, p2)){
+                conn[pindex(palette,p1)][pindex(palette,p2)] += 1;
+                conn[pindex(palette,p2)][pindex(palette,p1)] += 1;
+            }
+            if(!pequal(p1, p3)){
+                conn[pindex(palette,p1)][pindex(palette,p3)] += 1;
+                conn[pindex(palette,p3)][pindex(palette,p1)] += 1;
+            }
+            if(!pequal(p1, p4)){
+                conn[pindex(palette,p1)][pindex(palette,p4)] += 1;
+                conn[pindex(palette,p4)][pindex(palette,p1)] += 1;
+            }
+            if(!pequal(p2, p3)){
+                conn[pindex(palette,p2)][pindex(palette,p3)] += 1;
+                conn[pindex(palette,p3)][pindex(palette,p2)] += 1;
+            }
+            if(!pequal(p2, p4)){
+                conn[pindex(palette,p2)][pindex(palette,p4)] += 1;
+                conn[pindex(palette,p4)][pindex(palette,p2)] += 1;
+            }
+            if(!pequal(p3, p4)){
+                conn[pindex(palette,p3)][pindex(palette,p4)] += 1;
+                conn[pindex(palette,p4)][pindex(palette,p3)] += 1;
+            }
+        }
+    }
+    
+    // normalize adjacency to perimeter
+    if(normalize){
+        var scale = 1;
+        if(canvas.width > max_width && max_width/canvas.width < scale){
+            scale = max_width/canvas.width;
+        }
+        if(canvas.height > max_height && max_height/canvas.height < scale){
+            scale = max_height/canvas.height;
+        }
+
+        var width = Math.floor(canvas.width*scale);
+        var height = Math.floor(canvas.height*scale);
+        var scalingfactor = 2*(width+height);
+
+        for(var i=0; i<conn.length; i++){
+            var row = conn[i];
+            for(var j=0; j<row.length; j++){
+                row[j] /= scalingfactor;
+            }
+        }
+    }
+    
+    return conn;
+}
+
+function mode(arr) {
+    var numMapping = {};
+    var greatestFreq = 0;
+    var mode;
+    arr.forEach(function(p) {
+        var key = Math.round(p[0]+1000*p[1]+1000000*p[2]);
+        numMapping[key] = (numMapping[key] || 0) + 1;
+
+        if (greatestFreq < numMapping[key]) {
+            greatestFreq = numMapping[key];
+            mode = p;
+        }
+    });
+    return mode;
+}
+
+// without this filter, antialiased edges will add noise to the color graph
+function filter_mode(canvas){
+    var ctx = canvas.getContext('2d');
+    var imageData = ctx.getImageData(0,0,canvas.width,canvas.height);
+    var pixels = imageData.data;
+    var pixelCount = pixels.length;
+    var x, y, m, n;
+
+    var newData = ctx.createImageData(canvas.width, canvas.height);
+    var newPixels = newData.data;
+    var ksize = 2;
+
+    for (x = 0; x < canvas.width; x++) {
+        for (y = 0; y < canvas.height; y++) {
+            var w = [];
+            // -1, 0, 1
+            for(m=-ksize; m<ksize; m++){
+                for(n=-ksize; n<ksize; n++){
+                    if(x+m < 0 || x+m >= canvas.width){
+                        continue;
+                    }
+                    if(y+n < 0 || y+n >= canvas.height){
+                        continue;
+                    }
+                    w.push(pixel_at(pixels,canvas.width,x+m,y+n));
+                }
+            }
+        
+            var mv = mode(w);
+            var i = y*canvas.width + x;
+            i *= 4;
+        
+            newPixels[i] = mv[0];
+            newPixels[i+1] = mv[1];
+            newPixels[i+2] = mv[2];
+            newPixels[i+3] = 255;
+        }
+    }
+    newData.data.set(newPixels);
+    ctx.putImageData(newData,0,0);
+}
+
+function quantize(img, numcolors){
+    if(numcolors < 2){
+        numcolors = 6;
+    }
+    var max_width = 800;
+    var max_height = 600;
+    
+    var can = document.createElement('canvas');
+    var scale = 1;
+    if(img.naturalWidth > max_width && max_width/img.naturalWidth < scale){
+        scale = max_width/img.naturalWidth;
+    }
+    if(img.naturalheight > max_height && max_height/img.naturalHeight < scale){
+        scale = max_height/img.naturalHeight;
+    }
+
+    var width = Math.floor(img.naturalWidth*scale);
+    var height = Math.floor(img.naturalHeight*scale);
+            
+    can.width = width;
+    can.height = height;
+
+    var ctx = can.getContext('2d');
+    ctx.drawImage(img, 0, 0, width, height);
+
+    var opts = {
+        colors: numcolors,
+        method: 2,
+        boxSize: [64,64],
+        boxPxls: 2,
+        initColors: 4096,
+        minHueCols: 256,
+        dithKern: null,
+        dithDelta: 0,
+        dithSerp: false,
+        palette: [],
+        reIndex: false,
+        useCache: true,
+        cacheFreq: 10,
+        colorDist: "euclidean"
+    };
+
+    var q = new RgbQuant(opts);
+    q.sample(can);
+    var pal = q.palette(true, true);
+    var out = q.reduce(can);
+
+    var can_out = document.createElement('canvas');
+    can_out.width = width;
+    can_out.height = height;
+    var ctx_out = can_out.getContext('2d');
+    var out_data = ctx_out.getImageData(0,0,width,height);
+    out_data.data.set(out);
+    ctx_out.putImageData(out_data,0,0);
+
+    filter_mode(can_out);
+    out_data = ctx_out.getImageData(0,0,width,height);
+            
+    var imageData = ctx.getImageData(0, 0, width, height);
+    var pixels = imageData.data;
+    var pixelCount = pixels.length;
+
+    var pixels_out = out_data.data;
+
+    return {palette: pal, data: out_data.data, canvas: can_out};
+}
+
+function colorize_canvas(img, can_out, quant, newpalette){
+    var rgb_palette = [];
+    for(var i=0; i < newpalette.length; i++){
+        rgb_palette.push(hex2rgb(newpalette[i]));
+    }
+    newpalette = rgb_palette;
+    
+    var pal = quant.palette;
+    var max_width = 800;
+    var max_height = 600;
+    
+    var scale = 1;
+    if(img.naturalWidth > max_width && max_width/img.naturalWidth < scale){
+        scale = max_width/img.naturalWidth;
+    }
+    if(img.naturalheight > max_height && max_height/img.naturalHeight < scale){
+        scale = max_height/img.naturalHeight;
+    }
+            
+    var width = Math.floor(img.naturalWidth*scale);
+    var height = Math.floor(img.naturalHeight*scale);
+
+    can_out.width = width;
+    can_out.height = height;
+
+    var ctx_out = can_out.getContext('2d');
+    var out_data = ctx_out.getImageData(0,0,width,height);
+    out_data.data.set(quant.data);
+    ctx_out.putImageData(out_data,0,0);
+
+    var ctx = quant.canvas.getContext('2d');
+    var imageData = ctx.getImageData(0, 0, width, height);
+    var pixels = imageData.data;
+    var pixelCount = pixels.length;
+
+    var pixels_out = out_data.data;
+    
+    for (var i = 0, offset, r, g, b, a; i < pixelCount; i = i + 4) {
+        offset = i;
+        var r_out = pixels_out[offset + 0];
+        var g_out = pixels_out[offset + 1];
+        var b_out = pixels_out[offset + 2];
+
+        for(var j=0; j<pal.length; j++){
+            if(r_out == pal[j][0] && g_out == pal[j][1] && b_out == pal[j][2]){
+                pixels_out[offset + 0] = newpalette[j][0];
+                pixels_out[offset + 1] = newpalette[j][1];
+                pixels_out[offset + 2] = newpalette[j][2];
+                break;
+            }
+        }
+    }
+
+    ctx_out.putImageData(out_data,0,0);
+    return can_out;
+}
+
+apply_palette(palettes[0]);
+apply_palette_swatches(palettes[0]);
+    
+$(document).ready(function(){
+    // load images dynamically
+    check_webp_feature('alpha', function(feature, result){
+        webp_support = result;
+        init_images();
+    });
+    
+    var resize_timer;
+
+    $(window).on('resize',_throttle(init_images, 1000));
+    
+    $('#top-nav').on('click tap', '.color-dropdown .btn-color-edit', function(e){
+       $(this).parent().find('input.color').trigger('click');
+       return false;
+    });
+    
+    $('#top-nav').on('input', '.color-dropdown input.color', function(){
+        var index = $('#top-nav .color-dropdown input.color').index(this);
+        if(palettes.length > 0 && current_index >=0 && current_index < palettes.length){
+            var new_color = $(this).val().toLowerCase();
+            if(palettes[current_index][index].toLowerCase() != new_color){
+                palettes[current_index][index] = new_color;
+                apply_palette_throttle(palettes[current_index]);
+                if($('.color-dropdown a.nav-link i').eq(index).hasClass('visible')){
+                    reset_palette();
+                }
+                $('.color-dropdown input.hex').eq(index).val(new_color);
+            }
+        }
+    });
+    
+    $('#top-nav').on('input', '.color-dropdown input.hex', function(){
+        var index = $('#top-nav .color-dropdown input.hex').index(this);
+        if(palettes.length > 0 && current_index >=0 && current_index < palettes.length){
+            var new_color = $(this).val().toLowerCase();
+            if(new_color.substring(0,1) != '#'){
+                new_color = '#'+new_color;
+            }
+            if(is_hex_color(new_color.replace('#','')) && palettes[current_index][index].toLowerCase() != new_color){
+                palettes[current_index][index] = new_color;
+                apply_palette(palettes[current_index]);
+                if($('.color-dropdown a.nav-link i').eq(index).hasClass('visible')){
+                    reset_palette();
+                }
+                $('.color-dropdown input.color').eq(index).val(new_color);
+            }
+        }
+    });
+    
+    $('#top-nav').on('click', '.color-dropdown .btn-color-lock', function(e){
+        var icon = $(this).find('i');
+        var icon_swatch = $(this).parent().parent().find('.nav-link i');
+        var text = $(this).find('span');
+        if(icon_swatch.hasClass('invisible')){
+            icon_swatch.addClass('visible').removeClass('invisible');
+            icon.addClass('mdi-lock-open').removeClass('mdi-lock');
+            text.text('Unlock');
+        }
+        else{
+            icon_swatch.addClass('invisible').removeClass('visible');
+            icon.addClass('mdi-lock').removeClass('mdi-lock-open');
+            text.text('Lock');
+        }
+        
+        reset_palette();
+        
+        e.preventDefault();
+    });
+    
+    $('#top-nav').on('click', '.color-dropdown .btn-color-copy', function(e){
+        var input = $(this).parent().parent().find('input');
+        copy_to_clipboard(input.val());
+        return false;
+    });
+    
+    $('#share-copy').on('click', function(e){
+        copy_to_clipboard($('#share-input').val());
+        return false;
+    });
+    
+    $('#btn-generate').click(function(){
+        if($(this).hasClass('disabled')){
+            return false;
+        }
+        if(palettes.length > 0 && current_index < palettes.length-1){
+            current_index++;
+            apply_palette(palettes[current_index]);
+            apply_palette_swatches(palettes[current_index]);
+            $('#btn-generate-back').removeClass('disabled');
+            return false;
+        }
+        $(this).addClass('disabled').find('i').removeClass('mdi-arrow-right').addClass('mdi-spin mdi-loading');
+        var self = $(this);
+        
+        var json_data = {
+            'num_colors' : palette_num,
+            'temperature':$('#temperature-range').val(),
+            'num_results': 50,
+            'adjacency': input_to_matrix(),
+        }
+        
+        if(upload_matrix){
+            json_data.adjacency = upload_matrix;
+        }
+        
+        var pal = [];
+        for(var i=0; i<palette_num; i++){
+            pal.push('-');
+        }
+        
+        var palette_multi = false;
+        
+        // apply generation constraints based on selected preset
+        if(typeof window.generate_bootstrap != 'undefined'){
+            pal[1] = '#ffffff';
+        }
+        
+        if($('#radio-preset-high-contrast').prop('checked') && !$('.color-dropdown .nav-link i').eq(0).hasClass('visible') && typeof window.generate_bootstrap == 'undefined'){
+            pal[0] = '#ffffff';
+        }
+        else if($('#radio-preset-pastel').prop('checked') && !$('.color-dropdown .nav-link i').eq(0).hasClass('visible')){
+            palette_multi = seed_pastel(10);
+        }
+        else if($('#radio-preset-vibrant').prop('checked') && !$('.color-dropdown .nav-link i').eq(1).hasClass('visible')){
+            palette_multi = seed_vibrant(10);
+        }
+        else if($('#radio-preset-hyper-color').prop('checked') && !$('.color-dropdown .nav-link i').eq(0).hasClass('visible')){
+            palette_multi = seed_hyper_color(10);
+        }
+        else if($('#pillpresets-2 input:checked').length > 0 && ($('.color-dropdown .nav-link i.visible').length == 0 || ($('.color-dropdown .nav-link i.visible').length == 1 && $('.color-dropdown .nav-link i').eq(0).hasClass('visible')))){
+            var hue = $('#pillpresets-2 input:checked').data('hue');
+            palette_multi = seed_hue(hue, 10);
+        }
+        else if($('#radio-preset-bright-light').prop('checked') && !$('.color-dropdown .nav-link i').eq(0).hasClass('visible') && typeof window.generate_bootstrap == 'undefined'){
+            pal[0] = '#ffffff';
+        }
+        else if($('#radio-preset-dark').prop('checked') && !$('.color-dropdown .nav-link i').eq(0).hasClass('visible')){
+            palette_multi = seed_dark(10);
+        }
+        
+        if($('.color-dropdown .nav-link i.visible').length > 0){
+            $('.color-dropdown .nav-link i').each(function(index){
+                if($(this).hasClass('visible')){
+                    var v = $('.color-dropdown input.color').eq(index).val();
+                    pal[index] = v;
+                    if(palette_multi){
+                        for(var i=0; i<palette_multi.length; i++){
+                            palette_multi[i][index] = v;
+                        }
+                    }
+                }
+            });
+        }
+
+        json_data.palette = pal;
+        json_data.mode = 'transformer';
+        if($('#radio-preset-random').prop('checked')){
+            json_data.mode = 'random';
+        }
+        else if($('#radio-preset-diffusion').prop('checked')){
+            json_data.mode = 'diffusion';
+        }
+        
+        if(palette_multi){
+            json_data.palette_multi = palette_multi;
+        }
+        
+        json_data.page = 'favicon.ico';
+        if(!$('.color-dropdown .nav-link i').hasClass('visible')){
+            json_data.preset = 'default';
+            if($('#radio-preset-high-contrast').prop('checked')){
+                json_data.preset = 'high-contrast';
+            }
+            else if($('#radio-preset-bright-light').prop('checked')){
+                json_data.preset = 'bright-light';
+            }
+            else if($('#radio-preset-pastel').prop('checked')){
+                json_data.preset = 'pastel';
+            }
+            else if($('#radio-preset-vibrant').prop('checked')){
+                json_data.preset = 'vibrant';
+            }
+            else if($('#radio-preset-dark').prop('checked')){
+                json_data.preset = 'dark';
+            }
+            else if($('#radio-preset-hyper-color').prop('checked')){
+                json_data.preset = 'hyper-color';
+            }
+            else if($('#radio-preset-red').prop('checked')){
+                json_data.preset = 'red';
+            }
+            else if($('#radio-preset-orange').prop('checked')){
+                json_data.preset = 'orange';
+            }
+            else if($('#radio-preset-yellow').prop('checked')){
+                json_data.preset = 'yellow';
+            }
+            else if($('#radio-preset-green').prop('checked')){
+                json_data.preset = 'green';
+            }
+            else if($('#radio-preset-cyan').prop('checked')){
+                json_data.preset = 'cyan';
+            }
+            else if($('#radio-preset-blue').prop('checked')){
+                json_data.preset = 'blue';
+            }
+            else if($('#radio-preset-violet').prop('checked')){
+                json_data.preset = 'violet';
+            }
+            else if($('#radio-preset-red').prop('checked')){
+                json_data.preset = 'pink';
+            }
+        }
+        
+        $.ajax({
+            type: "post",
+            url: "/api/",
+            data: JSON.stringify(json_data),
+            contentType: "application/json; charset=utf-8",
+            dataType: "json",
+            success:function(result){
+                // success
+                var results = result.results;
+                shuffle_array(results);
+                for(var i=0; i<results.length; i++){
+                    palettes.push(results[i].palette);
+                }
+                
+                if(result && result.results && result.results.length > 0){
+                    current_index++;
+                    $('#btn-generate-back').removeClass('disabled');
+                }
+                else{
+                    current_index = 0;
+                    $('#btn-generate-back').addClass('disabled');
+                }
+                apply_palette(palettes[current_index]);
+                apply_palette_swatches(palettes[current_index]);
+            },
+            error: function(result){
+                console.error(result);
+            },
+            complete: function(){
+                self.removeClass('disabled').find('i').removeClass('mdi-spin mdi-loading').addClass('mdi-arrow-right');
+            }
+        });
+        
+        return false;
+    });
+    
+    $('#btn-generate-back').click(function(){
+        if($(this).hasClass('disabled') || current_index < 1){
+            return false;
+        }
+        
+        current_index--;
+        apply_palette(palettes[current_index]);
+        apply_palette_swatches(palettes[current_index]);
+        
+        if(current_index < 1){
+            $(this).addClass('disabled');
+        }
+        
+        return false;
+    });
+    
+    $('#btn-config').click(function(e){
+        if($('#config-menu').hasClass('show')){
+            $('#config-menu').removeClass('show');
+        }
+        else{
+            $('.dropdown-menu').removeClass('show');
+            $('#config-menu').addClass('show');
+        }
+        return false;
+    });
+    
+    $('#btn-link').click(function(e){
+        if($('#link-menu').hasClass('show')){
+            $('#link-menu').removeClass('show');
+        }
+        else{
+            $('.dropdown-menu').removeClass('show');
+            $('#link-menu').addClass('show');
+        }
+        return false;
+    });
+    
+    $('#btn-model').click(function(e){
+        if($('#model-menu').hasClass('show')){
+            $('#model-menu').removeClass('show');
+        }
+        else{
+            $('.dropdown-menu').removeClass('show');
+            $('#model-menu').addClass('show');
+        }
+        return false;
+    });
+    
+    $('#content, .admin-sidebar, nav li a:not(.nav-config)').click(function(e){
+        $('#config-menu, #link-menu, #model-menu').removeClass('show');
+    });
+    
+    $('#temperature-range').on('input',function(){
+        $('#temperature-label').text($(this).val());
+        reset_palette();
+    });
+    
+    if(typeof matrix_default != 'undefined'){
+        matrix_to_input(matrix_default);
+    }
+    $('#model-menu input:radio').change(function(){
+        reset_palette();
+    });
+    
+    $('#config-menu input:radio').change(function(){
+        //release_lock(); // presets are incompatible with locked colors
+        reset_palette();
+        var id = $(this).prop('id');
+
+        if(id == 'radio-preset-default'){
+            matrix_to_input(matrix_default);
+        }
+        else if(id == 'radio-preset-high-contrast'){
+            matrix_to_input(matrix_high_contrast);
+        }
+        else if(id == 'radio-preset-bright-light'){
+            matrix_to_input(matrix_bright_light);
+        }
+        else if(id == 'radio-preset-pastel'){
+            matrix_to_input(matrix_pastel);
+        }
+        else if(id == 'radio-preset-vibrant'){
+            matrix_to_input(matrix_vibrant);
+        }
+        else if(id == 'radio-preset-dark'){
+            matrix_to_input(matrix_dark);
+        }
+        else if(id == 'radio-preset-hyper-color'){
+            matrix_to_input(matrix_hyper_color);
+        }
+        else{
+            // single color
+            matrix_to_input(matrix_hue);
+        }
+    });
+    
+    $('#contrast-matrix input').on('input', reset_palette);
+    
+    // upload page
+    var fileinput = $('#fileinput');
+    fileinput.on('change', function(){
+        if(fileinput.get(0).files.length > 0){
+            
+            var reader = new FileReader();
+            var self = this;
+            reader.onload = function (e){
+                upload_quant = false;
+                upload_num = 0;
+                upload_image = new Image();
+                var data = e.target.result;
+                upload_image.onload = handle_upload;
+                upload_image.src = data;
+                $('#upload_area').hide();
+                $('#image_area').show();
+                
+                $('#btn-generate').removeClass('disabled');
+            }
+            reader.readAsDataURL(fileinput.get(0).files[0]);
+        }
+    });
+    
+    $('#upload_range').change(function(){
+        upload_num = $(this).val();
+                
+        if(upload_image){
+            handle_upload();
+        }
+    });
+    
+    $('#upload_range').on('input', function(){
+        upload_num = $(this).val();
+        $('#upload_range_label').text(upload_num);
+    });
+});
+</script>
+
+<script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/v3d52b47920f24c319d37e2661827c42b1787588026925" integrity="sha512-d9sL6GJLXn6fInD1+TVXhTcQOsmxeHfmHAvwGDIxp5TO+uo1fiWW7mHomMj4MLRlCsJDTqXzWLHJFFlPCEIj/A==" data-cf-beacon='{"version":"2024.11.0","token":"46a8420bec5049b2ba2041dc2d0fe5b8","r":1}' crossorigin="anonymous"></script>
+</body>
+</html>

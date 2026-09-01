@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="zh">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/logo.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>6pen Pro</title>
+    <script type="module" crossorigin src="/assets/index-CbR6Qi0F.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-D3PwI-RF.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  <script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/v3d52b47920f24c319d37e2661827c42b1787588026925" integrity="sha512-d9sL6GJLXn6fInD1+TVXhTcQOsmxeHfmHAvwGDIxp5TO+uo1fiWW7mHomMj4MLRlCsJDTqXzWLHJFFlPCEIj/A==" data-cf-beacon='{"version":"2024.11.0","token":"2111968477194c7ab01c0842b6e723b3","r":1}' crossorigin="anonymous"></script>
+</body>
+</html>

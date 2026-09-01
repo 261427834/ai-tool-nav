@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="shortcut icon" href="data:null;base64,iVBORw0KGgoAAAANSUhEUgAAAEEAAABBCAYAAACO98lFAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAABGFJREFUeNrknMtx2zAQhpdMAWYBOSgV2EffLB2Ti6UKLBagsVWBrQoijwuQXIHFU46ib7qFriA8pACWEICAhg8TJIhdUKSyM7CtGREkPvxYLBagHbBt1y8e+zlm5YqVS1Y8+bdX8e2IlYSVmJWP9PNhEdp+RMdSw3kj73KNx9qOlSD9fVgk/YUgenzKyj1Rw1W2ZeWVUiEOUeMfZOM96M44hBUFDAcJgPf8T1ZGcDrjQ2XJYMTdQhC9v5HyN7FE9uSH/HyB9B+JVMW6GwjXL/xh3wylH8uH3Srq5oqas/KIUIXf1nk6LQHMpQLMHNph4beYXTaGyogkiIgewvXLRvaSXQDFIbc3BMGVMNEF4XQAIGQPM0HEG78RfkILhGsZAKTSNDXRgJXh1UJJAiQCgvABGAA7zNSVC44ACcIzg5A5J4wF6ChAQIzQIFpDEOTeiKI66EE9V6xNT22VsCGIAhOCoXC0d4I6HmWMowFBfHFKcNMd8TqBwn7qKmHTo947+oUE6Rfyw2JeD0F8gWoxRKkESJfPVGoozRbup3FDBYA++UEF1StP+25pWUylggCoDT9V5u1epYQ7ohskylUi3p6J6hnJTs9ByFJjfXrQKjVs5XKcwm7LSpiSqQBgDXZtRVTPtAzhlkwFFrLBltTgHYOnI4QxQaVxByqgVoOEIBZKFFnipXUVFNVAEUXeHJVAszlyWOygW/OlD8JFkBICfqGESZzg4oYVgV/wOIRLZEWzzobBZxBrgkjyykX6g2UXG6YawwIVSbqIa7emmx3EakhSNZr7h5GLAOBDX0z4h4khCCMI/QKQgYhMQbhnAQAHInHPBoA5iEgXQjgIAJ9BaA8HnVzgcAAUQegEU7GrIZstYeq8a1trwEohNAUaAQzVRAwR1g7zdDg0R3whDNvqhnuUnyLDBprnau95CAH8nxbmIahXYuIc0ZDtoiYHkmQQ6nP644FDGDc5/HywpEqV3w22+SKRWpU5S/LqdwvyqI4Zxqot7QGYaluxkBV3S7OASg1vTUdeeqiCec1Q2OY/OKULeUP/gPoY/gQ1ZWaZba9Cpvnt9wh5Hw5AdcSAHyZ9UkNoriAGcVAy1Gww74lL2WCTrHYowbzLRVzScE9PDoEH1bKZlW/lehxFZfuGWYE/3Kt8sDh3Hd/a4rl8yh3u8n0Ded+oBJw78DnU50xnVVsDTk0v7qHbo/u2jccFM9VSWrUMXZ4RgLguHfBFednfXxF8/TECu2+xdGF8/H+vSwc0n21u9g99N7/p0IhOem0GdMdkegdATwnZ1LMf2NDwdY8N6SVaxbw6Adxh6y59gN/m3JTJ6z9PQHfUz8YsMGvz1osZhGx1RnH+mTYOMHj/yRyCXojaZe8vMYdEKF4OHUlVjE8w9p/Li6HTQCiG2veAe1NGt+efQeyHkCSB6V8YF8OEg7glVMcxExTYOBvlWO2z4r8NuAH1vwyoyl3EuSW01WDNgVOY8COjysafYJ/jnwADAJzDfAyctXp2AAAAAElFTkSuQmCC" type="image/x-icon">
+  <meta name="baidu-site-verification" content="code-d0odlnbqlp" />
+  <meta name="sogou_site_verification" content="4oRpvIxdbu" />
+  <meta name="google-site-verification" content="83xySPqS_PjgWVQN-1IGKmMrkR8sEci9OqyCoxL661s" />
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1.0, maximum-scale=1.0,minimum-scale=1.0,user-scalable=0" />
+  <meta name="description"
+    content="腾讯交互翻译TranSmart是由腾讯AI Lab发布的一款AI辅助翻译产品，可满足用户快速翻译的需求，用AI辅助人工翻译提高效率和质量。TranSmart采用了团队自研的人机交互式机器翻译技术，融合神经网络机器翻译、统计机器翻译、输入法、语义理解、数据挖掘等多项前沿技术，配合亿级双语平行数据，是一款人工智能辅助翻译互联网落地产品，可为用户提供实时智能翻译辅助，帮助用户更好更快地完成翻译任务。" />
+  <meta name="keywords"
+    content="腾讯交互翻译TranSmart, 腾讯翻译, 腾讯交互翻译, TranSmart, Interactive Machine Translation, Tencent Translation, AI翻译, translate, translation, 交互翻译, 机器翻译, 智能翻译" />
+  <!-- <script type="text/javascript" charset="utf-8" src="//midas.gtimg.cn/midas/minipay_v2/jsapi/cashier.js"></script> -->
+  <!-- <script src="https://unpkg.com/vconsole@latest/dist/vconsole.min.js"></script>
+  <script>
+    var vConsole = new window.VConsole();
+  </script> -->
+  <title>腾讯交互翻译TranSmart</title>
+  <script>
+    this.globalThis || (this.globalThis = this);
+  </script>
+  <script type="module" crossorigin src="/assets/index.5a490708.js"></script>
+  <link rel="modulepreload" href="/assets/vendor.9be5a010.js">
+  <link rel="stylesheet" href="/assets/vendor.16b8bea5.css">
+  <link rel="stylesheet" href="/assets/index.fd00663c.css">
+  <script type="module">var __vite_is_dynamic_import_support=false;</script>
+  <script type="module">try{import("_").catch(()=>1);}catch(e){}window.__vite_is_dynamic_import_support=true;</script>
+  <script type="module">!function(){if(window.__vite_is_dynamic_import_support)return;console.warn("vite: loading legacy build because dynamic import is unsupported, syntax error above should be ignored");var e=document.getElementById("vite-legacy-polyfill"),n=document.createElement("script");n.src=e.src,n.onload=function(){System.import(document.getElementById('vite-legacy-entry').getAttribute('data-src'))},document.body.appendChild(n)}();</script>
+</head>
+
+<body>
+  <div id="root"></div>
+  
+  <script nomodule>!function(){var e=document,t=e.createElement("script");if(!("noModule"in t)&&"onbeforeload"in t){var n=!1;e.addEventListener("beforeload",(function(e){if(e.target===t)n=!0;else if(!e.target.hasAttribute("nomodule")||!n)return;e.preventDefault()}),!0),t.type="module",t.src=".",e.head.appendChild(t),t.remove()}}();</script>
+  <script nomodule id="vite-legacy-polyfill" src="/assets/polyfills-legacy.6812dc16.js"></script>
+  <script nomodule id="vite-legacy-entry" data-src="/assets/index-legacy.dd6debfb.js">System.import(document.getElementById('vite-legacy-entry').getAttribute('data-src'))</script>
+</body>
+
+</html>

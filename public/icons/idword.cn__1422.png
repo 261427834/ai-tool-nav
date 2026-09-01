@@ -1,0 +1,1253 @@
+<!DOCTYPE html>
+<html lang="zh">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- mobile metas -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+		<!-- site metas -->
+		<title>剪刀手 - AI剪辑工具 - 一键生成高质量视频 | 一键成片</title>
+		<meta name="keywords"
+			content="AI剪辑, 一键成片, AI云剪, 视频编辑, 云剪辑, 自动剪辑, 视频制作, 快速成片, 智能剪辑, 在线剪辑, 视频剪辑软件, 云视频编辑, 自动视频生成, 视频剪辑工具, 视频制作软件, AI视频编辑, 快速视频剪辑, 专业视频剪辑, 视频剪辑平台">
+		<meta name="description"
+			content="剪刀手致力于帮助中小企业商家,解决推广费用高,推广效果差的问题!使用我们的AI剪辑工具,一键生成高质量视频,轻松实现云剪辑。无论是专业视频制作还是快速成片,我们的智能剪辑功能都能满足您的需求,提升您的工作效率">
+		<meta name="author" content="剪刀手-AI剪辑工具">
+		<meta name="baidu-site-verification" content="codeva-2mwPXcFdc7" />
+		<!-- bootstrap css -->
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+		<!-- style css -->
+		<link rel="stylesheet" type="text/css" href="newcss/style.css">
+		<!-- Responsive-->
+		<link rel="stylesheet" href="css/responsive.css">
+		<!-- fevicon -->
+		<link rel="icon" href="images/logo.ico" type="image/gif" />
+		<!-- Scrollbar Custom CSS -->
+		<link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+		<!-- owl stylesheets -->
+		<link rel="stylesheet" href="css/owl.carousel.min.css">
+		<link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css"
+			media="screen">
+		<script>
+			var _hmt = _hmt || [];
+			(function() {
+				var hm = document.createElement("script");
+				hm.src = "https://hm.baidu.com/hm.js?9fa0505bce007982876d0bbe6c4ac181";
+				var s = document.getElementsByTagName("script")[0];
+				s.parentNode.insertBefore(hm, s);
+			})();
+		</script>
+
+		<script>
+			var _hmt = _hmt || [];
+			(function() {
+				var hm = document.createElement("script");
+				hm.src = "https://hm.baidu.com/hm.js?99f9afc5b2e9c51befce6719f7820584";
+				var s = document.getElementsByTagName("script")[0];
+				s.parentNode.insertBefore(hm, s);
+			})();
+		</script>
+
+	</head>
+	<style>
+		@media(max-width:700px) {
+			.navbar {
+				justify-content: left;
+				display: flex;
+			}
+
+			.header_section {
+				min-height: 254px;
+				background-image: url(../newimgs/media-cutbg.png);
+				background-size: cover;
+				/* 缩放图片以覆盖整个元素 */
+				background-position: center center;
+				/* 背景图居中 */
+			}
+
+			.logo-cut {
+				height: 32px;
+			}
+
+			.logo-text {
+				height: 16px;
+			}
+
+			.top {
+				position: static;
+				/* 移除固定定位 */
+				background-color: transparent;
+				/* 移除背景颜色 */
+				box-shadow: none;
+				/* 移除阴影效果 */
+				height: 40px;
+				/* 恢复默认高度 */
+				z-index: auto;
+				/* 恢复默认 z-index */
+			}
+
+			.top-one {
+				margin-top: -40px;
+				height: 265px;
+			}
+
+			.category_section_2 {
+				margin-top: 30px;
+				background: none;
+			}
+
+			.logo {
+				width: 100%;
+			}
+
+			.banner_taital {
+				font-size: 24px;
+			}
+
+			.banner_text {
+				display: none;
+			}
+
+			.new-banner {
+				display: block;
+        margin-top: 10px;
+			}
+
+			.new-banner-two {
+				display: block;
+			}
+
+			.new-banner-taital {
+				display: block;
+			}
+
+			.second_one {
+				font-size: 22px;
+				font-weight: 700;
+				font-family: "Source Han Sans-Bold";
+			}
+
+			.second-banner {
+				display: none;
+			}
+
+			.new-second-banner {
+				font-size: 14px;
+				font-weight: 400;
+				color: #999999;
+				margin-top: -10px;
+				display: block;
+			}
+
+			.txt-one {
+				font-size: 16px;
+				text-align: center;
+				margin-top: -90px;
+				position: relative;
+			}
+
+			.left-button {
+				display: none;
+			}
+
+			.txt-button {
+				display: block;
+			}
+
+			.txt-h2 {
+				display: none;
+			}
+
+			.txt-p {
+				display: none;
+			}
+
+			.left-p {
+				display: block;
+				text-align: left;
+				color: #666666;
+			}
+
+			.left-txt {
+				margin-top: 120px;
+				text-align: center;
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				justify-content: center;
+			}
+
+			.left-img {
+				display: none;
+			}
+
+			.second-left {
+				display: block;
+			}
+
+			.right-one {
+				font-size: 16px;
+				text-align: center;
+				margin-top: -27px;
+				position: relative;
+			}
+
+			.right-button {
+				display: none;
+			}
+
+			.new-right-button {
+				display: block;
+			}
+
+			.right-h2 {
+				display: none;
+			}
+
+			.right-txt-p {
+				display: none;
+			}
+
+      .right-txt{
+        align-items: center;
+      }
+
+			.right-ban {
+				display: block;
+			}
+
+			.right-img {
+				display: none;
+			}
+
+			.second-right {
+				display: block;
+				margin-top: 120px;
+			}
+
+			.media-left {
+				display: block;
+			}
+
+			.media-right {
+				display: block;
+				margin-bottom: 56px;
+				text-align: center;
+			}
+
+			.thrid-h1 {
+				font-size: 22px;
+				font-weight: 700;
+				font-family: "Source Han Sans-Bold";
+				margin-top: 40px;
+			}
+
+			.thrid-p1 {
+				display: none;
+			}
+
+			.thrid-p2 {
+				display: block;
+				margin-top: 4px;
+			}
+
+			.category_section_4 {
+				display: none;
+			}
+
+			.four-text {
+				font-size: 22px;
+				font-weight: 700;
+				color: #3d3d3d;
+        background-color: rgba(225, 225, 225, 0);
+			}
+
+			.four-p {
+				display: none;
+			}
+
+			.four-p2 {
+				display: block;
+			}
+
+			.four-img {
+				display: none;
+			}
+
+			.media-four {
+				display: block;
+			}
+
+			.move-bottom {
+				display: none;
+			}
+
+			.footer_section {
+				display: none;
+			}
+
+			.move-button {
+				display: block;
+			}
+
+			.four-font {
+				display: block;
+				text-align: center;
+			}
+
+			.banner-center {
+				display: none;
+			}
+
+			.swiper-two {
+				height: auto;
+			}
+
+			.carousel-item {
+				height: auto;
+			}
+
+			.carousel {
+				height: 200px;
+			}
+
+			.banner_section {
+				height: 345px;
+			}
+
+			.carousel-control-prev {
+				display: none;
+			}
+
+			.carousel-control-next {
+				display: none;
+			}
+
+      .media-bg{
+        display: block;
+      }
+
+      .media-back{
+        display: block;
+        margin-top: 255px;
+        background-color: rgba(225, 225, 225, 0.4);
+      }
+
+      .media-countent{
+        background-color: rgba(225, 225, 225, 0.4);
+      }
+
+      .banner-center{
+        margin-top: 170px;
+      }
+
+      .carousel-inner{
+        margin-top: auto;
+      }
+
+      .layout_padding{
+        padding-top: 0;
+      }
+
+      .second-thrid{
+        display: none;
+      }
+
+      .four-bottom{
+        margin-top: auto;
+      }
+
+      .logo{
+        display: none;
+      }
+
+      .media-logo{
+        display: block;
+      }
+      .logo-cut{
+        margin-top: auto;
+      }
+
+      
+    /* 加粗标题栏字体
+    .title.active {
+        font-weight: 700;
+    } */
+		}
+
+
+		#nowellspan {
+			--blur-r: 0.15em;
+			--main-sat: 50%;
+			--shadow-sat: 70%;
+
+			--main-light: 90%;
+			--main-shadow-light: 50%;
+			--mid-shadow-light: 40%;
+			--dark-shadow-light: 30%;
+
+			--main-shadow-color: hsl(var(--hue),
+					var(--shadow-sat),
+					var(--main-shadow-light));
+
+			--mid-shadow-color: hsl(var(--hue),
+					var(--shadow-sat),
+					var(--mid-shadow-light));
+
+			--dark-shadow-color: hsl(var(--hue),
+					var(--shadow-sat),
+					var(--dark-shadow-light));
+
+			--color: hsl(var(--hue), 74%, var(--main-light));
+
+			--shadow: 0 0 var(--blur-r) var(--main-shadow-color),
+				0 0 calc(var(--blur-r) * 2) var(--mid-shadow-color),
+				0 0 calc(var(--blur-r) * 3) var(--main-shadow-color),
+				0 0 calc(var(--blur-r) * 3.5) var(--main-shadow-color),
+				0 0 calc(var(--blur-r) * 4) var(--main-shadow-color),
+				0 0 calc(var(--blur-r) * 4.5) var(--dark-shadow-color);
+
+			font-size: 4vmin;
+			color: var(--color);
+			font-family: "Cedarville Cursive", cursive;
+			text-shadow: var(--shadow);
+		}
+
+		.line:first-of-type {
+			--hue: 40;
+		}
+
+		.line:nth-of-type(2) {
+			--hue: 290;
+		}
+
+		.line:nth-of-type(3) {
+			--hue: 330;
+		}
+
+		.line:nth-of-type(4) {
+			--hue: 185;
+		}
+
+		.well {
+			--hue: 360;
+			--duration: 4s;
+			--delay: calc(var(--duration) / 4);
+			animation: flicker var(--duration) infinite;
+			animation-delay: calc(var(--i) * calc(var(--duration) / 4));
+			animation-timing-function: linear;
+		}
+
+
+
+		@keyframes flicker {
+
+			0%,
+			10%,
+			15%,
+			20%,
+			24% {
+				opacity: 0.9;
+				text-shadow: var(--shadow);
+			}
+
+			7%,
+			12%,
+			16%,
+			19%,
+			25%,
+			100% {
+				opacity: 0.2;
+				text-shadow: none;
+			}
+		}
+		.lines {
+			margin: auto;
+			display: grid;
+			padding: 1.5em;
+			line-height: 1.1;
+		}
+	</style>
+	<div style="overflow: hidden;">
+		<!--header section start -->
+		<div style="overflow: hidden;">
+			<!--header section start -->
+			<div class="header_section">
+				<div class="container">
+					<div class="top">
+						<nav class="navbar navbar-dark bg-dark">
+							<a class="logo" href="index.html">
+								<img class="logo-cut" src="newimgs/cut-logo.png">
+              </a>
+              <a class="media-logo" href="index.html">
+								<img class="logo-cut" src="images/logo.png">
+                <img class="logo-text" src="images/logo-text.png">
+              </a>
+							<div class="search_section">
+								<ul>
+									<li id="goLogin">
+										登 录
+									</li>
+								</ul>
+							</div>
+						</nav>
+					</div>
+				</div>
+				<!--轮播图开始 -->
+				<!-- <div class="banner_section layout_padding"> -->
+        <div class="layout_padding">
+					<div class="container">
+						<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+							<!-- <ol class="carousel-indicators">
+								<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+								<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+							</ol> -->
+							<div class="carousel-inner">
+								<!-- 第一个轮播项：top-one 元素 -->
+								<div class="carousel-item active">
+									<div class="top-one">
+										<div class="row">
+											<div class="col-md-12 center-content">
+												<div class="taital_main">
+													<h2 class="banner_taital">AI一键成片，轻松制作短视频</h2>
+												</div>
+												<li class="banner_text">无需复杂编辑，一键生成高质量商业短视频， </li>
+												<li class="banner_text">省时省力，成本低廉，效果卓越，让每个商家都能轻松制作专业视频！</li>
+												<li class="new-banner">AI一键成片，轻松制作短视频</li>
+												<li class="new-banner-two">无需复杂编辑，一键生成高质量商业短视频</li>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- 第二个轮播项：视频 -->
+								<!-- <div class="carousel-item swiper-two">
+									<div class="">
+										<video class="d-block w-100" controls id="carouselVideo">
+											<source src="newimgs/vedio.mp4" type="video/mp4">
+											您的浏览器不支持 video 标签。
+										</video>
+									</div>
+								</div>
+							</div> -->
+							<!-- <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button"
+								data-slide="prev">
+								<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+								<span class="sr-only">Previous</span>
+							</a>
+							<a class="carousel-control-next" href="#carouselExampleIndicators" role="button"
+								data-slide="next">
+								<span class="carousel-control-next-icon" aria-hidden="true"></span>
+								<span class="sr-only">Next</span>
+							</a> -->
+						</div>
+
+						<div class="banner-center">
+							<!-- 其他内容保持不变 -->
+							<div class="banner-one">
+								<div class="one-text">
+									<div class="text-p">0.2</div>
+									<div class="text-p2">元/条</div>
+								</div>
+								<div class="bottom-one">
+									<img src="newimgs/one.png">
+									<div style="font-size: 22px;font-weight: 400;color: #333333;">行业最低价只需</div>
+								</div>
+							</div>
+							<div class="banner-two">
+								<div class="one-text">
+									<div class="text-p">30</div>
+									<div class="text-p2">条</div>
+								</div>
+								<div class="bottom-two">
+									<img src="newimgs/two.png">
+									<div style="font-size: 22px;font-weight: 400;color: #333333;margin-left: -8px;">
+										每人可免费试用</div>
+								</div>
+							</div>
+							<div class="banner-three">
+								<div class="one-text">
+									<div class="text-p">1000</div>
+									<div class="text-p2">条</div>
+								</div>
+								<div class="bottom-three">
+									<img src="newimgs/four.png">
+									<div style="font-size: 22px;font-weight: 400;color: #333333;margin-left: -8px;">
+										1分钟可生成至</div>
+								</div>
+							</div>
+							<div class="banner-four">
+								<div class="one-text">
+									<div class="text-p">1</div>
+									<div class="text-p2">对</div>
+									<div class="text-p">1</div>
+									<div class="text-p2">服务</div>
+								</div>
+								<div class="bottom-four">
+									<img src="newimgs/three .png">
+									<div style="font-size: 22px;font-weight: 400;color: #333333;margin-left: -3px;">
+										专业售后团队</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="button_main">
+						<input type="text" class="Enter_text" id="Enter_text1" placeholder="请输入您的手机号" name="">
+						<button class="search_text" id="zixun1">免费咨询 / 立即试用</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+    <!--移动端-->
+    <div class="media-back">
+      <div class="container">  
+         <div class="media-new"> 
+            <div class="new-one">
+              <div style="display: flex;align-items: center;justify-content: center;">
+                <div class="one-font">0.2</div>
+                <div style="font-size: 14px;font-weight: 700;color: #333333;margin-top: 20px;">元/条</div>
+              </div>
+              <div style="text-align: center;font-size: 14px;font-weight: 400;color: #333333;margin-top: -15px;">
+                行业最低价只需
+              </div>
+            </div>
+            <div class="" style="width: 167px;height: 90px;">
+              <div class="new-two">
+              <div style="display: flex;align-items: center;justify-content: center;">
+                <div class="one-font">100</div>
+                <div style="font-size: 14px;font-weight: 700;color: #333333;margin-top: 20px;">条</div>
+              </div>
+              <div style="text-align: center;font-size: 14px;font-weight: 400;color: #333333;margin-top: -15px;">
+                每人可免费试用
+              </div>
+            </div>
+            </div>
+         </div>
+         <div class="media-two"> 
+            <div class="" style="width: 167px;height: 90px;">
+              <div class="new-three">
+              <div style="display: flex;align-items: center;justify-content: center;">
+                <div class="one-font">1000</div>
+                <div style="font-size: 14px;font-weight: 700;color: #333333;margin-top: 20px;">条</div>
+              </div>
+              <div style="text-align: center;font-size: 14px;font-weight: 400;color: #333333;margin-top: -15px;">
+                1分钟可生成至
+              </div>
+            </div>
+            </div>
+            <div class="" style="width: 167px;height: 90px;">
+              <div class="new-four">
+              <div style="display: flex;align-items: center;justify-content: center;">
+                <div class="one-font">1</div>
+                <div style="font-size: 14px;font-weight: 700;color: #333333;margin-top: 20px;">对</div>
+                <div class="one-font">1</div>
+                <div style="font-size: 14px;font-weight: 700;color: #333333;margin-top: 20px;">服务</div>
+              </div>
+              <div style="text-align: center;font-size: 14px;font-weight: 400;color: #333333;margin-top: -15px;">
+                专业售后团队
+              </div>
+            </div>
+            </div>
+         </div>
+      </div>
+    </div>
+
+
+  <div class="media-countent">
+	  <div class="container">
+			<div class="category_section_2">
+				<div class="second">
+					<h1 class="second_one">AIGC在线剪辑 简洁易用 轻松上手</h1>
+					<p class="second-thrid">输入关键词，即可生成原创商业短视频，自动配置文案 </p>
+					<p class="second-banner">效率提升数十倍，大幅节省时间和成本，轻松应对海量内容需求，效果显著</p>
+					<p class="new-second-banner">输入关键词，即可生成原创商业短视频</p>
+				</div>
+				<div class="second-left">
+					<div class="left-txt">
+						<h1 class="txt-one">零门槛</h1>
+						<h2 class="txt-h2">轻松剪辑</h2>
+						<button class="txt-button">轻松剪辑视频</button>
+						<p class="txt-p">上传素材，AI智能完成脚本撰写、配音、剪辑与美化，全程无需人工干预，省时省力，效果卓越。AI精准捕捉用户心理，优化视觉呈现，提升视频吸引力，助力转化率飙升。告别繁琐操作，享受高效创作，让您的内容在海量信息中脱颖而出，轻松赢得市场青睐。</p>
+						<div class="left-ban">
+							<p class="left-p">上传素材，AI自动完成脚本，无需复杂编辑，一键生成高质量商业短视频，省时省力，成本低廉，效果卓越.</p>
+						</div>
+						<!-- <button class="left-button">立即免费试用 →</button> -->
+					</div>
+					<div class="left-img">
+						<img src="newimgs/second-one.png">
+					</div>
+					<div class="media-left">
+						<img src="newimgs/media-lef.png">
+					</div>
+				</div>
+				<div class="second-right">
+					<div class="right-img">
+						<img src="newimgs/second-two.png">
+					</div>
+					<div class="right-txt">
+						<h1 class="right-one">AI商业短视频</h1>
+						<h2 class="right-h2">音画同步 智能制作</h2>
+						<button class="new-right-button">一键成片提升视频效率</button>
+						<p class="right-txt-p">快速解构视频脚本策略、内容标签及口播文案，优化现有视频或拆解学习行业爆款创意。AI精准匹配文字与画面，助您轻松掌握视频制作精髓，提升创意表达力。</p>
+						<div class="right-ban">
+							<p class="right-p">快速解构视频脚本策略、内容标签及口播文案，优化现有视频或拆解学习行业爆款创意。AI精准匹配文字与画面，助您轻松掌握视频制作精髓，提升创意表达力。
+							</p>
+						</div>
+						<!-- <button class="right-button">立即免费试用 →</button> -->
+					</div>
+					<div class="media-right">
+						<img src="newimgs/media-right.png">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="thrid">
+				<div class="four-text">
+					多场景创作需求 一键满足
+				</div>
+				<!-- <h1 class="thrid-h1">满足多种创作场景的需求</h1> -->
+				<p class="thrid-p2">输入关键词，即可生成原创商业短视频</p>
+				<p class="thrid-p1">无论是广告宣传、产品展示，还是教育培训、娱乐互动. </p>
+				<p class="thrid-p1" style="margin-top: -15px;">AI智能剪辑软件都能轻松应对，助您高效完成各类视频创作任务，释放无限创意潜能。</p>
+			</div>
+			<div class="category_section_4">
+				<div class="row">
+					<div class="col-lg-3 col-md-6 col-sm-12">
+						<div class="beds_section" style="padding: 20px">
+							<img src="newimgs/cat-thrid.png" class="zoom-image">
+							<div class="image_text">
+								<li>AI配音克隆</li>
+								<li style="margin-top: -10px;">个性化多样选择</li>
+							</div>
+							<div class="image_text2">
+								提供上百种声音，可上传个人声音，精准复刻语音语调，省人工配音成本，让视频更专业、个性。
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6 col-sm-12">
+						<div class="beds_section" style="padding: 20px">
+							<img src="newimgs/cat-two.png" class="zoom-image">
+							<div class="image_text_one">
+								<li>AI解构器</li>
+								<li style="margin-top: -10px;">专业内容分析工具</li>
+							</div>
+							<div class="image_text2">
+								AI技术助力，快速解构视频脚本策略、内容标签与口播文案，初学者轻松上手，制作专业级内容。节省学习成本，效果显著，助您快速提升创作水平。
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6 col-sm-12">
+						<div class="beds_section" style="padding: 20px">
+							<img src="newimgs/cat-four.png" class="zoom-image">
+							<div class="image_text_two">
+								<li>模版随心挑选</li>
+								<li style="margin-top: -10px;">海量花字 BGM模版</li>
+							</div>
+							<div class="image_text3">
+								创意无限，操作简便，让您的视频瞬间脱颖而出，展现独特魅力。无论是广告宣传、产品展示，还是教育培训、娱乐互动，都能轻松应对，高效完成各类视频创作任务。
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6 col-sm-12">
+						<div class="beds_section" style="padding: 20px">
+							<img src="newimgs/cut-one.png" class="zoom-image">
+							<div class="image_text">
+								<li>手机电脑随时用</li>
+								<li style="margin-top: -10px;">操作简单无忧</li>
+							</div>
+							<div class="image_text2">
+								无论您身处何地，只需轻点屏幕，即可轻松完成视频剪辑，享受高效便捷的创作体验。告别繁琐操作，让创意自由流淌。
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--tab栏切换-->
+			<div style="margin-bottom: 50px;">
+				<div class="titles-container" id="titlesContainer">
+					<div class="title" onclick="scrollToImage(0)">AI一键成片</div>
+					<div class="title" onclick="scrollToImage(1)">AI解构器</div>
+					<div class="title" onclick="scrollToImage(2)">AI配音/克隆</div>
+					<div class="title" onclick="scrollToImage(3)">AI文案脚本</div>
+				</div>
+				<div class="images-container" id="imagesContainer">
+					<div class="image-wrapper" onclick="scrollToImage(0)">
+						<img src="newimgs/cat-thrid.png" alt="Image 1" class="image">
+						<div class="image-text">
+							<div class="line-one">AI配音克隆</div>
+              <div class="line-two">个性化多样选择</div>
+							<div class="text-line">
+								<p>提供上百种声音，可上传个人声音，精准复刻语音语调，省人工配音成本，让视频更专业、个性。</p>
+							</div>
+						</div>
+						<div class="bottom-bg"></div>
+					</div>
+					<div class="image-wrapper" onclick="scrollToImage(1)">
+						<img src="newimgs/cat-two.png" alt="Image 2" class="image">
+						<div class="image-text">
+							<div class="line-one">AI解构器</div>
+              <div class="line-two">专业内容分析工具</div>
+							<div class="text-line">
+								<p>AI技术助力，快速解构视频脚本策略、内容标签与口播文案，初学者轻松上手，制作专业级内容。节省学习成本，效果显著，助您快速提升创作水平。</p>
+							</div>
+						</div>
+						<div class="bottom-bg"></div>
+					</div>
+					<div class="image-wrapper" onclick="scrollToImage(2)">
+						<img src="newimgs/cat-four.png" alt="Image 3" class="image">
+						<div class="image-text">
+							<div class="line-one">模板随心挑选</div>
+							<div class="line-two">海量花字 BGM模板</div>
+							<div class="text-line">
+								<p>创意无限，操作简便，让您的视频瞬间脱颖而出，展现独特魅力。无论是广告宣传、产品展示，还是教育培训、娱乐互动，都能轻松应对，高效完成各类视频创作任务。</p>
+							</div>
+						</div>
+						<div class="bottom-bg"></div>
+					</div>
+					<div class="image-wrapper" onclick="scrollToImage(3)">
+						<img src="newimgs/cut-one.png" alt="Image 4" class="image">
+						<div class="image-text">
+							<div class="line-one">手机电脑随时用</div>
+							<div class="line-two">操作简单无忧</div>
+							<div class="text-line">
+								<p>无论您身处何地，只需轻点屏幕，即可轻松完成视频剪辑，享受高效便捷的创作体验。告别繁琐操作，让创意自由流淌。</p>
+							</div>
+						</div>
+						<div class="bottom-bg"></div>
+					</div>
+				</div>
+			</div>
+
+
+			<div class="beauty_section layout_padding">
+				<div class="container">
+					<div class="four-bottom">
+						<div class="count-four">
+							<div class="four-text">
+								它们都在用
+							</div>
+							<p class="four-p2">输入关键词，即可生成原创商业短视频</p>
+							<!-- <p class="four-p">输入关键词，即可生成原创商业短视频，自动配置文案</p> -->
+							<p class="four-p" >一对一、手把手教学，助您找爆点、精准推广，降成本、效果好。</p>
+						</div>
+						<div class="four-img">
+							<img src="newimgs/beed.png">
+						</div>
+						<div class="media-four">
+						</div>
+						<div class="four-font">
+							<h1 class="media-four-text">
+								© 2024 四川银弓科技 <a href="https://beian.miit.gov.cn" target="_blank">
+									备案号：蜀ICP备2022006999号-4</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+  </div>
+
+		<div style="overflow: hidden;">
+			<div class="container">
+				<div class="move-bottom">
+					<div class="four-button row align-items-center">
+						<div class="col-md-6">
+							<div class="button-text text-center text-md-left">
+								短视频营销
+								推广宝典
+								低价获客
+								精准推广
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="four-right text-center text-md-right">
+								<input type="text" class="four-input" id="Enter_text2" placeholder="输入手机号码免费咨询" name="">
+								<button class="four-search" id="zixun2">免费咨询 / 立即试用</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
+		<div class="move-button" id="moveButton">
+			<button id="trialButton">立即免费试用</button>
+		</div>
+		<!-- 弹出窗口 -->
+		<div id="overlay" class="overlay"></div>
+		<div id="popup" class="popup">
+			<div class="popup-content">
+				<span class="close">&times;</span>
+				<form>
+					<label for="name" class="form-name">姓名：</label>
+					<input type="text" id="name" name="name" placeholder="请输入姓名" class="form-input" autocomplete="off">
+
+					<label for="company" class="form-name">公司：</label>
+					<input type="text" id="company" name="company" placeholder="请输入公司名称" class="form-input" autocomplete="off">
+
+					<label for="city" class="form-name">城市：</label>
+					<input type="text" id="city" name="city" placeholder="请输入所在城市" class="form-input" autocomplete="off">
+
+					<label for="phone" class="form-name"><span style="color: red;">*</span>手机：</label>
+					<input type="tel" id="Enter_text3" name="phone" placeholder="请输入手机号" class="form-input" autocomplete="off">
+				</form>
+				<div style="display: flex;justify-content: center;">
+					<button id="consultForm" type="submit">确定</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
+
+
+
+
+
+
+	<div class="footer_section layout_padding">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 col-sm-12">
+					<a class="logo" href="index.html"><img style="height: 80px;" src="images/logo.png"><img
+							style="height: 34px;" src="images/logo-text.png"></a>
+				</div>
+				<div class="col-lg-3 col-sm-6">
+					<div class="information_main">
+						<h4 class="information_text">联系我们</h4>
+						<p class="call_text">电话 : 14702801532</p>
+						<!-- <p class="call_text">微信号 : 15230850928</p> -->
+					</div>
+				</div>
+				<div class="col-lg-3 col-sm-6">
+					<div class="information_main">
+						<h4 class="information_text">法律与合规</h4>
+						<a class="many_text" href="privacyStatement.html">隐私声明</a>
+					</div>
+				</div>
+			</div>			<div class="copyright_section" style="margin-bottom: 100px;">
+				<h1 class="copyright_text">
+					© 2024 四川银弓科技 <a href="https://beian.miit.gov.cn" target="_blank">
+						备案号：蜀ICP备2022006999号-4</a>
+			</div>
+		</div>
+	</div>
+
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.bundle.min.js"></script>
+	<script src="js/jquery-3.0.0.min.js"></script>
+	<script src="js/plugin.js"></script>
+	<script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+	<!-- <script src="js/custom.js"></script> -->
+	<script type="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2//2.0.0-beta.2.4/owl.carousel.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+		integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+	</script>
+	<script>
+		window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')
+	</script>
+
+
+	<script>
+		// 切换图片
+		function scrollToImage(index) {
+    const titlesContainer = document.querySelector('#titlesContainer');
+    const imagesContainer = document.querySelector('#imagesContainer');
+
+    const titleWidth = document.querySelector('.title').offsetWidth;
+    const imageWidth = document.querySelector('.image-wrapper').offsetWidth;
+
+    const titlesContainerWidth = titlesContainer.offsetWidth;
+    const imagesContainerWidth = imagesContainer.offsetWidth;
+
+    const titlesScrollPosition = index * titleWidth - (titlesContainerWidth / 2) + (titleWidth / 2);
+    const imagesScrollPosition = index * imageWidth - (imagesContainerWidth / 2) + (imageWidth / 2);
+
+    titlesContainer.scrollTo({
+        left: titlesScrollPosition,
+        behavior: 'smooth'
+    });
+
+    imagesContainer.scrollTo({
+        left: imagesScrollPosition,
+        behavior: 'smooth'
+    });
+
+    // 更新活动标题
+    updateActiveTitle(index);
+}
+
+function updateActiveTitle(index) {
+    const titles = document.querySelectorAll('.title');
+    titles.forEach((title, i) => {
+        if (i === index) {
+            title.classList.add('active');
+        } else {
+            title.classList.remove('active');
+        }
+    });
+}
+
+// 根据初始滚动位置初始化活动标题
+window.addEventListener('load', () => {
+    const titlesContainer = document.querySelector('#titlesContainer');
+    const titles = document.querySelectorAll('.title');
+    const scrollLeft = titlesContainer.scrollLeft;
+    const titleWidth = document.querySelector('.title').offsetWidth;
+    const activeIndex = Math.round(scrollLeft / titleWidth);
+    updateActiveTitle(activeIndex);
+});
+
+// 处理滚动事件更新活动标题
+document.querySelector('#titlesContainer').addEventListener('scroll', () => {
+    const titlesContainer = document.querySelector('#titlesContainer');
+    const scrollLeft = titlesContainer.scrollLeft;
+    const titleWidth = document.querySelector('.title').offsetWidth;
+    const activeIndex = Math.round(scrollLeft / titleWidth);
+    updateActiveTitle(activeIndex);
+});
+
+document.querySelector('#imagesContainer').addEventListener('scroll', () => {
+    const imagesContainer = document.querySelector('#imagesContainer');
+    const scrollLeft = imagesContainer.scrollLeft;
+    const imageWidth = document.querySelector('.image-wrapper').offsetWidth;
+    const activeIndex = Math.round(scrollLeft / imageWidth);
+    updateActiveTitle(activeIndex);
+});
+
+
+
+		// 显示弹窗
+		document.getElementById('trialButton').addEventListener('click', function() {
+			document.getElementById('overlay').style.display = 'block';
+			document.getElementById('popup').style.display = 'block';
+			document.getElementById('moveButton').style.display = 'none';
+		});
+
+		// 关闭弹窗
+		document.querySelector('.close').addEventListener('click', function() {
+			document.getElementById('overlay').style.display = 'none';
+			document.getElementById('popup').style.display = 'none';
+			document.getElementById('moveButton').style.display = 'block';
+			document.getElementById('trialForm').reset(); // 清空表单内容
+		});
+
+		// 阻止表单默认提交行为并打开登录页面
+		$('#goLogin').click(function(event) {
+			event.preventDefault();
+			window.open('https://ai.idword.cn/login', '_blank');
+		});
+
+
+		// 检查是否为移动端
+		function checkMobile() {
+			const isMobile = window.innerWidth <= 700; // 假设700px为手机屏幕宽度
+			document.getElementById("mobile").style.display = isMobile ? "block" : "none";
+			document.getElementById("unMobile").style.display = isMobile ? "none" : "flex";
+		}
+
+		//  // 初始检查设备类型
+		//   checkDeviceType();
+
+		//   // 监听窗口大小变化
+		//   window.addEventListener('resize', checkDeviceType);
+
+		$(document).ready(function() {
+			// 使用 AJAX 发送 GET 请求到没有参数的接口
+			fetch('https://idword.cn/track-event', {
+					method: 'GET',
+					headers: {
+						'Content-Type': 'application/json'
+					}
+				})
+				.then(response => response.json())
+				.then(data => {})
+				.catch(error => {});
+
+			// 显示弹出窗口
+			function showPopup() {
+				$('#overlay').show();
+				$('#popup').show();
+			}
+
+			// 隐藏弹出窗口
+			function hidePopup() {
+				$('#overlay').hide();
+				$('#popup').hide();
+			}
+
+			// 表单提交处理函数
+			function handleFormSubmit(event) {
+				console.log("11111111111111111");
+
+				event.preventDefault();
+				var name = $('#name').val();
+				var company = $('#company').val();
+				var city = $('#city').val();
+				var phone = $('#phone').val();
+				var phoneRegex = /^1[3-9]\d{9}$/; // 手机号正则表达式
+
+				if (!phone) {
+					alert('请输入您的手机号');
+				} else if (!phoneRegex.test(phone)) {
+					alert('手机号格式不正确');
+				} else {
+					fetch('https://idword.cn/upload-phone', {
+							method: 'POST',
+							headers: {
+								'Content-Type': 'application/json'
+							},
+							body: JSON.stringify({
+								name: name,
+								company: company,
+								city: city,
+								phone: phone
+							})
+						})
+						.then(response => response.json())
+						.then(data => {
+							alert('信息上传成功，我们会尽快与您取得联系');
+							hidePopup();
+							$('#consultForm')[0].reset(); // 清空表单
+						})
+						.catch(error => {
+							alert('信息上传失败，请重试');
+						});
+				}
+			}
+
+			// 处理 zixun1 按钮点击事件
+			$('#zixun1').click(function(event) {
+				event.preventDefault();
+
+				var phone = $('#Enter_text1').val();
+				var phoneRegex = /^1[3-9]\d{9}$/; // 手机号正则表达式
+
+				if (!phone) {
+					alert('请输入您的手机号');
+				} else if (!phoneRegex.test(phone)) {
+					alert('手机号格式不正确');
+				} else {
+					fetch('https://idword.cn/upload-phone', {
+							method: 'POST',
+							headers: {
+								'Content-Type': 'application/json'
+							},
+							body: JSON.stringify({
+								phone: phone
+							})
+						})
+						.then(response => response.json())
+						.then(data => {
+							alert('手机号上传成功，我们会尽快与您取得联系');
+							$('#Enter_text1').val(''); // 清空输入框
+						})
+						.catch(error => {
+							alert('手机号上传失败，请重试');
+						});
+				}
+			});
+
+			// 处理 zixun2 按钮点击事件
+			$('#zixun2').click(function(event) {
+				event.preventDefault();
+
+				var phone = $('#Enter_text2').val();
+				var phoneRegex = /^1[3-9]\d{9}$/; // 手机号正则表达式
+
+				if (!phone) {
+					alert('请输入您的手机号');
+				} else if (!phoneRegex.test(phone)) {
+					alert('手机号格式不正确');
+				} else {
+					fetch('https://idword.cn/upload-phone', {
+							method: 'POST',
+							headers: {
+								'Content-Type': 'application/json'
+							},
+							body: JSON.stringify({
+								phone: phone
+							})
+						})
+						.then(response => response.json())
+						.then(data => {
+							alert('手机号上传成功，我们会尽快与您取得联系');
+							$('#Enter_text2').val(''); // 清空输入框
+						})
+						.catch(error => {
+							alert('手机号上传失败，请重试');
+						});
+				}
+			});
+
+			// 绑定关闭按钮点击事件
+			$('.close').click(function() {
+				hidePopup();
+			});
+
+			// 绑定表单提交事件
+
+
+			// 处理 确定 按钮点击事件
+			$('#consultForm').click(function(event) {
+				event.preventDefault();
+
+				var phone = $('#Enter_text3').val();
+				var phoneRegex = /^1[3-9]\d{9}$/; // 手机号正则表达式
+
+				if (!phone) {
+					alert('请输入您的手机号');
+				} else if (!phoneRegex.test(phone)) {
+					alert('手机号格式不正确');
+				} else {
+					fetch('https://idword.cn/upload-phone', {
+							method: 'POST',
+							headers: {
+								'Content-Type': 'application/json'
+							},
+							body: JSON.stringify({
+								phone: phone
+							})
+						})
+						.then(response => response.json())
+						.then(data => {
+							alert('手机号上传成功，我们会尽快与您取得联系');
+							$('#Enter_text3').val(''); // 清空输入框
+						})
+						.catch(error => {
+							alert('手机号上传失败，请重试');
+						});
+				}
+			});
+
+		});
+
+// 		document.addEventListener('DOMContentLoaded', function() {
+//     // 获取轮播图和视频元素
+//     var carousel = document.getElementById('carouselExampleIndicators');
+//     var video = document.getElementById('carouselVideo');
+
+//     // 监听轮播图的滑动事件
+//     carousel.addEventListener('slid.bs.carousel', function(event) {
+//         // 如果当前显示的是视频项
+//         if (event.to === 1) {
+//             // 播放视频
+//             video.play();
+//             // 暂停轮播图的自动播放
+//             carousel.carousel('pause');
+//         }
+//     });
+
+//     // 监听视频的播放结束事件
+//     video.addEventListener('ended', function() {
+//         // 视频播放结束后，继续轮播图的自动播放
+//         carousel.carousel('cycle');
+//     });
+// });
+	</script>
+	</body>
+</html>

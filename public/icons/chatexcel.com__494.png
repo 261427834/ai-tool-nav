@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/workspace/logo.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://g.alicdn.com/code/lib/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://g.alicdn.com/aliyun-ecs/webclient-assets/1.0.0/webclient/vconsole.min.js"></script>
+    <script type="text/javascript" src="https://openx.cnki.net/sdk/openx-jssdk-2.0.0.js"></script>
+    <script src="https://g.alicdn.com/dingding/dingtalk-jsapi/3.0.25/dingtalk.open.js"></script>
+    <script src="/workspace/360/SDK360.js"></script>
+    <meta name="color-scheme" content="light">
+
+    <title>
+        ChatExcel-AI处理表格数据与生成PPT
+    </title>
+    <!-- 阿里验证 -->
+    <script>
+        window.AliyunCaptchaConfig = {
+            region: 'cn', // 必填：cn(中国内地) 或 sgp(新加坡)
+            prefix: 'n5k548' // 必填：从阿里云验证码控制台概览页获取
+        };
+    </script>
+    <!-- 阿里云验证码 2.0 主 JS（必须动态引入） -->
+    <script src="https://o.alicdn.com/captcha-frontend/aliyunCaptcha/AliyunCaptcha.js"></script>
+
+    <!-- built files will be auto injected -->
+    <script>
+        var _hmt = _hmt || [];
+        (function() {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?a98a26d9ab35b0259d061e5f2f2c91bf";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+    <!-- Google tag (gtag.js) -->
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-MT9ESTBX2E"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'G-MT9ESTBX2E');
+    </script>
+    <!-- dingding -->
+    <script>
+        var isDingtalk = navigator && /DingTalk/.test(navigator.userAgent);
+        var isProductEnv = window && window.location && window.location.host &&
+            window.location.host.indexOf('127.0.0.1') === -1 &&
+            window.location.host.indexOf('localhost') === -1 &&
+            window.location.host.indexOf('192.168.') === -1
+            // 如果有其它测试域名，请一起排掉，减少测试环境对生产环境监控的干扰
+        if (isProductEnv) {
+            !(function(c, i, e, b) {
+                var h = i.createElement("script");
+                var f = i.getElementsByTagName("script")[0];
+                h.type = "text/javascript";
+                h.crossorigin = true;
+                h.onload = function() {
+                    c[b] || (c[b] = new c.wpkReporter({
+                        bid: "dta_2_141553"
+                    }));
+                    c[b].installAll()
+                };
+                f.parentNode.insertBefore(h, f);
+                h.src = e
+            })(window, document, "https://g.alicdn.com/woodpeckerx/jssdk??wpkReporter.js", "__wpk");
+        }
+    </script>
+  <script type="module" crossorigin src="/workspace/assets/index-CuLkQPbP.js"></script>
+  <link rel="modulepreload" crossorigin href="/workspace/assets/highcharts-Ws5zl5JO.js">
+  <link rel="stylesheet" crossorigin href="/workspace/assets/index-BVzdPPXv.css">
+</head>
+
+<body>
+    <div id="app"></div>
+</body>
+
+</html>

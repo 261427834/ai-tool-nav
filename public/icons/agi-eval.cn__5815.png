@@ -1,0 +1,136 @@
+<!doctype html><html lang=""><head><meta charset="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><meta name="viewport" content="width=device-width,initial-scale=1"/><link rel="icon" href="//s3plus.sankuai.com/static-prod01/com.sankuai.nlp.front.arena/favicon.ico"/><title>AGI-Eval</title><script>'use strict';
+      !(function () {
+        var e = 0 < arguments.length && void 0 !== arguments[0] ? arguments[0] : '_Owl_',
+          a = window;
+        a[e] ||
+          ((a[e] = {
+            isRunning: !1,
+            isReady: !1,
+            preTasks: [],
+            dataSet: [],
+            pageData: [],
+            disableMutaObserver: !1,
+            observer: null,
+            use: function (e, t) {
+              this.isReady && a.Owl && a.Owl[e](t), this.preTasks.push({ api: e, data: [t] });
+            },
+            add: function (e) {
+              this.dataSet.push(e);
+            },
+            run: function () {
+              var t = this;
+              if (!this.isRunning) {
+                this.isRunning = !0;
+                var e = a.onerror;
+                (a.onerror = function () {
+                  this.isReady || this.add({ type: 'jsError', data: arguments }), e && e.apply(a, arguments);
+                }.bind(this)),
+                  (a.addEventListener || a.attachEvent)(
+                    'error',
+                    function (e) {
+                      t.isReady || t.add({ type: 'resError', data: [e] });
+                    },
+                    !0
+                  );
+                var i = window.MutationObserver || window.WebKitMutationObserver || window.MozMutationObserver,
+                  r = window.performance || window.WebKitPerformance;
+                if (i && r) {
+                  var n = -1,
+                    s = window.navigator.userAgent;
+                  if (
+                    (-1 < s.indexOf('compatible') && -1 < s.indexOf('MSIE')
+                      ? (new RegExp('MSIE (\d+\.\d+);').test(s), (n = parseFloat(RegExp.$1)))
+                      : -1 < s.indexOf('Trident') && -1 < s.indexOf('rv:11.0') && (n = 11),
+                    -1 !== n && n <= 11)
+                  )
+                    return void (this.disableMutaObserver = !0);
+                  try {
+                    (this.observer = new i(function (e) {
+                      t.pageData.push({ mutations: e, startTime: r.now() });
+                    })),
+                      this.observer.observe(document, { childList: !0, subtree: !0 });
+                  } catch (e) {
+                    console.log('mutationObserver err');
+                  }
+                } else this.disableMutaObserver = !0;
+              }
+            },
+          }),
+          a[e].run());
+      })();</script><link rel="dns-prefetch" href="//lx.meituan.net"/><link rel="dns-prefetch" href="//wreport.meituan.net"/><link rel="dns-prefetch" href="//report.meituan.com"/><script async src="https://www.googletagmanager.com/gtag/js?id=G-ZTQBDX58SV"></script><script>window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+
+      gtag('config', 'G-ZTQBDX58SV');</script><script>//以下这部分不能动
+      !(function (win, doc, ns) {
+        var cacheFunName = '_MeiTuanALogObject';
+        win[cacheFunName] = ns;
+        if (!win[ns]) {
+          var _LX = function () {
+            var t = function () {
+              var inst = function () {
+                inst.q.push([arguments, +new Date()]);
+              };
+              inst.q = [];
+              t.q.push([arguments, inst]);
+              return inst;
+            };
+            t.q = [];
+            t.t = +new Date();
+            _LX.q.push([arguments, t]);
+            return t;
+          };
+          _LX.q = _LX.q || [];
+          _LX.l = +new Date();
+          win[ns] = _LX;
+        }
+      })(window, document, 'LXAnalytics');
+      LXAnalytics('config', {
+        defaultCategory: 'techportal', //页面默认通道
+        defaultCid: '', //默认页面cid，可以创建一个总计埋点，也可以为空
+        appName: 'agiEval', //页面应用名，即应用标识 !!!!!!!!!!!!
+        autoTrack: true, //是否开启部分事件自动埋点，预计在二期实现
+        isSPA: true, //是否是单页面应用
+        isDev: false, // 是否在线下环境，线下环境上报不会影响线上
+        mvDelay: 0, //合并mv事件的缓存秒数，0为关闭
+        onWebviewAppearAutoPV: true, //在app内嵌页时，容器显示/隐藏时的自动PV/PD开关
+        onVisibilityChangeAutoPV: true, //在pc端，切换tab页签时的自动PV/PD开关
+        onWindowFocusAutoPV: true, //在pc端，当window获得/失去焦点时的自动PV/PD开关
+        onVCGap: 5, //pc端切换tab、window失焦时，间隔多久切回来才会触发自动PV/PD。最小有效值2，单位秒
+        sessionScope: 'top', //session种在一级域下还是当前域下，默认top为一级域，sub为当前域
+        nativeReport: 'off', //是否开启app内嵌页代报，默认on 开启
+      });
+      window.CONFIG_ENV = 'production';
+      window.NODE_ENV = '';</script><script src="//lx.meituan.net/lx.5.min.js" async></script><script crossorigin="anonymous" src="//www.dpfile.com/app/owl/static/owl_latest.js"></script><script>// 纯 Raptor接入方案: https://km.sankuai.com/custom/onecloud/page/1291935844
+      // Raptor devtools https://km.sankuai.com/page/1203147516
+      // SPA解决方案: https://km.sankuai.com/custom/onecloud/page/253147798#id-SPA%E5%BA%94%E7%94%A8%E4%B8%8A%E6%8A%A5PV
+      // Raptor support uuid: https://km.sankuai.com/custom/onecloud/page/253147798
+      window.Owl &&
+        window.Owl.start({
+          project: 'com.sankuai.nlp.front.arena', // https://camel.mws.sankuai.com/#/home申请工程
+          devMode: ['development', 'test'].indexOf(window.NODE_ENV) > -1,
+          // 数据采集 Path，SPA 也可以设置成一个固定值，比如 'index'
+          pageUrl: location.href,
+          // 页面性能采集配置，会有额外性能开销，默认关闭，可配置打开
+          page: {
+            auto: true,
+            sample: 0.5, // 性能采样率启用默认值
+            sensoryIndex: true, // 首屏时间开关
+          },
+          resource: {
+            sampleApi: 1,
+            delay: -1,
+          },
+          ajax: {
+            flag: true, // 启用超时上报
+            duration: 19000, // 20s
+          },
+          // 单个用户1分钟上报错误超过10条则不再上报，防止单个用户影响过大
+          error: {
+            maxNum: 10,
+            maxTime: 60 * 1000,
+            delay: 500,
+          },
+        });</script><script defer="defer" src="//s3plus.sankuai.com/static-prod01/com.sankuai.nlp.front.arena/js/chunk-vendors.d721377b.js"></script><script defer="defer" src="//s3plus.sankuai.com/static-prod01/com.sankuai.nlp.front.arena/js/app.e5cb0a5d.js"></script><script defer="defer">window.__current_version__ = 1760426894872;</script><link href="//s3plus.sankuai.com/static-prod01/com.sankuai.nlp.front.arena/css/chunk-vendors.7fa3cfa0.css" rel="stylesheet"><link href="//s3plus.sankuai.com/static-prod01/com.sankuai.nlp.front.arena/css/app.cd667666.css" rel="stylesheet"></head><body><noscript><strong>We're sorry but llm-arena-fe doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id="app"></div></body></html>

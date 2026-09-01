@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<link rel="icon" type="image/svg+xml" href="/favicon.png" />
+	<meta name="viewport"
+		content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<meta name="keywords"
+		content="面向服装品牌、服装厂、电商商家、独立设计师等服装从业者的一站式【服装转用AI工具】。 支持一键服装改款、虚拟上身试衣、印花自动生成，批量生成电商图文与宣传视频，打通设计、出图、成衣视觉全流程。">
+	<meta name="description" content="大数据追踪爆款商品,AI智能生成试衣模特，AI印花二创,服装行业咨讯,服装面料采购一站式,让服装设计采购生产变成更简单。" />
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+	<meta http-equiv="Pragma" content="no-cache">
+	<meta http-equiv="Expires" content="0">
+	<meta name="baidu-site-verification" content="codeva-Ny0W42kUBB" />
+	<title>帮衣帮-服装专用AI工具-AI试衣/AI电商图/AI视频/AI印花</title>
+	
+	
+	
+	
+	<!-- [性能优化] animate.min.css 已通过npm包 'animate.css' 在 home.vue 中导入，注释掉避免重复加载 -->
+	<!-- <link rel="stylesheet" href="./src/assets/css/animate.min.css"> -->
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<!-- [性能优化] /src/style.css 已通过 main.js 中 import './style.css' 导入，注释掉避免重复加载(Vite生产环境此路径会404) -->
+	<!-- <link rel="stylesheet" href="/src/style.css"> -->
+
+
+	<script>
+		var _hmt = _hmt || [];
+		(function () {
+			var hm = document.createElement("script");
+			hm.src = "https://hm.baidu.com/hm.js?4abfe7486599a66ce7f167804b97dc0d";
+			var s = document.getElementsByTagName("script")[0];
+			s.parentNode.insertBefore(hm, s);
+		})();
+
+		/*禁止ios缩放，双击和双指*/
+		window.onload = function () {
+			document.addEventListener("touchstart", function (event) {
+				if (event.touches.length > 1) {
+					event.preventDefault();
+				}
+			});
+			var lastTouchEnd = 0;
+			document.addEventListener(
+				"touchend",
+				function (event) {
+					var now = new Date().getTime();
+					if (now - lastTouchEnd <= 300) {
+						event.preventDefault();
+					}
+					lastTouchEnd = now;
+				},
+				false
+			);
+			document.addEventListener("gesturestart", function (event) {
+				event.preventDefault();
+			});
+		};
+	</script>
+  <script type="module" crossorigin src="/assets/index-4653447a.js"></script>
+  <link rel="stylesheet" href="/assets/index-6a9fe7a5.css">
+</head>
+
+<body>
+	<div id="app"></div>
+	<div style="display:none;">
+		<a href="https://maibuwuyou.com/clothArticle/list/articleList1.html"></a>
+	</div>
+	
+</body>
+</html>

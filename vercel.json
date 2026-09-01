@@ -1,0 +1,13 @@
+# 构建产物在 Vercel 上由 Next.js 预设自动处理；此文件只固定 Node 版本与few 头部
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": "nextjs",
+  "installCommand": "npm ci",
+  "buildCommand": "npm run build",
+  "functions": {
+    "src/app/api/**": {
+      "memory": 1024,
+      "maxDuration": 10
+    }
+  }
+}

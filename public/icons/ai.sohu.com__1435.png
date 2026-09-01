@@ -1,0 +1,190 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="data-spm" content="smpc-ai"/><meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=yes"><link rel="icon" type="image/x-icon" href="//statics.itc.cn/mptc-mpfe/img/ai-community/logo.png" sizes="32*32"><title>简单AI-AI绘图，AI文案写作，在线图片编辑，设计素材库，AI分享社区</title>
+<meta name="keywords" content="简单AI，免费AI工具，AI绘图，AI生图，AI文案，AI写作，AI图片处理，AI设计，AI电商，AI换衣，AI写真，AI证件照，AI抠图，AI软件，AI消除，AI换背景，AI分享社区，AI头像，照片修复，图片修复，logo设计，制作logo，商用logo，去水印，动漫头像，情侣头像，图片编辑，智能抠图，免费图文素材，封面设计，设计灵感，在线设计，在线图片处理">
+<meta name="description" content="AI时代必备的全能AI工具，为用户提供全方位AI服务，如AI绘图、AI写作、AI在线图片处理。提供海量图片制作设计模板：电商图，logo设计，证件照，智能抠图，图片高清修复，一键去水印，一键换背景等各种应用场景。新手小白也能轻松玩转AI。">
+<!--[if IE]><title>简单AI-搜狐旗下AI爱好者社区</title><![endif]--><title>简单AI-AI绘图，AI文案写作，在线图片编辑，设计素材库，AI分享社区</title><meta name="keywords" content="简单AI，免费AI工具，AI绘图，AI生图，AI文案，AI写作，AI图片处理，AI设计，AI电商，AI换衣，AI写真，AI证件照，AI抠图，AI软件，AI消除，AI换背景，AI分享社区，AI头像，照片修复，图片修复，logo设计，制作logo，商用logo，去水印，动漫头像，情侣头像，图片编辑，智能抠图，免费图文素材，封面设计，设计灵感，在线设计，在线图片处理"><meta name="description" content="AI时代必备的全能AI工具，为用户提供全方位AI服务，如AI绘图、AI写作、AI在线图片处理。提供海量图片制作设计模板：电商图，logo设计，证件照，智能抠图，图片高清修复，一键去水印，一键换背景等各种应用场景。新手小白也能轻松玩转AI。"><meta name="sharecontent" content="简单AI-搜狐旗下AI爱好者的社区"/><meta name="referrer" content="always"/><meta name="google-site-verification" content="7wm5DIo-LxfMrmiWtulGqyPB8YM0pVzpuMkCRobwpc8"/><meta name="msvalidate.01" content="1D8FB82B1C1ABAB39F7101530CC48103"/><link rel="canonical" href="https://ai.sohu.com/pc/search"/><link rel="dns-prefetch" href="//statics.itc.cn"><link rel="dns-prefetch" href="//g1.itc.cn"><link rel="preconnect" href="https://statics.itc.cn" crossorigin><link rel="preconnect" href="https://g1.itc.cn" crossorigin><style>.hide-input {
+            opacity: 0;
+            position: fixed;
+            bottom: -1000px;
+        }
+        /* 针对 Webkit 内核浏览器 */
+        html::-webkit-scrollbar,
+        body::-webkit-scrollbar {
+            display: none;
+        }
+        html, body {
+            scrollbar-width: none; /* Firefox */
+            -ms-overflow-style: none; /* IE 10+ */
+            scrollbar-gutter: stable;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            background-color: #1D1D1F;
+            scrollbar-gutter: stable;
+        }
+        .global-home-bg {
+            display: none;
+        }       
+
+        body[data-spm="prompt-search"] .global-home-bg {
+            display: block;
+        }
+        .global-home-bg {
+            position: absolute;
+            inset: 0;
+            height: auto;
+            object-fit: cover;
+            left: 190px;
+            opacity: 0.9;
+            width: calc(100% - 190px);
+            z-index: -1;
+            aspect-ratio: 865/486;
+        }
+        body.sidebar-folded .global-home-bg {
+            left: 70px;
+            width: calc(100% - 70px);
+        }
+        .options-area .create-options .ai-eliminate,.generate-area .create-items .ai-eliminate{ display:none; }
+        .global-skeleton-wrap{min-height:100vh;background:#1D1D1F}
+        .skeleton-header{height:64px;background:#27272ab3;}
+        /* .skeleton-container{display:flex;padding-top:24px;}
+        .skeleton-side{width:190px;background:rgba(39, 39, 42, 0.7);border-radius:12px;height:100vh}
+        .skeleton-main{flex:1;background:rgba(39, 39, 42, 0.7);border-radius:12px;height:100vh;margin-left: 12px;} */
+        .skeleton-container{display:flex;}
+        .skeleton-side{width:190px;background:rgba(39, 39, 42, 0.7);border-radius:12px;min-height:calc(100vh - 64px)}
+        .skeleton-main{flex:1;background:rgba(39, 39, 42, 0.7);border-radius:12px;min-height:calc(100vh - 64px);margin-left: 12px;}</style><link rel="preload" as="image" href="https://g1.itc.cn/aife-easyai-prod/20241216/pc/common/image/home/home-bg4.webp" fetchpriority="high"><!--[if IE]><link rel="preload" as="image" href="https://g1.itc.cn/aife-easyai-prod/20241216/pc/common/image/home/home-bg4.png"><![endif]--><link rel="preload" href="https://g1.itc.cn/aife-easyai-prod/202608270949/assets/css/main-fb55d744fd.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="https://g1.itc.cn/aife-easyai-prod/202608270949/assets/css/main-fb55d744fd.css"></noscript></head><body><div id="global-skeleton"><div class="global-skeleton-wrap"><span style="color:#1D1D1F">████████</span><div class="skeleton-header"></div><div class="skeleton-container"><div class="skeleton-side"></div><div class="skeleton-main"></div></div></div></div><img id="global-home-bg" class="global-home-bg" src="https://g1.itc.cn/aife-easyai-prod/20241216/pc/common/image/home/home-bg4.webp" fetchpriority="high" decoding="async" alt="首页背景图"><div id="app"></div><input class="hide-input" id="autofill-hide-input" name="autofill-hide-input" autocomplete="off" aria-hidden="true" tabindex="-1"><script src="https://g1.itc.cn/aife-easyai-prod/202608270949/assets/js/runtime-51b52fc46c.js" defer="defer"></script><script src="https://g1.itc.cn/aife-easyai-prod/202608270949/assets/js/babel-runtime-6b14faaafe.js" defer="defer"></script><script src="https://g1.itc.cn/aife-easyai-prod/202608270949/assets/js/axios-8c6b5ae713.js" defer="defer"></script><script src="https://g1.itc.cn/aife-easyai-prod/202608270949/assets/js/vue-2fc154e1ce.js" defer="defer"></script><script src="https://g1.itc.cn/aife-easyai-prod/202608270949/assets/js/vuex-39c377a64a.js" defer="defer"></script><script src="https://g1.itc.cn/aife-easyai-prod/202608270949/assets/js/store-014c67e7c5.js" defer="defer"></script><script src="https://g1.itc.cn/aife-easyai-prod/202608270949/assets/js/vue-router-00a75a92df.js" defer="defer"></script><script src="https://g1.itc.cn/aife-easyai-prod/202608270949/assets/js/common-utils-ae959a196b.js" defer="defer"></script><script src="https://g1.itc.cn/aife-easyai-prod/202608270949/assets/js/lib-e70c9e31de.js" defer="defer"></script><script src="https://g1.itc.cn/aife-easyai-prod/202608270949/assets/js/main-fb55d744fd.js" defer="defer"></script><script>// 使用 requestIdleCallback 延迟加载分析脚本，避免阻塞首屏渲染
+    function loadAnalyticsWhenIdle() {
+        // Clarity 分析
+        (function(c,l,a,r,i,t,y){
+            c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+            t=l.createElement(r);t.async=1;t.defer=1;t.src="https://www.clarity.ms/tag/"+i;
+            y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+        })(window, document, "clarity", "script", "qtiqn8ju4z");
+
+        // 百度统计
+        var _hmt = _hmt || [];
+        var baiduSrc = location.host === 'ai.sohu.com'
+            ? 'https://hm.baidu.com/hm.js?6a068b05a8698354a5d03e4f1d2090be'
+            : 'https://hm.baidu.com/hm.js?c7d4be467d721fd783af17b21eb736d7';
+        (function () {
+            if(!baiduSrc) return;
+            var hm = document.createElement('script');
+            hm.src = baiduSrc;
+            hm.async = true;
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    }
+
+    // 优先使用 requestIdleCallback，不支持则使用 setTimeout
+    if ('requestIdleCallback' in window) {
+        requestIdleCallback(loadAnalyticsWhenIdle, { timeout: 5000 });
+    } else {
+        setTimeout(loadAnalyticsWhenIdle, 3000);
+    }</script><script>try {
+        // 定义常量和配置
+        const SPM_META_NAME = 'data-spm';
+        const DEFAULT_SPM_B = 'prompt-search';
+        const spmbMap = {
+            '/pc/search': 'prompt-search',
+            '/pc/home': 'prompt-search',
+            '/pc/mylike': 'like',
+            '/pc/history': 'history',
+            '/pc/workbench': 'my-work',
+            '/pc/generate/textToImg': 'text-to-image',
+            '/pc/generate/imgToImg': 'image-to-image',
+            '/pc/generate/byProImg': 'product-image',
+            '/pc/generate/byCardImg': 'identification-image',
+            '/pc/generate/byEliminateImg': 'removal-image',
+            '/pc/generate/byCutoutImg': 'cut-out-image',
+            '/pc/generate/byClearImg': 'upscale-image',
+            '/pc/generate/byExtendImg': 'expand-image',
+            '/pc/generate/byPersonBgImg': 'portrait-image',
+            '/pc/generate/byPortraitImg': 'photo-image',
+            '/pc/textHome': 'ai-assistant',
+            '/pc/textGenerate': 'text-generate',
+            '/pc/workspace/imageEdit': 'image-workspace',
+            '/pc/workspace/material': 'my-material',
+            '/pc/workspace/history': 'history',
+            '/pc/textConversation': 'text-generate',
+            '/pc/dialog': 'results-page',
+        };
+
+        // 工具函数
+        const getEnvironmentInfo = () => ({
+            isShortCutOpened: window.matchMedia('(display-mode: standalone)').matches,
+            isProduction: location.host === 'ai.sohu.com'
+        });
+
+        const getSpmContent = ({ isShortCutOpened, isProduction }) => {
+            const prefix = isShortCutOpened ? 'smdt' : 'smpc';
+            const suffix = isProduction ? 'ai' : 'ai-dev';
+            return `${prefix}-${suffix}`;
+        };
+
+        // Meta标签处理
+        const dataSpmMeta = document.querySelector(`meta[name="${SPM_META_NAME}"]`);
+        if (!dataSpmMeta) {
+            throw new Error('未找到data-spm meta标签');
+        }
+
+        // 设置A码
+        const envInfo = getEnvironmentInfo();
+        const content = getSpmContent(envInfo);
+        dataSpmMeta.setAttribute('content', content);
+
+        // 设置B码
+        const pathname = window.location.pathname;
+        let spmB = spmbMap[pathname] || DEFAULT_SPM_B;
+        if(pathname.includes('/pc/dialog')){
+            spmB = 'results-page'
+        }
+        document.body.setAttribute('data-spm', spmB);
+
+        // PWA安装事件监听
+        window.addEventListener('appinstalled', () => {
+            const newContent = getSpmContent({ ...envInfo, isShortCutOpened: true });
+            dataSpmMeta.setAttribute('content', newContent);
+        });
+
+    } catch (error) {
+        console.log('A、B码设置异常终止', error);
+    }
+
+    // 异步加载搜狐 SPM 脚本
+    function loadSpmScript() {
+        var spmScript = document.createElement('script');
+        spmScript.src = 'https://statics.itc.cn/mpfe-spm-prod/1000000/index.js';
+        spmScript.async = true;
+        spmScript.defer = true;
+        document.body.appendChild(spmScript);
+    }
+
+    // 异步加载 manifest（延迟加载，避免阻塞首屏）
+    function loadManifestLink() {
+        const hostname = window.location.hostname;
+        const firstSegment = hostname.split('.')[0];
+        const isLocal = firstSegment === 'localhost' || firstSegment === 'dev';
+        const manifestLink = document.createElement('link');
+        manifestLink.rel = 'manifest';
+        manifestLink.href = isLocal
+            ? '/static/assets/manifest.json'
+            : '/pc/static/assets/manifest.json';
+        document.head.appendChild(manifestLink);
+    }
+
+    // 在空闲时加载 SPM 脚本和 manifest
+    if ('requestIdleCallback' in window) {
+        requestIdleCallback(loadSpmScript, { timeout: 5000 });
+    } else {
+        setTimeout(loadSpmScript, 3000);
+    }
+    window.addEventListener('load', () => {
+        setTimeout(loadManifestLink, 3000);
+    });</script><script defer="defer">window.sohuSpm = window.sohuSpm || {}
+
+    window._sa = function (params) {
+        try {
+            window.sohuSpm.sendAction(params)
+        } catch (error) { }
+    }</script></body></html>

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html {{{helmetHtmlAttributes}}}>
+    <head>
+        <!-- Helmet -->
+        {{{helmetHeadData}}}
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=yes"
+        />
+        <meta name="theme-color" content="#101112" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="author" content="PixelBin" />
+        {{{metaRobots}}}
+        <meta name="apple-mobile-web-app-title" content="Upscale.media" />
+        <meta name="application-name" content="Upscale.media" />
+        <meta name="msapplication-TileColor" content="#da532c" />
+        <!-- Yandex Verification Tag -->
+        <meta name="yandex-verification" content="e366126e60fdbd0d" />
+        <!-- Baidu Site Verification Tag -->
+        <meta name="baidu-site-verification" content="code-c3xLwm2rlO" />
+        <!-- Apple Appstore app Install banner -->
+        <meta
+            name="apple-itunes-app"
+            content="app-id=1612626658, app-argument=https://www.upscale.media/"
+        />
+        <meta
+            name="ahrefs-site-verification"
+            content="8fd0bc49d8b5e677c269c63c354380428d5bef1d6f9ae62f455ba058ad8b4d01"
+        />
+        <link
+            rel="icon"
+            href="https://cdn.pixelbin.io/v2/dummy-cloudname/original/upscalemedia_assets/logo/upscale_light_favicon.png?f_auto=true"
+        />
+        <link
+            rel="apple-touch-icon"
+            href="https://cdn.pixelbin.io/v2/dummy-cloudname/original/upscalemedia_assets/logo/upscale_light_favicon.png?f_auto=true"
+        />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link
+            rel="preload"
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=optional"
+            as="style"
+            onload="this.onload=null;this.rel='stylesheet'"
+        />
+        <link
+            rel="preload"
+            type="text/css"
+            href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css"
+            as="style"
+            onload="this.onload=null;this.rel='stylesheet'"
+        />
+        <link
+            rel="preload"
+            type="text/css"
+            href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css"
+            as="style"
+            onload="this.onload=null;this.rel='stylesheet'"
+        />
+
+        <link rel="preconnect" as="image" href="https://cdn.pixelbin.io" />
+
+        <!-- CONFIG JS -->
+        {{{configJS}}}
+        <!-- REDUX INITIAL STATE -->
+        {{{initialState}}}
+        <!-- i18n Language store and Language -->
+        {{{initialI18nStore}}} {{{initialLanguage}}}
+        <!-- STYLES -->
+        {{{styles}}} {{{ssrData}}}
+        <!-- LINK Tags Preload -->
+        {{{linkTags}}}
+    </head>
+    <body>
+        <noscript
+            ><iframe
+                title="gtm-pixelbin"
+                src="https://www.googletagmanager.com/ns.html?id=GTM-PHTRZM4"
+                height="0"
+                width="0"
+                style="display: none; visibility: hidden"
+            ></iframe
+        ></noscript>
+        <noscript>
+            <link
+                rel="stylesheet"
+                href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=optional"
+            />
+            <link
+                rel="stylesheet"
+                type="text/css"
+                href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css"
+            />
+            <link
+                rel="stylesheet"
+                type="text/css"
+                href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css"
+            />
+        </noscript>
+        <div id="root"></div>
+        {{{scriptTags}}}
+    </body>
+</html>

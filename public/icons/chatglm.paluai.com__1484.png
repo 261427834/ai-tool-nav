@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<script>
+	var _hmt = _hmt || [];
+	(function() {
+	  var hm = document.createElement("script");
+	  hm.src = "https://hm.baidu.com/hm.js?790713c36ea1bea6ed89d63dcf2e2b92";
+	  var s = document.getElementsByTagName("script")[0];
+	  s.parentNode.insertBefore(hm, s);
+	})();
+</script>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script>
+    window.onload = function() {
+      const defaultTargetUrl = 'https://chatglm.cn/apps?image=https%3A%2F%2Fsfile.chatglm.cn%2Factiveimg%2Fbdms%2F66b97e348217030036f486f1&open_from=ads_web_aitool&fr=ads_web_aitool';
+      const pathKey = window.location.pathname.split('/').filter(Boolean)[0]?.toLowerCase() || '';
+      const specialPaths = ['qingyan', 'aibot', 'zhipu'];
+      const targetUrl = specialPaths.includes(pathKey)
+        ? 'https://ai-bot.cn/sites/2005.html'
+        : defaultTargetUrl;
+
+      setTimeout(function() {
+          window.location.href = targetUrl;
+      }, 10);
+    };
+  </script>
+</head>
+<body>
+<!-- 页面内容 -->
+</body>
+</html>

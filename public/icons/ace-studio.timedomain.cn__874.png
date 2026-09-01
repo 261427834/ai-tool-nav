@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <link rel="icon" href="/favicon.ico"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="dns-prefetch" href="https://as-api-ws-cdn-1.tdacestudio.com">
+  <!-- blog 正文来自 CMS，接口要等主 JS 与路由分片加载完才发出（实测约 3.7s），
+       届时才现场做 DNS 查询 + TCP + TLS 握手。这里提前把连接建好，
+       请求发出时可直接复用，4G 下约省 200-400ms。crossorigin 必须带：
+       接口是 CORS 请求，不带会另起一条连接，预连接失效。 -->
+  <link rel="preconnect" href="https://studio-cms.acestudio.cn" crossorigin>
+  <link rel="preload" href="https://as-api-ws-cdn-1.tdacestudio.com/resource/official/ttf/SpaceGrotesk-VariableFont_wght.woff2" as="font" type="font/woff2" crossorigin>
+  <script>
+    // 定义首页需要预加载的资源列表
+    // 只预加载首屏 poster 图（5.8KB）。首屏视频不再 preload：
+    // 它体积远大于 poster，用 as:'fetch' 预取会与 CSS / 主 JS 抢带宽，把 LCP 推迟数秒；
+    // 改由 <video preload="metadata"> + poster 承接——用户先看到 poster，视频就绪后自动播放，
+    // autoplay 行为不受影响。
+    const homePagePreloads = [
+      { href: 'https://as-api-ws-cdn-1.tdacestudio.com/resource/official/img/home-turbo/demo/demo-tab1-video.webp', as: 'image', type: 'image/webp' }
+    ];
+    // 判断当前路径是否为首页
+    if (window.location.pathname === '/') {
+      // 封装创建预加载标签的函数
+      function createPreloadLink(resource) {
+        // debugger;
+        const link = document.createElement('link');
+        link.rel = 'preload';
+        link.href = resource.href;
+        link.as = resource.as;
+        if (resource.type) link.type = resource.type;
+        if (resource.crossOrigin) link.crossOrigin = resource.crossOrigin;
+        return link;
+      }
+      // 批量添加预加载资源
+      homePagePreloads.forEach(resource => {
+        document.head.appendChild(createPreloadLink(resource));
+      });
+    }
+  </script>
+
+  <script type="module" crossorigin src="/static/js/index.cdad8c6f-1787734366703.js"></script>
+  <link rel="stylesheet" href="/static/css/index.138ea9e7-1787734366703.css">
+</head>
+<body>
+<div id="app"></div>
+
+</body>
+</html>

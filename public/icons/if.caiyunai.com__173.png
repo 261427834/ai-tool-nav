@@ -1,0 +1,53 @@
+<!doctype html><html lang="en"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="Cache-Control" content="no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="icon" href="https://cdn-web.caiyunapp.com/dreamily/public/images/logo.png"><meta name="referrer" content="no-referrer"><meta name="referrer" content="never"><meta http-equiv="X-UA-Compatible" content="IE=edge"><title>彩云小梦</title><meta name="referrer" content="no-referrer"><meta name="referrer" content="never"><meta name="description" content="AI续写 · 平行世界"><meta name="Keywords" content="AI AI续写 续写AI 小说 创作小说 平行世界 平行宇宙 网文 续写 创作 彩云 彩云小梦 小梦 彩云小译 文字游戏 橙光游戏 笔神 写作软件"><meta property="og:url" content="https://www.your-domain.com/your-page.html"><meta property="og:type" content="website"><meta property="og:title" content="Your Website Title"><meta property="og:description" content="Your description"><meta property="og:image" content="https://www.your-domain.com/path/image.jpg"><meta name="twitter:card" content="summary"><base href="/"><script async defer="defer" crossorigin="anonymous" src="https://connect.facebook.net/zh_CN/sdk.js#xfbml=1&version=v18.0" nonce="gypNPDUo"></script><script async src="//www.googletagmanager.com/gtag/js?id=G-6M8VVW197Y"></script><script src="//cpro.baidustatic.com/cpro/ui/cm.js"></script><script src="https://cstaticdun.126.net/load.min.js"></script><script>console.log('TempestSDK loading');
+      (function() {
+        console.log('TempestSDK loading');
+        var hostname = (window.location && window.location.hostname) || '';
+        var isDev = /localhost|^dev\.|\.dev\.|dev\.|test\.|staging\.|^127\./.test(hostname);
+        var sdkEnv = isDev ? 'dev' : 'prod';
+        var sdkBase = 'https://cdn-web.caiyunapp.com/track_sdk/' + sdkEnv + '/';
+        var script = document.createElement('script');
+        script.src = sdkBase + 'tempest-sdk.umd.js';
+        script.async = true;
+        script.onload = function() {
+          if (window.TempestSDK && window.TempestSDK.TempestSDK) {
+            console.log('TempestSDK loaded');
+            var sdk = new window.TempestSDK.TempestSDK({
+              interval: 100,
+              timeout: 10000,
+              debug: true,
+            });
+            sdk.init(['.logo-image-box','.login-button'], {
+              usagePlan: { scene: window.location.host }
+            });
+            sdk.onLog((log) => {
+              console.log('TempestSDK log', log);
+            });
+            console.log('TempestSDK initialized');
+          }
+        };
+        document.head.appendChild(script);
+      })();</script><script>(function(win, export_obj) {
+        win['LogAnalyticsObject'] = export_obj;
+          if (!win[export_obj]) {
+            function _collect() {
+              _collect.q.push(arguments);
+            }
+            _collect.q = _collect.q || [];
+            win[export_obj] = _collect;            
+        }
+        win[export_obj].l = +new Date();
+      })(window, 'collectEvent');</script><script src="https://lf3-data.volccdn.com/obj/data-static/log-sdk/collect/5.0/collect-privity-v5.1.4.js"></script><style>.grecaptcha-badge{visibility:hidden}</style><style>.web-start-loading{padding-top:50px;width:100%;color:#ccc;text-align:center;font-size:12px}</style><script async src="https://lf3-data.volccdn.com/obj/data-static/log-sdk/collect/5.0/collect-rangers-v5.0.0.js"></script><script>window.dataLayer = window.dataLayer || [];
+      window.gtag = function (){ dataLayer.push(arguments)}
+      window.gtag('js', new Date());
+      window.gtag('config', 'G-6M8VVW197Y');</script><script>window.collectEvent('finder.init', {
+                            app_id: 10000005,
+                            channel_domain: 'https://gather.colorfulclouds.net', // 设置私有化部署数据上送地址
+                            log: false, // true:开启日志，false:关闭日志
+                            autotrack: false, // 全埋点开关，true开启，false关闭
+                            spa: true,
+                            enable_stay_duration: true,
+                        });
+                        window.collectEvent('finder.start')
+                        window.collectEvent('finder.config', {
+                            web_version: '3.1.0'
+                        });</script><script type="module" crossorigin src="/assets/index-C9AsaA6_.js"></script><link rel="stylesheet" crossorigin href="/assets/index-BEfxqq58.css"></head><body><div id="app"></div><script>this.globalThis || (this.globalThis = this);</script><script async defer="defer" src="https://cdn-web.caiyunapp.com/flying-blade/formal/config/other/NPS_WEB_JS_SDK.js"></script></body></html>

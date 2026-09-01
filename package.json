@@ -1,0 +1,46 @@
+{
+  "name": "ai-tool-nav",
+  "version": "0.1.0",
+  "private": true,
+  "description": "AI 工具导航站（类 ai-nav.net 结构，自建品牌与数据）",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "crawl": "node scripts/crawl.mjs",
+    "normalize": "node scripts/normalize.mjs",
+    "icons": "node scripts/fetch-icons.mjs",
+    "check:data": "node scripts/normalize.mjs --validate",
+    "check:links": "node scripts/check-links.mjs",
+    "gen:index": "node scripts/gen-search-index.mjs",
+    "gen:og": "pwsh -NoProfile -ExecutionPolicy Bypass -File scripts/gen-og.ps1",
+    "predev": "node scripts/gen-search-index.mjs",
+    "prebuild": "node scripts/gen-search-index.mjs && node scripts/normalize.mjs --validate",
+    "pipeline": "npm run crawl && npm run normalize && npm run icons && npm run check:data",
+    "test:e2e": "playwright test"
+  },
+  "dependencies": {
+    "lucide-react": "^0.545.0",
+    "next": "^15.5.4",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3.3.6",
+    "@playwright/test": "^1.55.0",
+    "@tailwindcss/postcss": "^4.1.13",
+    "@tailwindcss/typography": "^0.5.16",
+    "@types/node": "^22.10.0",
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.0",
+    "eslint": "^9.0.0",
+    "eslint-config-next": "^15.5.4",
+    "tailwindcss": "^4.1.13",
+    "typescript": "^5.8.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
+
