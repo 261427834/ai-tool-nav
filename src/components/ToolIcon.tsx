@@ -2,7 +2,7 @@ import { badgeStyle, initialOf } from "@/lib/badge";
 import type { Tool } from "@/lib/types";
 
 /**
- * 服务端图标：字母徽章 + 本地图片双层输出（图片缺失/失败时露出字母徽章）。
+ * 服务端图标：字母徽章兜底 + 本地图标（icon 为空 = 无图标文件，只渲染徽章）。
  * 本地 favicon 为小尺寸 PNG，无需 next/image 的 CDN 优化，故使用原生 <img>。
  */
 export function ToolIcon({ tool, size = 40 }: { tool: Pick<Tool, "icon" | "title" | "domain">; size?: number }) {
@@ -19,16 +19,18 @@ export function ToolIcon({ tool, size = 40 }: { tool: Pick<Tool, "icon" | "title
       >
         {letter}
       </span>
-      {/* eslint-disable-next-line @next/next/no-img-element -- 本地小图标无需优化 */}
-      <img
-        src={tool.icon}
-        alt=""
-        width={size}
-        height={size}
-        loading="lazy"
-        decoding="async"
-        className="absolute inset-0 h-full w-full rounded-full bg-[var(--surface-2)] object-cover"
-      />
+      {tool.icon ? (
+        // eslint-disable-next-line @next/next/no-img-element -- 本地小图标无需优化
+        <img
+          src={tool.icon}
+          alt=""
+          width={size}
+          height={size}
+          loading="lazy"
+          decoding="async"
+          className="absolute inset-0 h-full w-full rounded-full bg-[var(--surface-2)] object-cover"
+        />
+      ) : null}
     </span>
   );
 }

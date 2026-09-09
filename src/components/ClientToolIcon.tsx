@@ -5,9 +5,8 @@ import type { Tool } from "@/lib/types";
 import { badgeStyle, initialOf } from "@/lib/badge";
 
 /**
- * 客户端图标组件：服务端先输出字母徽章 + 图片双层（避免水合不一致），
- * 图片加载失败（onError）时隐藏 img 露出徽章。用在需要客户端交互的组件。
- * 本地 favicon 为小尺寸 PNG，无需 next/image 的 CDN 优化，故使用原生 <img>。
+ * 客户端图标组件（搜索下拉等交互场景用）：
+ * 字母徽章兜底 + 本地图标；icon 为空或加载失败时只显示徽章。
  */
 export function ClientToolIcon({ tool, size = 40 }: { tool: Pick<Tool, "icon" | "title" | "domain">; size?: number }) {
   const [failed, setFailed] = useState(false);
@@ -18,6 +17,8 @@ export function ClientToolIcon({ tool, size = 40 }: { tool: Pick<Tool, "icon" | 
     setMounted(true);
     if (ref.current && ref.current.complete && ref.current.naturalWidth === 0) setFailed(true);
   }, []);
+
+  const showImg = Boolean(tool.icon) && mounted && !failed;
 
   return (
     <span
@@ -31,8 +32,8 @@ export function ClientToolIcon({ tool, size = 40 }: { tool: Pick<Tool, "icon" | 
       >
         {initialOf(tool.title)}
       </span>
-      {!failed && mounted ? (
-        /* eslint-disable-next-line @next/next/no-img-element -- 本地小图标无需优化 */
+      {showImg ? (
+        // eslint-disable-next-line @next/next/no-img-element -- 本地小图标无需优化
         <img
           ref={ref}
           src={tool.icon}
