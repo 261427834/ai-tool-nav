@@ -23,7 +23,7 @@ export const siteConfig = {
   /** 站点全称，用于 title 后缀与 SEO */
   fullName: "AI 工具集 · AI 工具导航站",
   /** 线上域名：部署到 Vercel 后改成自己的域名（同时改 .env 的 NEXT_PUBLIC_SITE_URL） */
-  url: "https://example.vercel.app",
+  url: "https://ai-tool-nav-410.pages.dev",
   /** 一句话定位（首页大标题下方） */
   tagline: "一站式 AI 工具导航，收录写作、编程、绘画、视频、办公等全场景 AI 工具",
   /** SEO 描述 */
@@ -100,3 +100,4 @@ export const engineUrlMap: Record<string, (q: string) => string> = {
 };
 
 export default siteConfig;
+

@@ -2,5 +2,4 @@ User-agent: *
 Allow: /
 Disallow: /api/
 
-Sitemap: https://ai-tool-nav.pages.dev/sitemap.xml
-
+Sitemap: https://ai-tool-nav-410.pages.dev/sitemap.xml

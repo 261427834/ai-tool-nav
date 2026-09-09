@@ -51,4 +51,15 @@ ${urls
 
 await mkdir(path.join(ROOT, "public"), { recursive: true });
 await writeFile(path.join(ROOT, "public", "sitemap.xml"), xml, "utf8");
+
+// robots.txt 同步使用同一 base，避免静态文件里写死错误域名
+const robots = `User-agent: *
+Allow: /
+Disallow: /api/
+
+Sitemap: ${base}/sitemap.xml
+`;
+await writeFile(path.join(ROOT, "public", "robots.txt"), robots, "utf8");
 console.log(`sitemap.xml：${urls.length} 条 URL → public/sitemap.xml`);
+console.log(`robots.txt → public/robots.txt（Sitemap: ${base}/sitemap.xml）`);
+
