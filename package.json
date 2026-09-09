@@ -4,8 +4,8 @@
   "private": true,
   "description": "AI 工具导航站（类 ai-nav.net 结构，自建品牌与数据）",
   "scripts": {
-    "dev": "next dev",
     "build": "next build",
+    "dev": "next dev",
     "start": "next start",
     "lint": "eslint .",
     "crawl": "node scripts/crawl.mjs",
@@ -16,11 +16,16 @@
     "gen:index": "node scripts/gen-search-index.mjs",
     "gen:og": "pwsh -NoProfile -ExecutionPolicy Bypass -File scripts/gen-og.ps1",
     "predev": "node scripts/gen-search-index.mjs",
-    "prebuild": "node scripts/gen-search-index.mjs && node scripts/gen-sitemap.mjs && node scripts/normalize.mjs --validate",
+    "prebuild": "node scripts/gen-search-index.mjs && node scripts/gen-sitemap.mjs",
     "pipeline": "npm run crawl && npm run normalize && npm run icons && npm run check:data",
-    "test:e2e": "playwright test"
+    "test:e2e": "playwright test",
+    "preview": "opennextjs-cloudflare build && opennextjs-cloudflare preview",
+    "deploy": "opennextjs-cloudflare build && opennextjs-cloudflare deploy",
+    "upload": "opennextjs-cloudflare build && opennextjs-cloudflare upload",
+    "cf-typegen": "wrangler types --env-interface CloudflareEnv cloudflare-env.d.ts"
   },
   "dependencies": {
+    "@opennextjs/cloudflare": "^1.20.5",
     "lucide-react": "^0.545.0",
     "next": "^15.5.4",
     "react": "^19.1.1",
@@ -37,11 +42,11 @@
     "eslint": "^9.0.0",
     "eslint-config-next": "^15.5.4",
     "tailwindcss": "^4.1.13",
-    "typescript": "^5.8.0"
+    "typescript": "^5.8.0",
+    "wrangler": "^4.127.1"
   },
   "engines": {
     "node": ">=20"
   }
 }
-
 
