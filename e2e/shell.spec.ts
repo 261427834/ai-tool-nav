@@ -54,13 +54,14 @@ test.describe("首页锚点导航", () => {
     await expect(page.locator("#sidebar a[href='#term-12']")).toHaveAttribute("data-active", "true");
   });
 
-  test("每分类截断 24 条并有更多入口", async ({ page }) => {
+  test("每分类截断 16 条并有更多入口", async ({ page }) => {
     await page.goto("/");
     const section = page.locator("#term-12").locator("xpath=ancestor::section[1]");
     const more = section.getByRole("link", { name: /更多/ }).first();
     await expect(more).toHaveAttribute("href", "/c/code");
     const count = await section.locator("a.tool-card").count();
-    expect(count).toBeLessThanOrEqual(24);
+    expect(count).toBeLessThanOrEqual(16);
   });
 });
+
 

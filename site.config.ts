@@ -49,7 +49,7 @@ export const siteConfig = {
   /** 备案号；留空字符串则页脚不渲染该行 */
   icp: "",
   /** 首页每个分类最多渲染多少条（其余走 /c/[slug]） */
-  homepageCategoryLimit: 24,
+  homepageCategoryLimit: 16,
   /** 顶部“热门工具”区渲染条数 */
   homepageHotLimit: 24,
   /** 顶栏导航（对应原站投稿 / 资讯 / 工具 / 广告 / 关于） */
@@ -100,4 +100,5 @@ export const engineUrlMap: Record<string, (q: string) => string> = {
 };
 
 export default siteConfig;
+
 
