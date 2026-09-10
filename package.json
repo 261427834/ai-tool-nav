@@ -18,14 +18,9 @@
     "predev": "node scripts/gen-search-index.mjs",
     "prebuild": "node scripts/gen-search-index.mjs && node scripts/gen-sitemap.mjs",
     "pipeline": "npm run crawl && npm run normalize && npm run icons && npm run check:data",
-    "test:e2e": "playwright test",
-    "preview": "opennextjs-cloudflare build && opennextjs-cloudflare preview",
-    "deploy": "opennextjs-cloudflare build && opennextjs-cloudflare deploy",
-    "upload": "opennextjs-cloudflare build && opennextjs-cloudflare upload",
-    "cf-typegen": "wrangler types --env-interface CloudflareEnv cloudflare-env.d.ts"
+    "test:e2e": "playwright test"
   },
   "dependencies": {
-    "@opennextjs/cloudflare": "^1.20.5",
     "lucide-react": "^0.545.0",
     "next": "^15.5.4",
     "react": "^19.1.1",
@@ -49,4 +44,3 @@
     "node": ">=20"
   }
 }
-
